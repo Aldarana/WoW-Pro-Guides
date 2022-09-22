@@ -75,7 +75,7 @@ return [[
     C My First Real Emergency!|QID|69912|QG|Send the signal flare to alert the dragons of our arrival|M|76.60,33.66|CHAT|N|Talk to Sendrax and tell him to send the signal flare.
     C My First Real Emergency!|QID|69912|QO|1|M|76.60,33.66|CHAT|N|Go do other things while the RP happens.|S|
     C My First Real Emergency!|QID|69912|QO|2|M|76.60,33.66|CHAT|N|Go do other things while the RP happens.|S|
-    K Encroaching Elementals|QID|QO|1|66111|QO|1|M|75.44,39.29|N|You don't need to kill all of these now, we'll come back later.|S|
+    K Encroaching Elementals|QID|66111|QO|1|M|75.44,39.29|N|You don't need to kill all of these now, we'll come back later.|S|
     l Quality Assurance|QID|69965|QO|1|M|75.44,39.29|N|You don't need all of this now, we'll come back later.|S|
     l Always Be Crafting|QID|66112|QO|2|CC|M|75.79,36.40;75.93,37.31;76.00,38.11;75.50,38.85;74.88,39.20|N|Kill and loot Baron Crustcore.
     C My First Real Emergency!|QID|69912|QO|2|M|76.60,33.66|CHAT|N|Wait for the RP to complete.|US|

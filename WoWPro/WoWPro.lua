@@ -536,6 +536,8 @@ function WoWPro:OnEnable()
         local nickname = guide['nickname']
         if nickname then
             WoWPro.Nickname2Guide[nickname] = guidID
+        elseif not guide.zone then
+            WoWPro:dbp("Warning: Guide %q does not have a valid zone.", guidID)
         elseif guide.guidetype == 'Leveling' then
             if WoWPro.Nickname2Guide[guide.zone] then
                 -- Collision, mark
@@ -1397,17 +1399,14 @@ end
 
 
 --- Release Function Compatability Section
-repeat
-    local _, _, _, toc = _G.GetBuildInfo()
-    WoWPro.TocVersion = toc
-    WoWPro.Client = floor(toc / 10000)
-until WoWPro.TocVersion > 0
+WoWPro.TocVersion =  select(4, _G.GetBuildInfo())
+WoWPro.Client = floor(WoWPro.TocVersion / 10000)
 
-WoWPro.CLASSIC = ((WoWPro.TocVersion > 10000) and (WoWPro.TocVersion < 20000))
-WoWPro.BC = ((WoWPro.TocVersion > 20000) and (WoWPro.TocVersion < 30000))
-WoWPro.WRATH = ((WoWPro.TocVersion > 30000) and (WoWPro.TocVersion < 40000))
+WoWPro.CLASSIC = ((WoWPro.TocVersion >= 10000) and (WoWPro.TocVersion < 20000))
+WoWPro.BC = ((WoWPro.TocVersion >= 20000) and (WoWPro.TocVersion < 30000))
+WoWPro.WRATH = ((WoWPro.TocVersion >= 30000) and (WoWPro.TocVersion < 40000))
 -- Both DF and RETAIL are true for DF for now.
-WoWPro.DF = (WoWPro.TocVersion > 100000)
+WoWPro.DF = (WoWPro.TocVersion >= 100000)
 WoWPro.RETAIL = (WoWPro.TocVersion > 90000)
 
 -- Change this to fake out a classic load on retail

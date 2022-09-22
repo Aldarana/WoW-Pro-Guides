@@ -7,11 +7,7 @@ local DefineZone1 = WoWPro.DefineZone1 -- New Classic style names
 local DefineZone2 = WoWPro.DefineZone2 -- New Classic BC
 local DefineZone3 = WoWPro.DefineZone3 -- New Classic Wrath
 local DefineZone9 = WoWPro.DefineZone9 -- New 9.0 zones names
-<<<<<<< HEAD
-local DefineZone10 = WoWPro.DefineZone10 -- New 10.0 zones names
-=======
 local DefineZone10 = WoWPro.DefineZone10 -- New 9.0 zones names
->>>>>>> upstream/main
 
 local UIMapType = _G.Enum.UIMapType
 DefineZone1(0947, "Azeroth", UIMapType.World, 0000, nil, 1414, 1415, 1459, 1460, 1461)
@@ -2039,11 +2035,6 @@ DefineZone9(2061, "Ephemeral Plains@Sepulcher of the First Ones!Dungeon", UIMapT
 DefineZone9(2066, "Catalyst Wards", UIMapType.Micro, 1970, nil)
 DefineZone9(2070, "Tirisfal Glades", UIMapType.Zone, 0013, nil) -- Collided {[18]=true,[2070]=true,count=2}
 
-<<<<<<< HEAD
-DefineZone10(1978, "The Dragon Isles", UIMapType.Continent, 0946, nil, 2022)
-DefineZone10(2022, "The Waking Shores!Dragon Isles#1978", UIMapType.Zone, 1978, nil)
-DefineZone10(2022, "The Waking Shores", UIMapType.Zone, 1978, nil)
-=======
 
 DefineZone10(0001, "Durotar", UIMapType.Zone, 0012, nil, 0002, 0003, 0004, 0005, 0006, 0461, 0463, 0464)
 DefineZone10(0002, "Burning Blade Coven", UIMapType.Micro, 0001, nil)
@@ -3683,4 +3674,3 @@ DefineZone10(2129, "Ohn'ahran Plains#2129", UIMapType.Zone, 0000, nil)
 DefineZone10(2130, "Thaldraszus#2130", UIMapType.Zone, 0000, nil)
 DefineZone10(2131, "The Forbidden Reach#2131", UIMapType.Zone, 0000, nil)
 DefineZone10(2132, "The Azure Span!The Azure Span", UIMapType.Micro, 2024, nil)
->>>>>>> upstream/main

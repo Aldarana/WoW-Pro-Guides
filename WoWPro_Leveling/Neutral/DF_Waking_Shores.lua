@@ -62,5 +62,38 @@ return [[
     T Where is Wrathion?|QID|69910|M|76.61,33.68|N|To Sendrax.|FACTION|Horde
     A Excuse the Mess|QID|69911|M|76.61,33.68|N|From Sendrax.|PRE|69910|
     A Dragon Isles Herbalism|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
+    T Give Peace a Chance|QID|66110|M|76.67,34.57|N|To Captian Garrick.|FACTION|Horde|
+    A Encroaching Elementals|QID|66111|M|76.69,34.51|N|From Captian Garrick.|PRE|66110|
+    A Quality Assurance|QID|69965|M|76.37,34.60|N|From Haephesta.|PRE|66110|
+    A Always Be Crafting|QID|66112|M|76.37,34.65|N|From Grun Ashbeard.|PRE|66110|
+    C Excuse the Mess|QID|69911|QO|1|CC|M|76.31,35.81;76.32,35.58|CHAT|N|Talk to Abmassador Fastrasz.
+    M Excuse the Mess|QID|69911|QO|2|M|76.32,35.58|N|Click the book on the stand and select any options to fill out the form.
+    M Excuse the Mess|QID|69911|QO|3|M|75.65,34.16|N|Click the large stone with runes on it.
+    M Excuse the Mess|QID|69911|QO|4|M|78.38,31.79|N|Click the brazier.
+    T Excuse the Mess|QID|69911|M|76.60,33.66|N|To Sendrax.
+    A My First Real Emergency!|QID|69912|M|76.60,33.66|N|From Sendrax.
+    C My First Real Emergency!|QID|69912|QG|Send the signal flare to alert the dragons of our arrival|M|76.60,33.66|CHAT|N|Talk to Sendrax and tell him to send the signal flare.
+    C My First Real Emergency!|QID|69912|QO|1|M|76.60,33.66|CHAT|N|Go do other things while the RP happens.|S|
+    C My First Real Emergency!|QID|69912|QO|2|M|76.60,33.66|CHAT|N|Go do other things while the RP happens.|S|
+    K Encroaching Elementals|QID|QO|1|66111|QO|1|M|75.44,39.29|N|You don't need to kill all of these now, we'll come back later.|S|
+    l Quality Assurance|QID|69965|QO|1|M|75.44,39.29|N|You don't need all of this now, we'll come back later.|S|
+    l Always Be Crafting|QID|66112|QO|2|CC|M|75.79,36.40;75.93,37.31;76.00,38.11;75.50,38.85;74.88,39.20|N|Kill and loot Baron Crustcore.
+    C My First Real Emergency!|QID|69912|QO|2|M|76.60,33.66|CHAT|N|Wait for the RP to complete.|US|
+    T My First Real Emergency!|QID|69912|M|76.19,34.44|N|To Wrathion.
+    A The Djaradin Have Awoken|QID|69914|M|76.21,34.46|N|From Majordomo Selistra.
+    C The Djaradin Have Awoken|QID|69914|QG|How can I help defend against the djaradin?|M|76.21,34.46|CHAT|N|Talk to Majordomo Selistra to receive your orders.
+    C The Djaradin Have Awoken|QID|69914|QO|1|M|76.21,34.46|CHAT|N|Do other stuff while waiting for the RP|S|
+    l Always Be Crafting|QID|66112|QO|1|CC|M|74.80,33.88;73.01,32.96|N|Kill and loot Baron Ashflow.
+    l Quality Assurance|QID|69965|QO|1|M|74.63,35.03|N|Finish collecting these if you haven't.|US|
+    K Encroaching Elementals|QID|66111|QO|1|M|74.63,35.03|N|Finish killing these if you haven't.|US|
+    C The Djaradin Have Awoken|QID|69914|QO|1|M|76.21,34.46|CHAT|N|Wait for the RP if it's not done yet|US|
+    T The Djaradin Have Awoken|QID|69914|M|76.26,34.42|N|To Sendrax
+    A Reporting for Duty|QID|65760|M|76.26,34.42|N|From Sendrax
+    T Always Be Crafting|QID|66112|M|76.37,34.65|N|To Grun Ashbeard.
+    T Quality Assurance|QID|69965|M|76.37,34.60|N|To Haephesta.
+    T Encroaching Elementals|QID|66111|M|76.69,34.51|N|To Captian Garrick.
+    C Reporting for Duty|QID|65760|QO|1|M|76.26,34.42|N|Ask Sendrax to lead you to the outpost.
+    C Reporting for Duty|QID|65760|QO|2|CC|M|75.25,36.26;72.28,36.64;71.25,40.76|N|You have to follow along with Sendrax, she will stop if you get too far away.
+    T Reporting for Duty|QID|65760|M|71.25,40.76|N|To Commander Lethanak.
   ]]
 end)

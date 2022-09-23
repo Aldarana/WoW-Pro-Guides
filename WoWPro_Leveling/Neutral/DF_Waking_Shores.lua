@@ -20,11 +20,6 @@ return [[
     A Whispers on the Winds|QID|65439|Z|Durotar|N|From Khadgar after he appears from a portal.|PRE|65443
     C Whispers on the Winds|QID|65439|Z|Durotar|QO|1|CHAT|N|Speak with Khadgar.|FACTION|Horde|
     T Whispers on the Winds|QID|65439|M|55.84,12.58|Z|Durotar|N|To Ebyssian.|FACTION|Horde|
-    A Truths and Revelations|QID|70045|Z|Durotar|N|From Kodethi after he flies in.|PRE|65439
-    T Truths and Revelations|QID|70045|M|49.19,73.50|Z|Orgrimmar|N|To Scalecommander Emberthal.|FACTION|Horde|
-    A Lessons From Our Past|QID|70054|Z|Orgrimmar|N|From Scalecommander Emberthal.|PRE|70045
-    C Lessons From Our Past|QID|70054|Z|Orgrimmar|QO|1|CHAT|N|Speak with Scalecommander Emberthal, choose any ONE of the options.|FACTION|Horde|
-    T Lessons From Our Past|QID|70054|Z|Orgrimmar|N|To Scalecommander Emberthal.|FACTION|Horde|
     A The Expedition Gathers|QID|69944|Z|Orgrimmar|N|From Scalecommander Cindrethresh.|PRE|70054
     T The Expedition Gathers|QID|69944|M|55.84,12.58|Z|Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
     A To the Dragon Isles!|QID|65444|Z|Durotar|N|From Naleidea Rivergleam.|PRE|69944
@@ -92,7 +87,7 @@ return [[
     T Always Be Crafting|QID|66112|M|76.37,34.65|N|To Grun Ashbeard.
     T Quality Assurance|QID|69965|M|76.37,34.60|N|To Haephesta.
     T Encroaching Elementals|QID|66111|M|76.69,34.51|N|To Captian Garrick.
-    C Reporting for Duty|QID|65760|QO|1|M|76.26,34.42|N|Ask Sendrax to lead you to the outpost.
+    C Reporting for Duty|QID|65760|QO|1|M|76.26,34.42|CHAT|N|Ask Sendrax to lead you to the outpost.
     C Reporting for Duty|QID|65760|QO|2|CC|M|75.25,36.26;72.28,36.64;71.25,40.76|N|You have to follow along with Sendrax, she will stop if you get too far away.
     T Reporting for Duty|QID|65760|M|71.25,40.76|N|To Commander Lethanak.
   ]]

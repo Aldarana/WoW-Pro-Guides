@@ -105,12 +105,12 @@ return [[
     T Invader Djaradin|QID|65989|M|71.25,40.76||Z|The Waking Shores|N|To Commander Lethanak.|US|
     A Time for a Reckoning|QID|65991|M|71.25,40.76|Z|The Waking Shores|N|From Commander Lethanak.|PRE|65989|FACTION|Horde|
     A Djaradin Dwjustice|QID|65994|Z|The Waking Shores|N|Bonus Objective you can pick up on the way to talk to wraition.|FACTION|Horde||S|
-    C Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|Meet with Wraithion.|FACTION|Horde||S|
+    C Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|Meet with Wrathion.|FACTION|Horde||S|
     A Djaradin Dwjustice|QID|65994|Z|The Waking Shores|N|Bonus Objective you can pick up on the way to talk to wraition.|FACTION|Horde||US|
     K Djaradin Djustice|QID|65994|Z|The Waking Shores|QO|1|N|Djaradin Camp Invaded.|S|FACTION|Horde|
-    C Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|Meet with Wraithion.|FACTION|Horde||US|
-    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wraithion.|FACTION|Horde||S|
-    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wraithion.|FACTION|Horde||US|
+    C Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|Meet with Wrathion.|FACTION|Horde||US|
+    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wrathion.|FACTION|Horde||S|
+    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wrathion.|FACTION|Horde||US|
     A Killjoy|QID|65993|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Meatgrinder Sotok slain|S|FACTION|Horde|
     A Blacktalon Intel|QID|65992|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Consulet Talonstalker Kavia.|S|FACTION|Horde|
     A Blacktalon Intel|QID|65992|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Consulet Talonstalker Kavia.|US|FACTION|Horde|
@@ -223,5 +223,71 @@ return [[
     A The Primary Threat|QID|66116|M|59.46,72.65|N|From Majordomo Selistra.|FACTION|Horde|
     C The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.|FACTION|Horde|
     T The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.|FACTION|Horde|
+    A Basalt Assault|QID|66118|M|59.41,75.91|N|From Commander Lethanak.|FACTION|Horde|
+    C Basalt Assault|QID|66118|N|Kill 4 Enraged Cliff's|FACTION|Horde||S|
+    C Clear the Battlefield|QID|66117|N|Stop the primalist assault|FACTION|Horde||S|
+    C Basalt Assault|QID|66118|N|Kill 4 Enraged Cliff's|FACTION|Horde||US|
+    T Basalt Assault|QID|66118|M|59.41,75.91|N|To Commander Lethanak.|FACTION|Horde|
+    A Proto-fight|QID|66122|M|59.41,75.91|N|From Commander Lethanak.|FACTION|Horde|
+    A Egg Evac|QID|66121|M|59.41,75.91|N|From Majordomo Selistra.|FACTION|Horde|
+    C Proto-fight|QID|66122|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|FACTION|Horde||S|
+    C Egg Evac|QID|66121|M|57.35,83.27|QO|2|N|Azune Egg.|FACTION|Horde|
+    C Egg Evac|QID|66121|M|56.12,81.30|QO|1|N|Bronze Egg.|FACTION|Horde|
+    C Egg Evac|QID|66121|M|55.32,83.30|QO|3|N|Emerald Egg.|FACTION|Horde|
+    C Egg Evac|QID|66121|M|54.99,80.94|QO|4|N|Ruby Egg.|FACTION|Horde|
+    C Proto-fight|QID|66122|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|FACTION|Horde||US|
+    T Egg Evac|QID|66121|M|53.73,80.17|N|To Majordomo Selistra.|FACTION|Horde||S|
+    T Proto-fight|QID|66122|M|53.73,80.17|N|To Majordomo Selistra.|FACTION|Horde||S|
+    A Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.|FACTION|Horde|
+    C Cut off the head|QID|66123|M|53.29,82.95|N|Kill Jadzigeth|FACTION|Horde|
+    T Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.|FACTION|Horde|
+    A Exeunt, Triumphant|QID|66124|M|53.73,80.17|N|From Majordomo Selistra.|FACTION|Horde|
+    A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.|FACTION|Horde|
+    T Out for Delivery|QID|66963|M|48.49,82.71|N|To Cataloger Wulferd.|FACTION|Horde|
+    A Amateur Protography|QID|66524|M|48.49,82.71|N|From Cataloger Wulferd.|FACTION|Horde|
+    C Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|Talk To Majordomo Selistra.|FACTION|Horde|
+    T Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|To Majordomo Selistra.|FACTION|Horde|
+    A Wrathion Awaits|QID|66079|M|46.10,78.30|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
+    C Amateur Protography|QID|66524|M|44.94,78.16|QO|2||N|Whelp learning to fly|FACTION|Horde|
+    C Amateur Protography|QID|66524|M|43.79,78.83|QO|3||N|Hungry Proto-Drake|FACTION|Horde|
+    C Amateur Protography|QID|66524|M|43.43,82.81|QO|1||N|Proto-dragon Egg|FACTION|Horde|
+    T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd|FACTION|Horde|
+    A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|
+    A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|FACTION|Horde|
+    C Competitive Protography|QID|66525|N|Photo of Infused Proto-Drake/Proto-Drake Egg|FACTION|Horde||S|
+    C Preserving the Wilds|QID|66526|N|Free 5 Proto-Whelps or Proto-Drakes|FACTION|Horde||S|
+    C Competitive Protography|QID|66525|N|Photo of Infused Proto-Drake/Proto-Drake Egg|FACTION|Horde||US|
+    C Preserving the Wilds|QID|66526|N|Free 5 Proto-Whelps or Proto-Drakes|FACTION|Horde||US|
+    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde||S|
+    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|FACTION|Horde||S|
+    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde||US|
+    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|FACTION|Horde||US|
+    A Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|
+    C Professional Protography|QID|66527|M|38.94,83.38|QO|1|N|Stand on the Spring|FACTION|Horde|
+    C Professional Protography|QID|66527|M|38.80,83.85|QO|2|N|Take the photo|FACTION|Horde|
+    T Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|
+    A King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian|FACTION|Horde|
+    C King Without a Crown|QID|66528|M|38.84,83.51|QO|2|N|Charred Foreclaw|FACTION|Horde|
+    C King Without a Crown|QID|66528|M|39.11,83.94|QO|1|N|Severed Spine|FACTION|Horde|
+    C King Without a Crown|QID|66528|M|39.44,83.97|QO|3|N|Cracked Rib|FACTION|Horde|
+    T King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian|FACTION|Horde||US|
+    A A Thousand Words|QID|66529|M|39.04,83.29|N|From Dervishian|FACTION|Horde|
+    C A Thousand Words|QID|66529|M|38.76,83.63|N|Wait For Dervishian And take a Photo of him|FACTION|Horde|
+    T A Thousand Words|QID|66529|M|38.76,83.63|N|To Dervishian|FACTION|Horde||US|
+    T Wrathion Awaits|QID|66079|M|42.46,66.81|N|Fly To Wrathion You Will Need 2 Vigor|FACTION|Horde|
+    A Lessons from Our Past|QID|72241|M|42.46,66.81|N|From Scalecommander Emberthal.|FACTION|Horde|
+    C Lessons from Our Past|QID|72241|M|42.46,66.81|N|Speak to Scalecommander Emberthal.|FACTION|Horde|
+    T Lessons from Our Past|QID|72241|M|42.46,66.81|N|To Scalecommander Emberthal.|FACTION|Horde|
+    A Best Plans and Intentions|QID|66048|M|42.46,66.81|N|From Scalecommander Emberthal.|FACTION|Horde||S|
+    A Sharp Practice|QID|66078|M|42.46,66.81|N|From Wrathion.|FACTION|Horde||S|
+    C Best Plans and Intentions|QID|66048|M|42.42,66.21|QO|1|N|Talk to Foa The Relentless, Then Loot Battle Plan on the Table|FACTION|Horde|
+    C Best Plans and Intentions|QID|66048|M|43.76,67.26|QO|2|N|Talk to Archivist Edres, He RP's move to Bazentus|FACTION|Horde|
+    C Best Plans and Intentions|QID|66048|M|42.82,66.28|QO|4|N|Talk to Bazentus|FACTION|Horde|
+    C Best Plans and Intentions|QID|66048|M|42.31,69.31|QO|3|N|Talk to Talonstalker, Then click on Scouting Scope|FACTION|Horde|
+    C Sharp Practice|QID|66078|M|42.52,67.98|N|Talk to the NPC to fight them.|FACTION|Horde|
+    T Sharp Practice|QID|66078|M|42.46,66.81|N|To Wrathion.|FACTION|Horde||S|
+    T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|FACTION|Horde||S|
+    A No Time for heroes|QID|65957|M|42.46,66.81|N|From Wrathion, He RP's for 15 seconds.|FACTION|Horde|
+    A Talon Strike|QID|65957|M|42.46,66.81|N|From Wrathion.|FACTION|Horde|
       ]]
-end
+end)

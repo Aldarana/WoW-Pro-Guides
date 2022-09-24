@@ -13,7 +13,9 @@ return [[
     C Aspectral Invitation|QID|65437|M|44.17,38.01|Z|Orgrimmar|QO|1|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
     T Aspectral Invitation|QID|65437|M|44.17,38.01|Z|Orgrimmar|N|To Ebyssian.|FACTION|Horde|
     A Expeditionary Coordination|QID|65443|Z|Orgrimmar|N|From Naleidea Rivergleam.|PRE|65437
+    A The Dark Talons|QID|72256|Z|Orgrimmar|N|From Scalecommander Cindrethresh.
     C Expeditionary Coordination|QID|65443|M|38.47,56.91|Z|Orgrimmar|QO|2|CHAT|N|Speak with Pathfinder Tacha.|FACTION|Horde|
+    C The Dark Talons|QID|72256||M|54.96, 89.44|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kodethi.|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|56.91,54.00|Z|Orgrimmar|QO|1|CHAT|N|Speak with Boss Magor.|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|71.31,50.66|Z|Orgrimmar|QO|3|CHAT|N|Upstairs speak with Cataloger Kieule.|FACTION|Horde|
     T Expeditionary Coordination|QID|65443|M|55.84,12.58|Z|Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|

@@ -170,5 +170,58 @@ return [[
     C For the Benefit of the queen|QID|66114|M|55.07,30.99|Z|The Waking Shores|QO|1||N|Speak with Mojordomo Selistra.|FACTION|Horde|
     C For the Benefit of the queen|QID|66114|M|62.33,73.02|Z|The Waking Shores|QO|2||N|Speak with Alexstrasza.|FACTION|Horde|
     T For the Benefit of the queen|QID|66114|M|62.33,73.02|Z|The Waking Shores|N|To Alexstrasza.|FACTION|Horde|
+    A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
+    A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
+    C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.|FACTION|Horde|
+    C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall|FACTION|Horde|
+    C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz|FACTION|Horde|
+    A Stay a While|QID|70132|M|57.84,66.82|N|From Veritistrasz.|FACTION|Horde|
+    C Stay a While|QID|70132|M|57.84,66.82|QO|2|CHAT|N|[color=b50202]PICK <You are busy. Get up and leave>[/color]|FACTION|Horde|
+    T Stay a While|QID|70132|M|57.84,66.82|N|To Veritistrasz.|FACTION|Horde|
+    T Dragonriding|QID|68795|M|56.67,66.89|N|To Lord Andestrasz.|FACTION|Horde|
+    A How to glide with Your Dragon|QID|65118|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
+    C How to glide with Your Dragon|QID|65118|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|FACTION|Horde|
+    C How to glide with Your Dragon|QID|65118|QO|2|N|Glide Through the rings|FACTION|Horde|
+    C How to glide with Your Dragon|QID|65118|M|57.45,59.14|QO|3|N|Land in the target area|FACTION|Horde|
+    T How to glide with Your Dragon|QID|65118|M|57.45,59.14|N|To Celormu.|FACTION|Horde|
+    A How to Dive with Your Dragon|QID|65120|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
+    C How to Dive with Your Dragon|QID|65120|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|FACTION|Horde||O|
+    C How to Dive with Your Dragon|QID|65120|QO|2|N|Glide Through the rings|FACTION|Horde|
+    C How to Dive with Your Dragon|QID|65120|M|57.45,59.14|QO|3|N|Land in the target area|FACTION|Horde|
+    T How to Dive with Your Dragon|QID|65120|M|57.45,59.14|N|To Celormu.|FACTION|Horde|
+    A How to Use Momentum with Your Dragon|QID|65133|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
+    C How to Use Momentum with Your Dragon|QID|65133|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|FACTION|Horde||O|
+    C How to Use Momentum with Your Dragon|QID|65133|QO|2|N|Glide Through the rings|FACTION|Horde|
+    C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|QO|3|N|Land in the target area|FACTION|Horde|
+    T How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|N|To Celormu.|FACTION|Horde|
+    A The Skytop Observatory|QID|68796|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
+    C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|1|CHAT|N|Speak with Celormu|FACTION|Horde|
+    C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|2|CHAT|N|Rave to the Skytop Observatory.|FACTION|Horde|
+    T The Skytop Observatory|QID|68796|M|75.16,52.95|N|To Lord Andestrasz.|FACTION|Horde|
+    A A new Set of Horns|QID|68797|M|75.16,52.95|N|From Lord Andestrasz.|FACTION|Horde|
+    C A new Set of Horns|QID|68797|M|74.06,57.95|QO|1|N|Meet Glensera|FACTION|Horde|
+    C A new Set of Horns|QID|68797|M|74.06,57.95|QO|2|N|Use the glowing platform and exit the Transmog|FACTION|Horde|
+    T A new Set of Horns|QID|68797|M|75.16,52.95|N|From Lord Andestrasz.|FACTION|Horde|
+    A Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|From Lord Andestrasz.|FACTION|Horde|
+    C Dragon Glyphs and You|QID|68798|M|74.55,56.97|QO|2|N|Talk to Lithragosa|FACTION|Horde|
+    C Dragon Glyphs and You|QID|68798|M|74.55,56.97|QO|3|N|Learn Redirection|FACTION|Horde|
+    C Dragon Glyphs and You|QID|68798|M|73.24,52.10|QO|5|N|Speak to Celormu|FACTION|Horde|
+    T Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|To Lord Andestrasz.|FACTION|Horde|
+    A Return to the Ruby Lifeshrine|QID|68799|M|75.16,54.95|N|From Lord Andestrasz.|FACTION|Horde|
+    T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back[/color]|FACTION|Horde|
+    A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
+    C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion|FACTION|Horde|
+    C The Mandate of the Red|QID|66115|M|62.75,70.45|QO|4|CHAT|N|Speak with Zahkrana|FACTION|Horde|
+    T The Mandate of the Red|QID|66115|M|62.75,70.45|N|Speak with Zahkrana|FACTION|Horde|
+    A Training Wings|QID|70061|M|62.20,70.58|N|From Amella.|FACTION|Horde|
+    C Training Wings|QID|70061|M|61.08,71.45|N|Click on the Ruby Whelpling.|FACTION|Horde|
+    C Training Wings|QID|70061|M|61.08,71.45|N|When finished Use the exit vehicle button to get out quickly |FACTION|Horde|
+    T Training Wings|QID|70061|M|62.33,73.02|N|To Majordomo Selistra.|FACTION|Horde|
+    A Who Brought the Ruckus?|QID|66931|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
+    C Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|Meet Majordomo Selistra at the Check point.|FACTION|Horde|
+    T Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|To Majordomo Selistra.|FACTION|Horde|
+    A The Primary Threat|QID|66116|M|59.46,72.65|N|From Majordomo Selistra.|FACTION|Horde|
+    C The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.|FACTION|Horde|
+    T The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.|FACTION|Horde|
       ]]
-end)
+end

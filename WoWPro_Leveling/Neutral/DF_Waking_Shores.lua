@@ -356,5 +356,7 @@ return [[
     T A Charge of Care|QID|65794|M|61.54,68.55|N|To Alexstrasza The Life-Binder.|FACTION|Horde
     A Next Steppes|QID|65795|M|61.54,68.55|N|From Alexstrasza The Life-Binder.|FACTION|Horde
     T Next Steppes|QID|65795|CC|M|59.55,72.74;48.29,88.60|N|Mount Renewd Proto-drake and fly to neet Ambassador Taurasza.|FACTION|Horde
+    A Into the Plains|QID|65779|M|48.29,88.60|N|From Ambassador Taurasza.|FACTION|Horde|
+    T Into the Plains|QID|65779|M|77.72,23.87|Z|Ohn'ahran Plains|N|Auto Accepted.|FACTION|Horde|
     ]]
 end)

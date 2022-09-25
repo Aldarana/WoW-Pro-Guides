@@ -1,9 +1,9 @@
 local guide = WoWPro:RegisterGuide("DF_WS", "Leveling", "The Waking Shores", "Aldarana and Jme", "Neutral", 10)
 WoWPro:GuideName(guide,"The Waking Shores")
 WoWPro:GuideContent(guide, "Dragonflight")
-WoWPro:GuideLevels(guide, 60, 60)
+WoWPro:GuideLevels(guide, 60, 63)
 WoWPro:GuideSort(guide, 1)
-WoWPro:GuideNextGuide(guide, "Ohn'ahran Plains")
+WoWPro:GuideNextGuide(guide, "DF_OP")
 WoWPro:GuideSteps(guide, function()
 return [[
   ;Chapter 1

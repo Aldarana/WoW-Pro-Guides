@@ -287,7 +287,72 @@ return [[
     C Sharp Practice|QID|66078|M|42.52,67.98|N|Talk to the NPC to fight them.|FACTION|Horde|
     T Sharp Practice|QID|66078|M|42.46,66.81|N|To Wrathion.|FACTION|Horde||S|
     T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|FACTION|Horde||S|
-    A No Time for heroes|QID|65957|M|42.46,66.81|N|From Wrathion, He RP's for 15 seconds.|FACTION|Horde|
-    A Talon Strike|QID|65957|M|42.46,66.81|N|From Wrathion.|FACTION|Horde|
-      ]]
+    A No Time for heroes|QID|65957|M|42.46,66.81|N|From Wrathion, He RP's for 15 seconds.|FACTION|Horde|S|
+    A Talon Strike|QID|65956|M|42.46,66.81|N|From Wrathion.|FACTION|Horde||S|
+    C Talon Strike|QID|65956|M|42.46,66.81|N|Kiil mobs and Disrupt Djaradin desfenses|FACTION|Horde||S|
+    C No Time for heroes|QID|65957|M|35.63,68.58|QO|1|N|Kill Piercer Gigra|FACTION|Horde|
+    C No Time for heroes|QID|65957|M|34.97,67.00|QO|3|N|Kill Olphis the molten|FACTION|Horde|
+    C No Time for heroes|QID|65957|M|35.55,60.73|QO|2|N|Kill Modak Flamespit|FACTION|Horde|
+    T No Time for heroes|QID|65957|M|34.05,61.34|N|To Wrathion.|FACTION|Horde|
+    T Talon Strike|QID|65956|M|34.05,61.34|N|To Wrathion.|FACTION|Horde|
+    A The Courage of One's Convictions|QID|65939|M|34.05,61.34|N|From Wrathion.|FACTION|Horde
+    C The Courage of One's Convictions|QID|65939|M|34.05,61.34|QO|1|CHAT|N|Speak to Wrathion.|FACTION|Horde
+    C The Courage of One's Convictions|QID|65939|M|30.00,60.35|QO|2|N|Enter Obsidian Citadel.|FACTION|Horde
+    C The Courage of One's Convictions|QID|65939|M|29.17,58.91|QO|3|N|Kill Qalashi Forces, Can do this finish the when doing the next Quest.|FACTION|Horde|S|
+    A Taking the Walls|QID|66044|M|29.17,58.91|N|From Wrathion.|FACTION|Horde
+    C Taking the Walls|QID|66044|M|29.17,58.91|QO|1|N|Speak on Wrathion and assist him.|FACTION|Horde
+    C Taking the Walls|QID|66044|M|26.82,60.02|QO|2|N|Destroy South Siege Arbalast.|FACTION|Horde
+    C Taking the Walls|QID|66044|CS|M|26.78,61.22;29.51,61.01|QO|3|N|Jump on Wrathion, Destroy East Siege Arbalast.|FACTION|Horde
+    C Taking the Walls|QID|66044|CS|M|29.00,61.88;27.74,56.59|QO|4|N|Jump on Wrathion, Destroy North Siege Arbalast.|FACTION|Horde
+    C Taking the Walls|QID|66044|M|26.79,57.10|QO|5|N|Kill Champion Choruk|FACTION|Horde
+    T Taking the Walls|QID|66044|M|26.42,58.73|N|To Wrathion.|FACTION|Horde|S|
+    T The Courage of One's Convictions|QID|65939|M|26.42,58.73|N|To Wrathion.|FACTION|Horde|S|
+    A Obsidian Oathstone|QID|66049|M|26.42,58.73|N|From Wrathion.|FACTION|Horde
+    C Obsidian Oathstone|QID|66049|CC|M|26.00,59.95;25.75,60.92;27.30,62.57|QO|1|N|speak to Wrathion.|FACTION|Horde
+    C Obsidian Oathstone|QID|66049|M|27.62,63.31|QO|2|N|Click the Oathstone.|FACTION|Horde
+    T Obsidian Oathstone|QID|66049|M|27.30,62.57|N|To Wrathion, He RP's for about 8 seconds.|FACTION|Horde
+    A A Shattered Past|QID|66055|M|27.25,62.79|N|From Forgemaster Bazentus.|FACTION|Horde
+    C A Shattered Past|QID|66055|M|27.08,60.81|QO|1|N|Enter Vaults|FACTION|Horde
+    C A Shattered Past|QID|66055|QO|1|N|Collect 12 Oathstones|FACTION|Horde
+    T A Shattered Past|QID|66055|CC|M|27.08,60.8;27.25,62.79|N|To Forgemaster Bazentus.|FACTION|Horde
+    A Forging A New Future|QID|66056|M|27.25,62.79|N|From Forgemaster Bazentus.|FACTION|Horde
+    C Forging A New Future|QID|66056|M|24.62,60.92|QO|1|N|Activate the Forge.|FACTION|Horde
+    C Forging A New Future|QID|66056|M|24.62,60.92|QO|2|N|Collect 6 Cindershard Coals by loot them on the floor or killing Cindershard Mobs.|FACTION|Horde
+    T Forging A New Future|QID|66056|M|24.67,61.08|N|To Forgemaster Bazentus.|FACTION|Horde
+    A The Spark|QID|66354|M|24.67,61.08|N|From Forgemaster Bazentus.|FACTION|Horde
+    C The Spark|QID|66354|M|24.62,60.92|QO|1|N|Place Fragments on the Forge.|FACTION|Horde
+    C The Spark|QID|66354|M|24.62,60.92|QO|3|N|Collect Refromed Pieces.|FACTION|Horde
+    T The Spark|QID|66354|M|24.67,61.08|N|To Forgemaster Bazentus.|FACTION|Horde
+    A Restoring the Faith|QID|66057|M|24.67,61.08|N|From Forgemaster Bazentus.|FACTION|Horde
+    C Restoring the Faith|QID|66057|QO|1|M|27.30,62.57|N|Speak to Wrathion.|FACTION|Horde
+    C Restoring the Faith|QID|66057|QO|2|M|27.13,62.23|N|Travel with Wrathion.|FACTION|Horde
+    C Restoring the Faith|QID|66057|QO|3|M|24.91,56.14|N|Approach Wrathion.|FACTION|Horde
+    T Restoring the Faith|QID|66057|QO|2|M|24.43,55.54|N|To Wrathion.|FACTION|Horde
+    A Claimant to the Throne|QID|66780|M|24.43,55.54|N|From Wrathion.|FACTION|Horde
+    A Heir Apparent|QID|66779|M|24.29,55.83|N|From Sabellian.|FACTION|Horde
+    C Claimant to the Throne|QID|66780|QO|2|M|24.98,55.17|N|Talk with Left and Right.|FACTION|Horde
+    C Claimant to the Throne|QID|66780|QO|1|M|26.37,54.48|N|Talk with Talonstalker Kavia.|FACTION|Horde
+    C Claimant to the Throne|QID|66780|QO|3|M|25.12,56.25|N|Talk with Archivist Edress, [color=b50202]MUST SPEAK TO HIM TWICE[/color]|FACTION|Horde
+    C Heir Apparent|QID|66779|QO|3|M|25.12,56.25|N|Talk with Archivist Edress, [color=b50202]MUST SPEAK TO HIM TWICE[/color]|FACTION|Horde
+    C Heir Apparent|QID|66779|QO|2|M|24.35,57.73|N|Talk with Forgemaster Bazentus.|FACTION|Horde
+    T Heir Apparent|QID|66779|M|24.29,55.83|N|To Sabellian.|FACTION|Horde
+    T Claimant to the Throne|QID|66780|M|24.43,55.54|N|To Wrathion.|FACTION|Horde
+    A Black Wagon Flight|QID|65793|M|24.29,55.83|N|From Sabellian.|FACTION|Horde
+    C Black Wagon Flight|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|FACTION|Horde
+    C Black Wagon Flight|QID|65793|QO|2|CC|M|25.45,56.77;43.86,66.44|N|Fly to Sabellian, Speak to him to begin moving the eggs.|FACTION|Horde
+    C Black Wagon Flight|QID|65793|QO|3|CC|M|45.85,66.24;47.89,67.16;48.86,65.44;50.28,65.81;52.09,67.04|N|Escort The Wagon, [color=b50202]MUST STAY CLOSE[/color].|FACTION|Horde
+    T Black Wagon Flight|QID|65793|M|57.93,67.35|N|To Sabellian, Use Renewed Proto-drake to fly to Sabellian.|FACTION|Horde
+    A The Last Eggtender|QID|66785|M|24.29,55.83|N|From Sabellian.|FACTION|Horde
+    T The Last Eggtender|QID|66785|M|61.59,68.72|N|To Mother Elion.|FACTION|Horde
+    A Egg-cited for the Future|QID|66788|M|61.59,68.72|N|From Mother Elion.|FACTION|Horde
+    C Egg-cited for the Future|QID|66788|M|61.59,68.72|N|Clean the area.|FACTION|Horde
+    T Egg-cited for the Future|QID|66788|M|61.59,68.72|N|To Mother Elion.|FACTION|Horde
+    A Life-Binder on Duty|QID|65791|M|61.59,68.72|N|From Mother Elion.|FACTION|Horde
+    T Life-Binder on Duty|QID|65791|M|62.32,73.00|N|To Alexstrasza The Life-Binder.|FACTION|Horde
+    A A Charge of Care|QID|65794|M|62.32,73.00|N|From Alexstrasza The Life-Binder.|FACTION|Horde
+    C A Charge of Care|QID|65794|M|62.32,73.00|N|Speak to Alexstrasza The Life-Binder.|FACTION|Horde
+    T A Charge of Care|QID|65794|M|61.54,68.55|N|To Alexstrasza The Life-Binder.|FACTION|Horde
+    A Next Steppes|QID|65795|M|61.54,68.55|N|From Alexstrasza The Life-Binder.|FACTION|Horde
+    T Next Steppes|QID|65795|CC|M|59.55,72.74;48.29,88.60|N|Mount Renewd Proto-drake and fly to neet Ambassador Taurasza.|FACTION|Horde
+    ]]
 end)

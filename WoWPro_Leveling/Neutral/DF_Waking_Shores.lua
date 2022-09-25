@@ -48,13 +48,13 @@ return [[
     T Practice Materials|QID|65451|M|75.96,33.24|N|To Boss Magor.|FACTION|Horde|
     A Dragon Isles Engineering|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
     T Dragon Isles Engineering|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
-    A From Such Great Heights|QID|66101|M|75.86,33.48|N|From Aster Cloudgaze.|FACTION|Horde|
-    C From Such Great Heights|QID|66101|M|75.86,33.48|QO|1|V|N|Click the floating disc.|FACTION|Horde|
-    M From Such Great Heights|QID|66101|M|75.86,33.48|QO|2|N|Use the [color=349eeb]"Search for Power"[/color] ability from the vehicle bar.|FACTION|Horde|
-    M From Such Great Heights|QID|66101|M|75.86,33.48|QO|3|N|Use the [color=d4c62c]"Search for Allies"[/color] ability from the vehicle bar.|FACTION|Horde|
-    M From Such Great Heights|QID|66101|M|75.86,33.48|QO|4|N|Use the [color=b50202]"Search for Danger"[/color] ability from the vehicle bar.|FACTION|Horde|
-    N From Such Great Heights|QID|66101|V|N|Use the exit vehicle button to get down quickly.|FACTION|Horde|S|
-    T From Such Great Heights|QID|66101|M|75.86,33.48|N|To Aster Cloudgaze, he might take a second to spawn in.|FACTION|Horde
+    A From Such Great Heights|QID|66101|M|75.86,33.48|N|From Aster Cloudgaze.
+    C From Such Great Heights|QID|66101|M|75.86,33.48|QO|1|V|N|Click the floating disc.
+    M From Such Great Heights|QID|66101|M|75.86,33.48|QO|2|N|Use the [color=349eeb]"Search for Power"[/color] ability from the vehicle bar.
+    M From Such Great Heights|QID|66101|M|75.86,33.48|QO|3|N|Use the [color=d4c62c]"Search for Allies"[/color] ability from the vehicle bar.
+    M From Such Great Heights|QID|66101|M|75.86,33.48|QO|4|N|Use the [color=b50202]"Search for Danger"[/color] ability from the vehicle bar.
+    N From Such Great Heights|QID|66101|V|N|Use the exit vehicle button to get down quickly.|S|
+    T From Such Great Heights|QID|66101|M|75.86,33.48|N|To Aster Cloudgaze, he might take a second to spawn in.
     C Where is Wrathion?|QID|69910|M|76.56,33.60|QO|1|CHAT|N|Do the next steps while you wait for the RP.|FACTION|Horde|US|
     T Where is Wrathion?|QID|69910|M|76.61,33.68|N|To Sendrax.|FACTION|Horde
     A Excuse the Mess|QID|69911|M|76.61,33.68|N|From Sendrax.|PRE|69910|
@@ -92,271 +92,269 @@ return [[
     C Reporting for Duty|QID|65760|QO|1|M|76.26,34.42|CHAT|N|Ask Sendrax to lead you to the outpost.
     C Reporting for Duty|QID|65760|QO|2|CS|M|75.25,36.26;72.28,36.64;71.25,40.76|N|You have to follow along with Sendrax, she will stop if you get too far away.
     T Reporting for Duty|QID|65760|M|71.25,40.76|N|To Commander Lethanak.
-    A Invader Djaradin|QID|65989|M|71.25,40.76|N|From Commander Lethanak.|PRE|65760|S|FACTION|Horde|
-    A Deliver Whelps From Evil|QID|65990|M|71.25,40.76|N|From Naleidea Rivergleam.|PRE|65444|FACTION|Horde|
-    A Invader Djaradin|QID|65989|M|71.25,40.76|N|From Commander Lethanak.|US|PRE|65760|FACTION|Horde|
-    K Invader Djaradin|QID|65989|QO|1|M|70.33,44.92|N|Kill 6 Djaradin.|S|FACTION|Horde|
-    M Deliver Whelps From Evil|QID|65990|CS|M|71.39,44.63;70.99,46.66;69.88,45.33;69.31,43.33|QO|1|N|Click the Whelp to free it.|FACTION|Horde|
-    K Invader Djaradin|QID|65989|Z|The Waking Shores|QO|1|N|Kill 6 Djaradin.|US|FACTION|Horde|
-
-
+    A Invader Djaradin|QID|65989|M|71.25,40.76|N|From Commander Lethanak.|PRE|65760|S|
+    A Deliver Whelps From Evil|QID|65990|M|71.25,40.76|N|From Naleidea Rivergleam.|PRE|65444|
+    A Invader Djaradin|QID|65989|M|71.25,40.76|N|From Commander Lethanak.|US|PRE|65760|
+    K Invader Djaradin|QID|65989|QO|1|M|70.33,44.92|N|Kill 6 Djaradin.|S|
+    M Deliver Whelps From Evil|QID|65990|CS|M|71.39,44.63;70.99,46.66;69.88,45.33;69.31,43.33|QO|1|N|Click the Whelp to free it.|
+    K Invader Djaradin|QID|65989|Z|The Waking Shores|QO|1|N|Kill 6 Djaradin.|US|
     T Invader Djaradin|QID|65989|M|71.25,40.76|Z|The Waking Shores|N|To Commander Lethanak.|S|
     T Deliver Whelps From Evil|QID|65990|M|71.25,40.76|Z|The Waking Shores|N|To Commander Lethanak.
     T Invader Djaradin|QID|65989|M|71.25,40.76|Z|The Waking Shores|N|To Commander Lethanak.|US|
-    A Time for a Reckoning|QID|65991|M|71.25,40.76|Z|The Waking Shores|N|From Commander Lethanak.|PRE|65989|FACTION|Horde|
-    A Djaradin Djustice|QID|65994|M|68.16,38.52|N|Bonus Objective you can pick up on the way to talk to wraition.|FACTION|Horde|S|
-    K Djaradin Djustice|QID|65994|ACTIVE|65994|M|68.16,38.52|QO|1|N|Djaradin Camp Invaded.|S|FACTION|Horde|
-    C Time for a Reckoning|QID|65991|CC|M|69.40,40.91;66.34,34.92|Z|The Waking Shores|N|Meet with Wrathion.|FACTION|Horde
-    C Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|Meet with Wrathion.|FACTION|Horde|US|
-    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wrathion.|FACTION|Horde|S|
-    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wrathion.|FACTION|Horde|US|
-    A Killjoy|QID|65993|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Meatgrinder Sotok slain|S|FACTION|Horde|
-    A Blacktalon Intel|QID|65992|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Consulet Talonstalker Kavia.|S|FACTION|Horde|
-    A Blacktalon Intel|QID|65992|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Consulet Talonstalker Kavia.|US|FACTION|Horde|
-    A Killjoy|QID|65993|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Meatgrinder Sotok slain|US|FACTION|Horde|
-    A The Obsisdian Citadel|QID|65995|M|63.24,29.57|Z|The Waking Shores|QO|1|N|LOOT Meatgrinder or click quest in the cave|S|FACTION|Horde|
-    C Killjoy|QID|65993|M|63.24,29.57|Z|The Waking Shores|N|Kill Meatgrinder Sotok and LOOT the quest.|FACTION|Horde|S|
-    C Blacktalon Intel|QID|65992|CS|M|63.06,33.36|QO|1|N|Talonstalker Kavia Consulted.|FACTION|Horde|
-    C Blacktalon Intel|QID|65992|CS|M|63.46,28.89|QO|2|N|Left Consulted.|FACTION|Horde|
-    C Blacktalon Intel|QID|65992|CS|M|65.10,29.38|QO|3|N|Right Consulted.|FACTION|Horde|
-    A The Obsisdian Citadel|QID|65995|M|63.24,29.57|Z|The Waking Shores|QO|1|US|FACTION|Horde|
-    K Djaradin Djustice|QID|65994|Z|The Waking Shores|QO|1|N|Djaradin Camp Invaded.|US|FACTION|Horde|
-    T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|FACTION|Horde|S|
+    A Time for a Reckoning|QID|65991|M|71.25,40.76|Z|The Waking Shores|N|From Commander Lethanak.|PRE|65989|
+    A Djaradin Djustice|QID|65994|M|68.16,38.52|N|Bonus Objective you can pick up on the way to talk to wraition.|S|
+    K Djaradin Djustice|QID|65994|ACTIVE|65994|M|68.16,38.52|QO|1|N|Djaradin Camp Invaded.|S|
+    C Time for a Reckoning|QID|65991|CC|M|69.40,40.91;66.34,34.92|Z|The Waking Shores|N|Meet with Wrathion.
+    C Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|Meet with Wrathion.|US|
+    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wrathion.|S|
+    T Time for a Reckoning|QID|65991|M|66.34,34.92|Z|The Waking Shores|N|To Wrathion.|US|
+    A Killjoy|QID|65993|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Meatgrinder Sotok slain|S|
+    A Blacktalon Intel|QID|65992|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Consulet Talonstalker Kavia.|S|
+    A Blacktalon Intel|QID|65992|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Consulet Talonstalker Kavia.|US|
+    A Killjoy|QID|65993|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Meatgrinder Sotok slain|US|
+    A The Obsidian Citadel|QID|65995|M|63.24,29.57|Z|The Waking Shores|QO|1|N|LOOT Meatgrinder or click quest in the cave|S|
+    C Killjoy|QID|65993|M|63.24,29.57|Z|The Waking Shores|N|Kill Meatgrinder Sotok and LOOT the quest.|S|
+    C Blacktalon Intel|QID|65992|CS|M|63.06,33.36|QO|1|N|Talonstalker Kavia Consulted.
+    C Blacktalon Intel|QID|65992|CS|M|63.46,28.89|QO|2|N|Left Consulted.
+    C Blacktalon Intel|QID|65992|CS|M|65.10,29.38|QO|3|N|Right Consulted.
+    A The Obsidian Citadel|QID|65995|M|63.24,29.57|Z|The Waking Shores|QO|1|US|
+    K Djaradin Djustice|QID|65994|Z|The Waking Shores|QO|1|N|Djaradin Camp Invaded.|US|
+    T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|S|
     T The Obsisdian Citadel|QID|65995|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|S|
-    T Killjoy|QID|65993|CC|M|64.54,32.92;62.63,33.05|N|Hand into Wrathion.|FACTION|Horde
-    T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|FACTION|Horde|US|
-    T The Obsisdian Citadel|QID|65995|M|62.63,33.05|Z|The Waking Shores|QO|1|N|Hand into Wrathion.|US|FACTION|Horde|
-    A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|FACTION|Horde|S|
-    A Fighting fire with... Water|QID|66998|M|59.04,34.83|Z|The Waking Shores|N|Pick up when doing Veteran Reinforcements Quest And [color=b50202]FINISH[/color] before doing last Heal.|FACTION|Horde|S|
-    C Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|From Caretaker Ventraz .|FACTION|Horde|
-    T Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|To Caretaker Ventraz .|FACTION|Horde|
-    A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|FACTION|Horde|US|
-    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|FACTION|Horde|S|
-    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|FACTION|Horde|US|
-    T Veteran Reinforcements|QID|65996|M|55.02,30.88|Z|The Waking Shores|N|To Caretaker Azkra.|FACTION|Horde|
-    A Chasing Sendrax|QID|65997|M|55.01,30.79|Z|The Waking Shores|N|From Caretaker Azkra .|FACTION|Horde|
-    C Chasing Sendrax|QID|65997|M|55.15,24.97|Z|The Waking Shores|QO|1|CHAT|N|Speak Sendrax.|FACTION|Horde|
-    T Chasing Sendrax|QID|65997|M|55.15,24.97|Z|The Waking Shores|N|To Caretaker Sendrax .|FACTION|Horde|
-    A Red in Tooth and Claw|QID|65999|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|FACTION|Horde|S|
-    A Future of the Flights|QID|65998|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|FACTION|Horde|S|
-    A Library of Alexstrasza|QID|66000|M|55.25,24.69|Z|The Waking Shores|N|From Caretaker Azkra.|FACTION|Horde|S|
-    A Future of the Flights|QID|65998|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|FACTION|Horde|US|
-    A Red in Tooth and Claw|QID|65999|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|FACTION|Horde|US|
-    A Library of Alexstrasza|QID|66000|M|55.25,24.69|Z|The Waking Shores|N|From Caretaker Azkra.|FACTION|Horde|US|
-    C Red in Tooth and Claw|QID|65999|Z|The Waking Shores|N|Kill 15 Primalist Forces.|FACTION|Horde|S|
-    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.|FACTION|Horde|S|
-    C Future of the Flights|QID|65998|Z|The Waking Shores|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|FACTION|Horde|S|
-    C Firava the Rekindler|QID|70648|Z|The Waking Shores|N|Kill Firava, He walks around the area|FACTION|Horde|S|
-    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.|FACTION|Horde|US|
-    C Future of the Flights|QID|65998|M|55.13,22.40|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|FACTION|Horde|US|
-    C Red in Tooth and Claw|QID|65999|M|55.13,22.40|QO|1|N|Kill 15 Primalist Forces.|FACTION|Horde|US|
-    T Future of the Flights|QID|65998|Z|The Waking Shores|N|To Caretaker Sendrax .|FACTION|Horde|S|
-    T Red in Tooth and Claw|QID|65999|Z|The Waking Shores|N|To Caretaker Sendrax.|FACTION|Horde|S|
-    T Library of Alexstrasza|QID|66000|Z|The Waking Shores|N|To Caretaker Sendrax.|FACTION|Horde
-    T Future of the Flights|QID|65998|Z|The Waking Shores|N|To Caretaker Sendrax.|FACTION|Horde|US|
-    T Library of Alexstrasza|QID|66000|Z|The Waking Shores|N|To Caretaker Sendrax.|FACTION|Horde|US|
-    A A Last Hope|QID|66001|M|56.24,22.05|Z|The Waking Shores|N|From Sendrax.|FACTION|Horde|US|
-    C A Last Hope|QID|66001|M|56.24,22.05|Z|The Waking Shores|QO|1|CHAT|N|Under the tree.|FACTION|Horde|
-    C A Last Hope|QID|66001|M|56.91,21.60|Z|The Waking Shores|QO|2|N|Pick up the egg.|FACTION|Horde|
-    C A Last Hope|QID|66001|M|55.05,30.70|Z|The Waking Shores|QO|3|N|After Carrying the egg to Safety Pick up the side quest.|FACTION|Horde|
-    A A Two for One Deal|QID|70179|M|54.46,30.85|Z|The Waking Shores|N|From Apprentice Caretaker Zefern.|FACTION|Horde|
-    l A Two for One Deal|QID|70179|CC|M|53.99,30.68;53.67,30.47;52.57,30.39|QO|1|N|[color=ff0000]DO NOT JUMP DOWN!!!![/color] \n\nKill the Elementals and LOOT them for Building Materials.|FACTION|Horde|
-    T A Two for One Deal|QID|70179|M|54.46,30.85|Z|The Waking Shores|N|To Apprentice Caretaker Zefern.|FACTION|Horde|
-    T A Last Hope|QID|66001|M|55.07,30.99|Z|The Waking Shores|N|To Mojordomo Selistra.|FACTION|Horde|
-    A For the Benefit of the queen|QID|66114|M|55.07,30.99|Z|The Waking Shores|N|From Mojordomo Selistra.|FACTION|Horde|
-    C For the Benefit of the queen|QID|66114|M|55.07,30.99|Z|The Waking Shores|QO|1|N|Speak with Mojordomo Selistra.|FACTION|Horde|
-    C For the Benefit of the queen|QID|66114|M|62.33,73.02|Z|The Waking Shores|QO|2|N|Speak with Alexstrasza.|FACTION|Horde|
-    T For the Benefit of the queen|QID|66114|M|62.33,73.02|Z|The Waking Shores|N|To Alexstrasza.|FACTION|Horde|
-    A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
-    A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
-    C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.|FACTION|Horde|
-    C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall|FACTION|Horde|
-    C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz|FACTION|Horde|
-    A Stay a While|QID|70132|M|57.84,66.82|N|From Veritistrasz.|FACTION|Horde|
-    C Stay a While|QID|70132|M|57.84,66.82|QO|2|CHAT|N|[color=b50202]PICK <You are busy. Get up and leave>[/color]|FACTION|Horde|
-    T Stay a While|QID|70132|M|57.84,66.82|N|To Veritistrasz.|FACTION|Horde|
-    T Dragonriding|QID|68795|M|56.67,66.89|N|To Lord Andestrasz.|FACTION|Horde|
-    A How to glide with Your Dragon|QID|65118|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
-    C How to glide with Your Dragon|QID|65118|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|FACTION|Horde|
-    C How to glide with Your Dragon|QID|65118|QO|2|N|Glide Through the rings|FACTION|Horde|
-    C How to glide with Your Dragon|QID|65118|M|57.45,59.14|QO|3|N|Land in the target area|FACTION|Horde|
-    T How to glide with Your Dragon|QID|65118|M|57.45,59.14|N|To Celormu.|FACTION|Horde|
-    A How to Dive with Your Dragon|QID|65120|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
-    C How to Dive with Your Dragon|QID|65120|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|FACTION|Horde|O|
-    C How to Dive with Your Dragon|QID|65120|QO|2|N|Glide Through the rings|FACTION|Horde|
-    C How to Dive with Your Dragon|QID|65120|M|57.45,59.14|QO|3|N|Land in the target area|FACTION|Horde|
-    T How to Dive with Your Dragon|QID|65120|M|57.45,59.14|N|To Celormu.|FACTION|Horde|
-    A How to Use Momentum with Your Dragon|QID|65133|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
-    C How to Use Momentum with Your Dragon|QID|65133|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|FACTION|Horde|O|
-    C How to Use Momentum with Your Dragon|QID|65133|QO|2|N|Glide Through the rings|FACTION|Horde|
-    C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|QO|3|N|Land in the target area|FACTION|Horde|
-    T How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|N|To Celormu.|FACTION|Horde|
-    A The Skytop Observatory|QID|68796|M|57.84,66.82|N|From Lord Andestrasz.|FACTION|Horde|
-    C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|1|CHAT|N|Speak with Celormu|FACTION|Horde|
-    C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|2|CHAT|N|Rave to the Skytop Observatory.|FACTION|Horde|
-    T The Skytop Observatory|QID|68796|M|75.16,52.95|N|To Lord Andestrasz.|FACTION|Horde|
-    A A New Set of Horns|QID|68797|M|75.16,52.95|N|From Lord Andestrasz.|FACTION|Horde|
-    C A New Set of Horns|QID|68797|M|74.06,57.95|QO|1|N|Meet Glensera|FACTION|Horde|
-    C A New Set of Horns|QID|68797|M|74.06,57.95|QO|2|N|Use the glowing platform and exit the Transmog|FACTION|Horde|
-    T A New Set of Horns|QID|68797|M|75.14,54.97|N|From Lord Andestrasz.|FACTION|Horde|
-    A Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|From Lord Andestrasz.|FACTION|Horde|
-    C Dragon Glyphs and You|QID|68798|M|74.55,56.97|QO|2|N|Talk to Lithragosa|FACTION|Horde|
-    C Dragon Glyphs and You|QID|68798|M|74.55,56.97|QO|3|N|Learn Redirection|FACTION|Horde|
-    C Dragon Glyphs and You|QID|68798|M|73.24,52.10|QO|5|N|Speak to Celormu|FACTION|Horde|
-    T Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|To Lord Andestrasz.|FACTION|Horde|
-    A Return to the Ruby Lifeshrine|QID|68799|M|75.16,54.95|N|From Lord Andestrasz.|FACTION|Horde|
-    T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back[/color]|FACTION|Horde|
-    A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
-    C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion|FACTION|Horde|
-    C The Mandate of the Red|QID|66115|M|62.75,70.45|QO|4|CHAT|N|Speak with Zahkrana|FACTION|Horde|
-    T The Mandate of the Red|QID|66115|M|62.75,70.45|N|Speak with Zahkrana|FACTION|Horde|
-    A Training Wings|QID|70061|M|62.20,70.58|N|From Amella.|FACTION|Horde|
-    C Training Wings|QID|70061|M|61.08,71.45|N|Click on the Ruby Whelpling.|FACTION|Horde|
-    C Training Wings|QID|70061|M|61.08,71.45|N|When finished Use the exit vehicle button to get out quickly |FACTION|Horde|
-    T Training Wings|QID|70061|M|62.33,73.02|N|To Majordomo Selistra.|FACTION|Horde|
-    A Who Brought the Ruckus?|QID|66931|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
-    C Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|Meet Majordomo Selistra at the Check point.|FACTION|Horde|
-    T Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|To Majordomo Selistra.|FACTION|Horde|
-    A The Primary Threat|QID|66116|M|59.46,72.65|N|From Majordomo Selistra.|FACTION|Horde|
-    C The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.|FACTION|Horde|
-    T The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.|FACTION|Horde|
-    A Basalt Assault|QID|66118|M|59.41,75.91|N|From Commander Lethanak.|FACTION|Horde|
-    C Basalt Assault|QID|66118|N|Kill 4 Enraged Cliff's|FACTION|Horde|S|
-    C Clear the Battlefield|QID|66117|N|Stop the primalist assault|FACTION|Horde|S|
-    C Basalt Assault|QID|66118|N|Kill 4 Enraged Cliff's|FACTION|Horde|US|
-    T Basalt Assault|QID|66118|M|59.41,75.91|N|To Commander Lethanak.|FACTION|Horde|
-    A Proto-fight|QID|66122|M|59.41,75.91|N|From Commander Lethanak.|FACTION|Horde|
-    A Egg Evac|QID|66121|M|59.41,75.91|N|From Majordomo Selistra.|FACTION|Horde|
-    C Proto-fight|QID|66122|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|FACTION|Horde|S|
-    C Egg Evac|QID|66121|M|57.35,83.27|QO|2|N|Azune Egg.|FACTION|Horde|
-    C Egg Evac|QID|66121|M|56.12,81.30|QO|1|N|Bronze Egg.|FACTION|Horde|
-    C Egg Evac|QID|66121|M|55.32,83.30|QO|3|N|Emerald Egg.|FACTION|Horde|
-    C Egg Evac|QID|66121|M|54.99,80.94|QO|4|N|Ruby Egg.|FACTION|Horde|
-    C Proto-fight|QID|66122|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|FACTION|Horde|US|
-    T Egg Evac|QID|66121|M|53.73,80.17|N|To Majordomo Selistra.|FACTION|Horde|S|
-    T Proto-fight|QID|66122|M|53.73,80.17|N|To Majordomo Selistra.|FACTION|Horde|S|
-    A Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.|FACTION|Horde|
-    C Cut off the head|QID|66123|M|53.29,82.95|N|Kill Jadzigeth|FACTION|Horde|
-    T Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.|FACTION|Horde|
-    A Exeunt, Triumphant|QID|66124|M|53.73,80.17|N|From Majordomo Selistra.|FACTION|Horde|
-    A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.|FACTION|Horde|
-    T Out for Delivery|QID|66963|M|48.49,82.71|N|To Cataloger Wulferd.|FACTION|Horde|
-    A Amateur Protography|QID|66524|M|48.49,82.71|N|From Cataloger Wulferd.|FACTION|Horde|
-    C Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|Talk To Majordomo Selistra.|FACTION|Horde|
-    T Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|To Majordomo Selistra.|FACTION|Horde|
-    A Wrathion Awaits|QID|66079|M|46.10,78.30|N|From Alexstrasza The Life-Binder.|FACTION|Horde|
-    C Amateur Protography|QID|66524|M|44.94,78.16|QO|2|N|Whelp learning to fly|FACTION|Horde|
-    C Amateur Protography|QID|66524|M|43.79,78.83|QO|3|N|Hungry Proto-Drake|FACTION|Horde|
-    C Amateur Protography|QID|66524|M|43.43,82.81|QO|1|N|Proto-dragon Egg|FACTION|Horde|
-    T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd|FACTION|Horde|
-    A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|
-    A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|FACTION|Horde|
-    C Competitive Protography|QID|66525|N|Photo of Infused Proto-Drake/Proto-Drake Egg|FACTION|Horde|S|
-    C Preserving the Wilds|QID|66526|N|Free 5 Proto-Whelps or Proto-Drakes|FACTION|Horde|S|
-    C Competitive Protography|QID|66525|M|38.30,80.84|N|Photo of Infused Proto-Drake/Proto-Drake Egg|FACTION|Horde|US|
-    C Preserving the Wilds|QID|66526|M|38.68,81.77|N|Free 5 Proto-Whelps or Proto-Drakes|FACTION|Horde|US|
-    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|S|
-    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|FACTION|Horde|S|
-    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|US|
-    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|FACTION|Horde|US|
-    A Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|
-    C Professional Protography|QID|66527|M|38.94,83.38|QO|1|N|Stand on the Spring|FACTION|Horde|
-    C Professional Protography|QID|66527|M|38.80,83.85|QO|2|N|Take the photo|FACTION|Horde|
-    T Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd|FACTION|Horde|
-    A King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian|FACTION|Horde|
-    C King Without a Crown|QID|66528|M|38.84,83.51|QO|2|N|Charred Foreclaw|FACTION|Horde|
-    C King Without a Crown|QID|66528|M|39.11,83.94|QO|1|N|Severed Spine|FACTION|Horde|
-    C King Without a Crown|QID|66528|M|39.44,83.97|QO|3|N|Cracked Rib|FACTION|Horde|
-    T King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian|FACTION|Horde|US|
-    A A Thousand Words|QID|66529|M|39.04,83.29|N|From Dervishian|FACTION|Horde|
-    C A Thousand Words|QID|66529|M|38.76,83.63|N|Wait For Dervishian And take a Photo of him|FACTION|Horde|
-    T A Thousand Words|QID|66529|M|38.76,83.63|N|To Dervishian|FACTION|Horde|US|
-    T Wrathion Awaits|QID|66079|M|42.46,66.81|N|Fly To Wrathion You Will Need 2 Vigor|FACTION|Horde|
-    A Lessons from Our Past|QID|72241|M|42.46,66.81|N|From Scalecommander Emberthal.|FACTION|Horde|
-    C Lessons from Our Past|QID|72241|M|42.46,66.81|N|Speak to Scalecommander Emberthal.|FACTION|Horde|
-    T Lessons from Our Past|QID|72241|M|42.46,66.81|N|To Scalecommander Emberthal.|FACTION|Horde|
-    A Best Plans and Intentions|QID|66048|M|42.46,66.81|N|From Scalecommander Emberthal.|FACTION|Horde|S|
-    A Sharp Practice|QID|66078|M|42.46,66.81|N|From Wrathion.|FACTION|Horde|S|
-    A Sharp Practice|QID|66078|M|42.46,66.81|N|From Wrathion.|FACTION|Horde|US|
-    A Best Plans and Intentions|QID|66048|M|42.46,66.81|N|From Scalecommander Emberthal.|FACTION|Horde|US|
-    C Best Plans and Intentions|QID|66048|M|42.42,66.21|QO|1|N|Talk to Foa The Relentless, Then Loot Battle Plan on the Table|FACTION|Horde|
-    C Best Plans and Intentions|QID|66048|M|43.76,67.26|QO|2|N|Talk to Archivist Edres, He RP's move to Bazentus|FACTION|Horde|
-    C Best Plans and Intentions|QID|66048|M|42.82,66.28|QO|4|N|Talk to Bazentus|FACTION|Horde|
-    C Best Plans and Intentions|QID|66048|M|42.31,69.31|QO|3|N|Talk to Talonstalker, Then click on Scouting Scope|FACTION|Horde|
-    C Sharp Practice|QID|66078|M|42.52,67.98|N|Talk to the NPC to fight them.|FACTION|Horde|
-    T Sharp Practice|QID|66078|M|42.46,66.81|N|To Wrathion.|FACTION|Horde|S|
-    T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|FACTION|Horde|S|
-    T Sharp Practice|QID|66078|M|42.46,66.81|N|To Wrathion.|FACTION|Horde|US|
-    T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|FACTION|Horde|US|
-    A No Time for heroes|QID|65957|M|42.46,66.81|N|From Wrathion, He RP's for 15 seconds.|FACTION|Horde
-    A Talon Strike|QID|65956|M|42.46,66.81|N|From Wrathion.|FACTION|Horde|S|
-    C Talon Strike|QID|65956|M|42.46,66.81|N|Kiil mobs and Disrupt Djaradin desfenses|FACTION|Horde|S|
-    C No Time for heroes|QID|65957|M|35.63,68.58|QO|1|N|Kill Piercer Gigra|FACTION|Horde|
-    C No Time for heroes|QID|65957|M|34.97,67.00|QO|3|N|Kill Olphis the molten|FACTION|Horde|
-    C No Time for heroes|QID|65957|M|35.55,60.73|QO|2|N|Kill Modak Flamespit|FACTION|Horde|
-    T No Time for heroes|QID|65957|M|34.05,61.34|N|To Wrathion.|FACTION|Horde|
-    T Talon Strike|QID|65956|M|34.05,61.34|N|To Wrathion.|FACTION|Horde|
-    A The Courage of One's Convictions|QID|65939|M|34.05,61.34|N|From Wrathion.|FACTION|Horde
-    C The Courage of One's Convictions|QID|65939|M|34.05,61.34|QO|1|CHAT|N|Speak to Wrathion.|FACTION|Horde
-    C The Courage of One's Convictions|QID|65939|M|30.00,60.35|QO|2|N|Enter Obsidian Citadel.|FACTION|Horde
-    C The Courage of One's Convictions|QID|65939|M|29.17,58.91|QO|3|N|Kill Qalashi Forces, Do this when you are on the quest "Taking the Walls".|FACTION|Horde|S|
-    A Taking the Walls|QID|66044|M|29.17,58.91|N|From Wrathion.|FACTION|Horde
-    C Taking the Walls|QID|66044|M|29.17,58.91|QO|1|N|Speak on Wrathion and assist him.|FACTION|Horde
-    C Taking the Walls|QID|66044|M|26.82,60.02|QO|2|N|Destroy South Siege Arbalast.|FACTION|Horde
-    C Taking the Walls|QID|66044|CS|M|26.78,61.22;29.51,61.01|QO|3|N|Jump on Wrathion, Destroy East Siege Arbalast.|FACTION|Horde
-    C Taking the Walls|QID|66044|CS|M|29.00,61.88;27.74,56.59|QO|4|N|Jump on Wrathion, Destroy North Siege Arbalast.|FACTION|Horde
-    C Taking the Walls|QID|66044|M|26.79,57.10|QO|5|N|Kill Champion Choruk|FACTION|Horde
-    T Taking the Walls|QID|66044|M|26.42,58.73|N|To Wrathion.|FACTION|Horde
-    T The Courage of One's Convictions|QID|65939|M|26.42,58.73|N|To Wrathion.|FACTION|Horde
-    A Obsidian Oathstone|QID|66049|M|26.42,58.73|N|From Wrathion.|FACTION|Horde
-    C Obsidian Oathstone|QID|66049|CC|M|26.00,59.95;25.75,60.92;27.30,62.57|QO|1|N|speak to Wrathion.|FACTION|Horde
-    C Obsidian Oathstone|QID|66049|M|27.62,63.31|QO|2|N|Click the Oathstone.|FACTION|Horde
-    T Obsidian Oathstone|QID|66049|M|27.30,62.57|N|To Wrathion, He RP's for about 8 seconds.|FACTION|Horde
-    A A Shattered Past|QID|66055|M|27.25,62.79|N|From Forgemaster Bazentus.|FACTION|Horde
-    C A Shattered Past|QID|66055|M|27.08,60.81|QO|1|N|Enter Vaults|FACTION|Horde
-    C A Shattered Past|QID|66055|QO|2|N|Collect 12 Oathstones|FACTION|Horde
-    T A Shattered Past|QID|66055|CC|M|27.08,60.8;27.25,62.79|N|To Forgemaster Bazentus.|FACTION|Horde
-    A Forging A New Future|QID|66056|M|27.25,62.79|N|From Forgemaster Bazentus.|FACTION|Horde
-    C Forging A New Future|QID|66056|M|24.62,60.92|QO|1|N|Activate the Forge.|FACTION|Horde
-    C Forging A New Future|QID|66056|M|24.62,60.92|QO|2|N|Collect 6 Cindershard Coals by loot them on the floor or killing Cindershard Mobs.|FACTION|Horde
-    T Forging A New Future|QID|66056|M|24.67,61.08|N|To Forgemaster Bazentus.|FACTION|Horde
-    A The Spark|QID|66354|M|24.67,61.08|N|From Forgemaster Bazentus.|FACTION|Horde
-    C The Spark|QID|66354|M|24.62,60.92|QO|1|N|Place Fragments on the Forge.|FACTION|Horde
-    C The Spark|QID|66354|M|24.62,60.92|QO|3|N|Collect Refromed Pieces.|FACTION|Horde
-    T The Spark|QID|66354|M|24.67,61.08|N|To Forgemaster Bazentus.|FACTION|Horde
-    A Restoring the Faith|QID|66057|M|24.67,61.08|N|From Forgemaster Bazentus.|FACTION|Horde
-    C Restoring the Faith|QID|66057|QO|1|M|27.30,62.57|N|Speak to Wrathion.|FACTION|Horde
-    C Restoring the Faith|QID|66057|QO|2|M|27.13,62.23|N|Travel with Wrathion.|FACTION|Horde
-    C Restoring the Faith|QID|66057|QO|3|M|24.91,56.14|N|Approach Wrathion.|FACTION|Horde
-    T Restoring the Faith|QID|66057|M|24.43,55.54|N|To Wrathion.|FACTION|Horde
-    A Claimant to the Throne|QID|66780|M|24.43,55.54|N|From Wrathion.|FACTION|Horde
-    A Heir Apparent|QID|66779|M|24.29,55.83|N|From Sabellian.|FACTION|Horde
-    C Claimant to the Throne|QID|66780|QO|2|M|24.98,55.17|N|Talk with Left and Right.|FACTION|Horde
-    C Claimant to the Throne|QID|66780|QO|1|M|26.37,54.48|N|Talk with Talonstalker Kavia.|FACTION|Horde
-    C Claimant to the Throne|QID|66780|QO|3|M|25.12,56.25|N|Talk with Archivist Edress, [color=b50202]MUST SPEAK TO HIM TWICE[/color]|FACTION|Horde
-    C Heir Apparent|QID|66779|QO|3|M|25.12,56.25|N|Talk with Archivist Edress, [color=b50202]MUST SPEAK TO HIM TWICE[/color]|FACTION|Horde
-    C Heir Apparent|QID|66779|QO|2|M|24.35,57.73|N|Talk with Forgemaster Bazentus.|FACTION|Horde
-    C Heir Apparent|QID|66779|QO|1|M|24.30,58.76|N|Talk with Baskilan.|FACTION|Horde
-    T Heir Apparent|QID|66779|M|24.29,55.83|N|To Sabellian.|FACTION|Horde
-    T Claimant to the Throne|QID|66780|M|24.43,55.54|N|To Wrathion.|FACTION|Horde
-    A Black Wagon Flight|QID|65793|M|24.29,55.83|N|From Sabellian.|FACTION|Horde
-    C Black Wagon Flight|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|FACTION|Horde|O|
-    C Black Wagon Flight|QID|65793|QO|2|CC|M|25.45,56.77;43.86,66.44|N|Fly to Sabellian, Speak to him to begin moving the eggs.|FACTION|Horde
-    C Black Wagon Flight|QID|65793|QO|3|CC|M|45.85,66.24;47.89,67.16;48.86,65.44;50.28,65.81;52.09,67.04|N|Escort The Wagon, [color=b50202]MUST STAY CLOSE[/color].|FACTION|Horde
-    T Black Wagon Flight|QID|65793|M|57.93,67.35|N|To Sabellian, Use Renewed Proto-drake to fly to Sabellian.|FACTION|Horde
-    A The Last Eggtender|QID|66785|M|24.29,55.83|N|From Sabellian.|FACTION|Horde
-    T The Last Eggtender|QID|66785|M|61.59,68.72|N|To Mother Elion.|FACTION|Horde
-    A Egg-cited for the Future|QID|66788|M|61.59,68.72|N|From Mother Elion.|FACTION|Horde
-    C Egg-cited for the Future|QID|66788|M|61.59,68.72|N|Clean the area.|FACTION|Horde
-    T Egg-cited for the Future|QID|66788|M|61.59,68.72|N|To Mother Elion.|FACTION|Horde
-    A Life-Binder on Duty|QID|65791|M|61.59,68.72|N|From Mother Elion.|FACTION|Horde
-    T Life-Binder on Duty|QID|65791|M|62.32,73.00|N|To Alexstrasza The Life-Binder.|FACTION|Horde
-    A A Charge of Care|QID|65794|M|62.32,73.00|N|From Alexstrasza The Life-Binder.|FACTION|Horde
-    C A Charge of Care|QID|65794|M|62.32,73.00|N|Speak to Alexstrasza The Life-Binder.|FACTION|Horde
-    T A Charge of Care|QID|65794|M|61.54,68.55|N|To Alexstrasza The Life-Binder.|FACTION|Horde
-    A Next Steppes|QID|65795|M|61.54,68.55|N|From Alexstrasza The Life-Binder.|FACTION|Horde
-    T Next Steppes|QID|65795|CC|M|59.55,72.74;48.29,88.60|N|Mount Renewd Proto-drake and fly to neet Ambassador Taurasza.|FACTION|Horde
-    A Into the Plains|QID|65779|M|48.29,88.60|N|From Ambassador Taurasza.|FACTION|Horde|
-    T Into the Plains|QID|65779|M|77.72,23.87|Z|Ohn'ahran Plains|N|Auto Accepted.|FACTION|Horde|
+    T Killjoy|QID|65993|CC|M|64.54,32.92;62.63,33.05|N|Hand into Wrathion.
+    T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|US|
+    T The Obsisdian Citadel|QID|65995|M|62.63,33.05|Z|The Waking Shores|QO|1|N|Hand into Wrathion.|US|
+    A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|
+    A Fighting fire with... Water|QID|66998|M|59.04,34.83|Z|The Waking Shores|N|Pick up when doing Veteran Reinforcements Quest And [color=b50202]FINISH[/color] before doing last Heal.|
+    C Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|From Caretaker Ventraz .
+    T Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|To Caretaker Ventraz .
+    A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|US|
+    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|S|
+    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|US|
+    T Veteran Reinforcements|QID|65996|M|55.02,30.88|Z|The Waking Shores|N|To Caretaker Azkra.
+    A Chasing Sendrax|QID|65997|M|55.01,30.79|Z|The Waking Shores|N|From Caretaker Azkra .
+    C Chasing Sendrax|QID|65997|M|55.15,24.97|Z|The Waking Shores|QO|1|CHAT|N|Speak Sendrax.
+    T Chasing Sendrax|QID|65997|M|55.15,24.97|Z|The Waking Shores|N|To Caretaker Sendrax .
+    A Red in Tooth and Claw|QID|65999|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|S|
+    A Future of the Flights|QID|65998|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|S|
+    A Library of Alexstrasza|QID|66000|M|55.25,24.69|Z|The Waking Shores|N|From Caretaker Azkra.|S|
+    A Future of the Flights|QID|65998|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|US|
+    A Red in Tooth and Claw|QID|65999|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|US|
+    A Library of Alexstrasza|QID|66000|M|55.25,24.69|Z|The Waking Shores|N|From Caretaker Azkra.||US|
+    C Red in Tooth and Claw|QID|65999|Z|The Waking Shores|N|Kill 15 Primalist Forces.|S|
+    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.||S|
+    C Future of the Flights|QID|65998|Z|The Waking Shores|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|S|
+    C Firava the Rekindler|QID|70648|Z|The Waking Shores|N|Kill Firava, He walks around the area|S|
+    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.|US|
+    C Future of the Flights|QID|65998|M|55.13,22.40|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|US|
+    C Red in Tooth and Claw|QID|65999|M|55.13,22.40|QO|1|N|Kill 15 Primalist Forces.|US|
+    T Future of the Flights|QID|65998|Z|The Waking Shores|N|To Caretaker Sendrax .|S|
+    T Red in Tooth and Claw|QID|65999|Z|The Waking Shores|N|To Caretaker Sendrax.|S|
+    T Library of Alexstrasza|QID|66000|Z|The Waking Shores|N|To Caretaker Sendrax.
+    T Future of the Flights|QID|65998|Z|The Waking Shores|N|To Caretaker Sendrax.|US|
+    T Library of Alexstrasza|QID|66000|Z|The Waking Shores|N|To Caretaker Sendrax.|US|
+    A A Last Hope|QID|66001|M|56.24,22.05|Z|The Waking Shores|N|From Sendrax.|US|
+    C A Last Hope|QID|66001|M|56.24,22.05|Z|The Waking Shores|QO|1|CHAT|N|Under the tree.
+    C A Last Hope|QID|66001|M|56.91,21.60|Z|The Waking Shores|QO|2|N|Pick up the egg.
+    C A Last Hope|QID|66001|M|55.05,30.70|Z|The Waking Shores|QO|3|N|After Carrying the egg to Safety Pick up the side quest.
+    A A Two for One Deal|QID|70179|M|54.46,30.85|Z|The Waking Shores|N|From Apprentice Caretaker Zefern.
+    l A Two for One Deal|QID|70179|CC|M|53.99,30.68;53.67,30.47;52.57,30.39|QO|1|N|[color=ff0000]DO NOT JUMP DOWN!!!![/color] \n\nKill the Elementals and LOOT them for Building Materials.
+    T A Two for One Deal|QID|70179|M|54.46,30.85|Z|The Waking Shores|N|To Apprentice Caretaker Zefern.
+    T A Last Hope|QID|66001|M|55.07,30.99|Z|The Waking Shores|N|To Mojordomo Selistra.
+    A For the Benefit of the Queen|QID|66114|M|55.07,30.99|Z|The Waking Shores|N|From Mojordomo Selistra.
+    C For the Benefit of the Queen|QID|66114|M|55.07,30.99|Z|The Waking Shores|QO|1|N|Speak with Mojordomo Selistra.
+    C For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|The Waking Shores|QO|2|N|Speak with Alexstrasza.
+    T For the Benefit of the Queen|QID|66114|M|62.33,73.02|Z|The Waking Shores|N|To Alexstrasza.
+    A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
+    A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
+    C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.
+    C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall
+    C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz
+    A Stay a While|QID|70132|M|57.84,66.82|N|From Veritistrasz.
+    C Stay a While|QID|70132|M|57.84,66.82|QO|2|CHAT|N|[color=b50202]PICK <You are busy. Get up and leave>[/color]
+    T Stay a While|QID|70132|M|57.84,66.82|N|To Veritistrasz.
+    T Dragonriding|QID|68795|M|56.67,66.89|N|To Lord Andestrasz.
+    A How to Glide with Your Dragon|QID|65118|M|57.84,66.82|N|From Lord Andestrasz.
+    C How to Glide with Your Dragon|QID|65118|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake
+    C How to Glide with Your Dragon|QID|65118|QO|2|N|Glide Through the rings
+    C How to Glide with Your Dragon|QID|65118|M|57.45,59.14|QO|3|N|Land in the target area
+    T How to Glide with Your Dragon|QID|65118|M|57.45,59.14|N|To Celormu.
+    A How to Dive with Your Dragon|QID|65120|M|57.84,66.82|N|From Lord Andestrasz.
+    C How to Dive with Your Dragon|QID|65120|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|O|
+    C How to Dive with Your Dragon|QID|65120|QO|2|N|Glide Through the rings
+    C How to Dive with Your Dragon|QID|65120|M|57.45,59.14|QO|3|N|Land in the target area
+    T How to Dive with Your Dragon|QID|65120|M|57.45,59.14|N|To Celormu.
+    A How to Use Momentum with Your Dragon|QID|65133|M|57.84,66.82|N|From Lord Andestrasz.
+    C How to Use Momentum with Your Dragon|QID|65133|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake|O|
+    C How to Use Momentum with Your Dragon|QID|65133|QO|2|N|Glide Through the rings
+    C How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|QO|3|N|Land in the target area
+    T How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|N|To Celormu.
+    A The Skytop Observatory|QID|68796|M|57.84,66.82|N|From Lord Andestrasz.
+    C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|1|CHAT|N|Speak with Celormu
+    C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|2|CHAT|N|Rave to the Skytop Observatory.
+    T The Skytop Observatory|QID|68796|M|75.16,52.95|N|To Lord Andestrasz.
+    A A New Set of Horns|QID|68797|M|75.16,52.95|N|From Lord Andestrasz.
+    C A New Set of Horns|QID|68797|M|74.06,57.95|QO|1|N|Meet Glensera
+    C A New Set of Horns|QID|68797|M|74.06,57.95|QO|2|N|Use the glowing platform and exit the Transmog
+    T A New Set of Horns|QID|68797|M|75.14,54.97|N|From Lord Andestrasz.
+    A Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|From Lord Andestrasz.
+    C Dragon Glyphs and You|QID|68798|M|74.55,56.97|QO|2|N|Talk to Lithragosa
+    C Dragon Glyphs and You|QID|68798|M|74.55,56.97|QO|3|N|Learn Redirection
+    C Dragon Glyphs and You|QID|68798|M|73.24,52.10|QO|5|N|Speak to Celormu.
+    T Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|To Lord Andestrasz.
+    A Return to the Ruby Lifeshrine|QID|68799|M|75.16,54.95|N|From Lord Andestrasz.
+    T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back[/color]
+    A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
+    C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion
+    C The Mandate of the Red|QID|66115|M|62.75,70.45|QO|4|CHAT|N|Speak with Zahkrana
+    T The Mandate of the Red|QID|66115|M|62.75,70.45|N|Speak with Zahkrana
+    A Training Wings|QID|70061|M|62.20,70.58|N|From Amella.
+    C Training Wings|QID|70061|M|61.08,71.45|N|Click on the Ruby Whelpling.
+    C Training Wings|QID|70061|M|61.08,71.45|N|When finished Use the exit vehicle button to get out quickly
+    T Training Wings|QID|70061|M|62.33,73.02|N|To Majordomo Selistra.
+    A Who Brought the Ruckus?|QID|66931|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
+    C Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|Meet Majordomo Selistra at the Check point.
+    T Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|To Majordomo Selistra.
+    A The Primary Threat|QID|66116|M|59.46,72.65|N|From Majordomo Selistra.
+    C The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.
+    T The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.
+    A Basalt Assault|QID|66118|M|59.41,75.91|N|From Commander Lethanak.
+    C Basalt Assault|QID|66118|N|Kill 4 Enraged Cliff's|S|
+    C Clear the Battlefield|QID|66117|N|Stop the primalist assault|S|
+    C Basalt Assault|QID|66118|N|Kill 4 Enraged Cliff's|US|
+    T Basalt Assault|QID|66118|M|59.41,75.91|N|To Commander Lethanak.
+    A Proto-fight|QID|66122|M|59.41,75.91|N|From Commander Lethanak.
+    A Egg Evac|QID|66121|M|59.41,75.91|N|From Majordomo Selistra.
+    C Proto-fight|QID|66122|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|S|
+    C Egg Evac|QID|66121|M|57.35,83.27|QO|2|N|Azune Egg.
+    C Egg Evac|QID|66121|M|56.12,81.30|QO|1|N|Bronze Egg.
+    C Egg Evac|QID|66121|M|55.32,83.30|QO|3|N|Emerald Egg.
+    C Egg Evac|QID|66121|M|54.99,80.94|QO|4|N|Ruby Egg.
+    C Proto-fight|QID|66122|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|US|
+    T Egg Evac|QID|66121|M|53.73,80.17|N|To Majordomo Selistra.|S|
+    T Proto-fight|QID|66122|M|53.73,80.17|N|To Majordomo Selistra.|S|
+    A Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.
+    C Cut off the head|QID|66123|M|53.29,82.95|N|Kill Jadzigeth
+    T Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.
+    A Exeunt, Triumphant|QID|66124|M|53.73,80.17|N|From Majordomo Selistra.
+    A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.
+    T Out for Delivery|QID|66963|M|48.49,82.71|N|To Cataloger Wulferd.
+    A Amateur Protography|QID|66524|M|48.49,82.71|N|From Cataloger Wulferd.
+    C Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|Talk To Majordomo Selistra.
+    T Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|To Majordomo Selistra.
+    A Wrathion Awaits|QID|66079|M|46.10,78.30|N|From Alexstrasza The Life-Binder.
+    C Amateur Protography|QID|66524|M|44.94,78.16|QO|2|N|Whelp learning to fly
+    C Amateur Protography|QID|66524|M|43.79,78.83|QO|3|N|Hungry Proto-Drake
+    C Amateur Protography|QID|66524|M|43.43,82.81|QO|1|N|Proto-dragon Egg
+    T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd
+    A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd
+    A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian
+    C Competitive Protography|QID|66525|N|Photo of Infused Proto-Drake/Proto-Drake Egg|S|
+    C Preserving the Wilds|QID|66526|N|Free 5 Proto-Whelps or Proto-Drakes|S|
+    C Competitive Protography|QID|66525|M|38.30,80.84|N|Photo of Infused Proto-Drake/Proto-Drake Egg|US|
+    C Preserving the Wilds|QID|66526|M|38.68,81.77|N|Free 5 Proto-Whelps or Proto-Drakes|US|
+    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|S|
+    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|S|
+    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|US|
+    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|US|
+    A Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd
+    C Professional Protography|QID|66527|M|38.94,83.38|QO|1|N|Stand on the Spring
+    C Professional Protography|QID|66527|M|38.80,83.85|QO|2|N|Take the photo
+    T Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd
+    A King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian
+    C King Without a Crown|QID|66528|M|38.84,83.51|QO|2|N|Charred Foreclaw
+    C King Without a Crown|QID|66528|M|39.11,83.94|QO|1|N|Severed Spine
+    C King Without a Crown|QID|66528|M|39.44,83.97|QO|3|N|Cracked Rib
+    T King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian
+    A A Thousand Words|QID|66529|M|39.04,83.29|N|From Dervishian
+    C A Thousand Words|QID|66529|M|38.76,83.63|N|Wait For Dervishian And take a Photo of him
+    T A Thousand Words|QID|66529|M|38.76,83.63|N|To Dervishian|US|
+    T Wrathion Awaits|QID|66079|M|42.46,66.81|N|Fly To Wrathion You Will Need 2 Vigor
+    A Lessons from Our Past|QID|72241|M|42.46,66.81|N|From Scalecommander Emberthal.
+    C Lessons from Our Past|QID|72241|M|42.46,66.81|N|Speak to Scalecommander Emberthal.
+    T Lessons from Our Past|QID|72241|M|42.46,66.81|N|To Scalecommander Emberthal.
+    A Best Plans and Intentions|QID|66048|M|42.46,66.81|N|From Scalecommander Emberthal.|S|
+    A Sharp Practice|QID|66078|M|42.46,66.81|N|From Wrathion.|S|
+    A Sharp Practice|QID|66078|M|42.46,66.81|N|From Wrathion.|US|
+    A Best Plans and Intentions|QID|66048|M|42.46,66.81|N|From Scalecommander Emberthal.|US|
+    C Best Plans and Intentions|QID|66048|M|42.42,66.21|QO|1|N|Talk to Foa The Relentless, Then Loot Battle Plan on the Table
+    C Best Plans and Intentions|QID|66048|M|43.76,67.26|QO|2|N|Talk to Archivist Edres, He RP's move to Bazentus
+    C Best Plans and Intentions|QID|66048|M|42.82,66.28|QO|4|N|Talk to Bazentus
+    C Best Plans and Intentions|QID|66048|M|42.31,69.31|QO|3|N|Talk to Talonstalker, Then click on Scouting Scope
+    C Sharp Practice|QID|66078|M|42.52,67.98|N|Talk to the NPC to fight them.
+    T Sharp Practice|QID|66078|M|42.46,66.81|N|To Wrathion.|S|
+    T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|S|
+    T Sharp Practice|QID|66078|M|42.46,66.81|N|To Wrathion.|US|
+    T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|US|
+    A No Time for heroes|QID|65957|M|42.46,66.81|N|From Wrathion, He RP's for 15 seconds.
+    A Talon Strike|QID|65956|M|42.46,66.81|N|From Wrathion.|S|
+    C Talon Strike|QID|65956|M|42.46,66.81|N|Kiil mobs and Disrupt Djaradin desfenses|S|
+    C No Time For Heroes|QID|65957|M|35.63,68.58|QO|1|N|Kill Piercer Gigra
+    C No Time For Heroes|QID|65957|M|34.97,67.00|QO|3|N|Kill Olphis the molten
+    C No Time For Heroes|QID|65957|M|35.55,60.73|QO|2|N|Kill Modak Flamespit
+    T No Time For Heroes|QID|65957|M|34.05,61.34|N|To Wrathion.
+    T Talon Strike|QID|65956|M|34.05,61.34|N|To Wrathion.
+    A The Courage of One's Convictions|QID|65939|M|34.05,61.34|N|From Wrathion.
+    C The Courage of One's Convictions|QID|65939|M|34.05,61.34|QO|1|CHAT|N|Speak to Wrathion.
+    C The Courage of One's Convictions|QID|65939|M|30.00,60.35|QO|2|N|Enter Obsidian Citadel.
+    C The Courage of One's Convictions|QID|65939|M|29.17,58.91|QO|3|N|Kill Qalashi Forces, Do this when you are on the quest "Taking the Walls".|S|
+    A Taking the Walls|QID|66044|M|29.17,58.91|N|From Wrathion.
+    C Taking the Walls|QID|66044|M|29.17,58.91|QO|1|N|Speak on Wrathion and assist him.
+    C Taking the Walls|QID|66044|M|26.82,60.02|QO|2|N|Destroy South Siege Arbalast.
+    C Taking the Walls|QID|66044|CS|M|26.78,61.22;29.51,61.01|QO|3|N|Jump on Wrathion, Destroy East Siege Arbalast.
+    C Taking the Walls|QID|66044|CS|M|29.00,61.88;27.74,56.59|QO|4|N|Jump on Wrathion, Destroy North Siege Arbalast.
+    C Taking the Walls|QID|66044|M|26.79,57.10|QO|5|N|Kill Champion Choruk
+    T Taking the Walls|QID|66044|M|26.42,58.73|N|To Wrathion.
+    T The Courage of One's Convictions|QID|65939|M|26.42,58.73|N|To Wrathion.
+    A Obsidian Oathstone|QID|66049|M|26.42,58.73|N|From Wrathion.
+    C Obsidian Oathstone|QID|66049|CC|M|26.00,59.95;25.75,60.92;27.30,62.57|QO|1|N|speak to Wrathion.
+    C Obsidian Oathstone|QID|66049|M|27.62,63.31|QO|2|N|Click the Oathstone.
+    T Obsidian Oathstone|QID|66049|M|27.30,62.57|N|To Wrathion, He RP's for about 8 seconds.
+    A A Shattered Past|QID|66055|M|27.25,62.79|N|From Forgemaster Bazentus.
+    C A Shattered Past|QID|66055|M|27.08,60.81|QO|1|N|Enter Vaults
+    C A Shattered Past|QID|66055|QO|2|N|Collect 12 Oathstones
+    T A Shattered Past|QID|66055|CC|M|27.08,60.8;27.25,62.79|N|To Forgemaster Bazentus.
+    A Forging A New Future|QID|66056|M|27.25,62.79|N|From Forgemaster Bazentus.
+    C Forging A New Future|QID|66056|M|24.62,60.92|QO|1|N|Activate the Forge.
+    C Forging A New Future|QID|66056|M|24.62,60.92|QO|2|N|Collect 6 Cindershard Coals by loot them on the floor or killing Cindershard Mobs.
+    T Forging A New Future|QID|66056|M|24.67,61.08|N|To Forgemaster Bazentus.
+    A The Spark|QID|66354|M|24.67,61.08|N|From Forgemaster Bazentus.
+    C The Spark|QID|66354|M|24.62,60.92|QO|1|N|Place Fragments on the Forge.
+    C The Spark|QID|66354|M|24.62,60.92|QO|3|N|Collect Refromed Pieces.
+    T The Spark|QID|66354|M|24.67,61.08|N|To Forgemaster Bazentus.
+    A Restoring the Faith|QID|66057|M|24.67,61.08|N|From Forgemaster Bazentus.
+    C Restoring the Faith|QID|66057|QO|1|M|27.30,62.57|N|Speak to Wrathion.
+    C Restoring the Faith|QID|66057|QO|2|M|27.13,62.23|N|Travel with Wrathion.
+    C Restoring the Faith|QID|66057|QO|3|M|24.91,56.14|N|Approach Wrathion.
+    T Restoring the Faith|QID|66057|M|24.43,55.54|N|To Wrathion.
+    A Claimant to the Throne|QID|66780|M|24.43,55.54|N|From Wrathion.
+    A Heir Apparent|QID|66779|M|24.29,55.83|N|From Sabellian.
+    C Claimant to the Throne|QID|66780|QO|2|M|24.98,55.17|N|Talk with Left and Right.
+    C Claimant to the Throne|QID|66780|QO|1|M|26.37,54.48|N|Talk with Talonstalker Kavia.
+    C Claimant to the Throne|QID|66780|QO|3|M|25.12,56.25|N|Talk with Archivist Edress, [color=b50202]MUST SPEAK TO HIM TWICE[/color]
+    C Heir Apparent|QID|66779|QO|3|M|25.12,56.25|N|Talk with Archivist Edress, [color=b50202]MUST SPEAK TO HIM TWICE[/color]
+    C Heir Apparent|QID|66779|QO|2|M|24.35,57.73|N|Talk with Forgemaster Bazentus.
+    C Heir Apparent|QID|66779|QO|1|M|24.30,58.76|N|Talk with Baskilan.
+    T Heir Apparent|QID|66779|M|24.29,55.83|N|To Sabellian.
+    T Claimant to the Throne|QID|66780|M|24.43,55.54|N|To Wrathion.
+    A Black Wagon Flight|QID|65793|M|24.29,55.83|N|From Sabellian.
+    C Black Wagon Flight|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|O|
+    C Black Wagon Flight|QID|65793|QO|2|CC|M|25.45,56.77;43.86,66.44|N|Fly to Sabellian, Speak to him to begin moving the eggs.
+    C Black Wagon Flight|QID|65793|QO|3|CC|M|45.85,66.24;47.89,67.16;48.86,65.44;50.28,65.81;52.09,67.04|N|Escort The Wagon, [color=b50202]MUST STAY CLOSE[/color].
+    T Black Wagon Flight|QID|65793|M|57.93,67.35|N|To Sabellian, Use Renewed Proto-drake to fly to Sabellian.
+    A The Last Eggtender|QID|66785|M|24.29,55.83|N|From Sabellian.
+    T The Last Eggtender|QID|66785|M|61.59,68.72|N|To Mother Elion.
+    A Egg-cited for the Future|QID|66788|M|61.59,68.72|N|From Mother Elion.
+    C Egg-cited for the Future|QID|66788|M|61.59,68.72|N|Clean the area.
+    T Egg-cited for the Future|QID|66788|M|61.59,68.72|N|To Mother Elion.
+    A Life-Binder on Duty|QID|65791|M|61.59,68.72|N|From Mother Elion.
+    T Life-Binder on Duty|QID|65791|M|62.32,73.00|N|To Alexstrasza The Life-Binder.
+    A A Charge of Care|QID|65794|M|62.32,73.00|N|From Alexstrasza The Life-Binder.
+    C A Charge of Care|QID|65794|M|62.32,73.00|N|Speak to Alexstrasza The Life-Binder.
+    T A Charge of Care|QID|65794|M|61.54,68.55|N|To Alexstrasza The Life-Binder.
+    A Next Steppes|QID|65795|M|61.54,68.55|N|From Alexstrasza The Life-Binder.
+    T Next Steppes|QID|65795|CC|M|59.55,72.74;48.29,88.60|N|Mount Renewd Proto-drake and fly to neet Ambassador Taurasza.
+    A Into the Plains|QID|65779|M|48.29,88.60|N|From Ambassador Taurasza.
+    T Into the Plains|QID|65779|M|77.72,23.87|Z|Ohn'ahran Plains|N|Auto Accepted.
     ]]
 end)

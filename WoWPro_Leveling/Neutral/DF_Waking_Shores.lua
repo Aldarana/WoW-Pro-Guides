@@ -3,6 +3,7 @@ WoWPro:GuideName(guide,"The Waking Shores")
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideLevels(guide, 60, 60)
 WoWPro:GuideSort(guide, 1)
+WoWPro:GuideNextGuide(guide, "Ohn'ahran Plains")
 WoWPro:GuideSteps(guide, function()
 return [[
   ;Chapter 1

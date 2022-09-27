@@ -68,8 +68,6 @@ return [[
    A Maruukai|QID|65806|M|69.97,37.98|N|From Sansok Khan.
    C Maruukai|QID|65806|M|61.44,39.51|N|Fly ahead to the final stop.
    T Maruukai|QID|65806|M|61.44,39.51|N|To Sansok Khan.
-
-   ;Maruukai Questing zone
    A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|S|
    A Clan Teerai|QID|66016|M|61.44,39.51|N|From Sansok Khan.|S|
    A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.
@@ -185,8 +183,6 @@ return [[
    C Rellen, the Learned|QID|66834|QO|4|M|40.21,57.99|N|Click The Spear,Then Use Extra action button.
    C Rellen, the Learned|QID|66834|QO|9|M|40.06,57.76|N|Click The Bow, Then Use Extra action button.
    T Rellen, the Learned|QID|66834|M|41.62,56.75|N|To Elder Nazuun.
-
-   ;Add Tomtom's and NPC names
    A The Final Ancestor|QID|66690|M|41.62,56.75|N|From Elder Nazuun.
    T The Calm Before the Storm|QID|66222|M|41.88,61.78|N|To Khansguard Jebotai.
    T WANTED: Mara'nar the Thunderous|QID|71027|M|41.88,61.78|N|To Khansguard Jebotai.

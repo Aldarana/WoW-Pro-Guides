@@ -18,7 +18,7 @@ return [[
    T The Shikaar|QID|70174|M|85.72,25.32|N|To Sansok Khan.|FACTION|Horde
    A Supplies for the Journey|QID|65802|M|85.72,25.32|N|From Sansok Khan.|FACTION|Horde
    A Making Introductions|QID|65801|M|85.72,25.32|N|From Sansok Khan.|FACTION|Horde
-   C Supplies for the Journey|QID|65802|CS||M|86.15,25.34;86.50,25.21;86.46,26.28;85.74,26.56;85.51,26.89;84.62,27.09;84.29,27.20;83.94,25.93;84.34,24.91;84.38,23.13;85.62,20.86|N|Loot Camp Provisions and Feralbloom Pods Around the Camp|FACTION|Horde
+   C Supplies for the Journey|QID|65802|CS|M|86.15,25.34;86.50,25.21;86.46,26.28;85.74,26.56;85.51,26.89;84.62,27.09;84.29,27.20;83.94,25.93;84.34,24.91;84.38,23.13;85.62,20.86|N|Loot Camp Provisions and Feralbloom Pods Around the Camp|FACTION|Horde
    C Making Introductions|QID|65801|QO|2|M|85.74,26.56|N|Speak to Aru and Belika.|FACTION|Horde
    C Making Introductions|QID|65801|QO|3|M|83.94,25.93|N|Speak to Beastmaster Nuqut.|FACTION|Horde
    C Making Introductions|QID|65801|QO|1|M|85.62,20.86|N|Speak to Ohn Seshteng.|FACTION|Horde
@@ -27,25 +27,25 @@ return [[
    A Toward the City|QID|65803|M|84.68,22.90|N|From Scout Tomul.|FACTION|Horde
    C Toward the City|QID|65803|QO|1|M|83.14,23.74|CHAT|N|Speak to Scout Tomul Before going to Sole Supplier.|FACTION|Horde
    l Thieving Gorlocs|QID|65950|M|80.59,30.76|N|Loot Shikaar Supplies from the murlocs|FACTION|Horde
-   T Sole Supplier|QID|65951|CS||M|83.14,23.74;80.59,30.76|N|To Khasar.|FACTION|Horde
-   T Thieving Gorlocs|QID|65950||M|80.59,30.76|N|To Khasar.|FACTION|Horde
-   A A Centaur's Best Friend|QID|65955|M|80.59,30.76||N|From Khasar.
-   A Release the Hounds|QID|65954|M|80.59,30.76||N|From Khasar.
-   A The Ora-cull|QID|65953|M|80.59,30.76||N|From Khasar.
-   C The Ora-cull|QID|65953|M|80.59,30.76||N|Loot 4 the Totem from the Mudfin Shamans.|S|
+   T Sole Supplier|QID|65951|CS|M|83.14,23.74;80.59,30.76|N|To Khasar.|FACTION|Horde
+   T Thieving Gorlocs|QID|65950|M|80.59,30.76|N|To Khasar.|FACTION|Horde
+   A A Centaur's Best Friend|QID|65955|M|80.59,30.76|N|From Khasar.
+   A Release the Hounds|QID|65954|M|80.59,30.76|N|From Khasar.
+   A The Ora-cull|QID|65953|M|80.59,30.76|N|From Khasar.
+   C The Ora-cull|QID|65953|M|80.59,30.76|N|Loot 4 the Totem from the Mudfin Shamans.|S|
    C A Centaur's Best Friend|QID|65955|QO|1|M|80.59,30.76|N|Free Khasar From the Cage.
-   C Release the Hounds|QID|65954|CS|M|80.59,30.76;81.25,31.74;81.16,29.78;81.46,29.73;82.25,30.45||N|Free people from the cages, Loot collars from the corpse.
+   C Release the Hounds|QID|65954|CS|M|80.59,30.76;81.25,31.74;81.16,29.78;81.46,29.73;82.25,30.45|N|Free people from the cages, Loot collars from the corpse.
    C A Centaur's Best Friend|QID|65955|QO|2|M|83.38,32.39|N|Free Baba From the Cage.
    T A Centaur's Best Friend|QID|65955|M|83.38,32.39|N|To Khasar.
    T Release the Hounds|QID|65954|M|83.38,32.39|N|To Khasar.
-   T The Ora-cull|QID|65953|M|83.38,32.39||N|To Khasar.
+   T The Ora-cull|QID|65953|M|83.38,32.39|N|To Khasar.
    A A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.
    C A Chief of Legends|QID|65952|M|81.98, 31.29|N|Kill Chief Grrlgllmesh.
    A Medallion of a Fallen Friend|QID|66005|M|81.98, 31.29|N|To Khasar.
    T A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.
    T Medallion of a Fallen Friend|QID|66005|M|83.38,32.39|N|To Khasar.
    A The Sole Mender|QID|65949|M|83.38,32.39|N|To Khasar, Pick up both Quest.
-   A Return to Roscha|QID|66006|M|83.38,32.39|N|To Khasar.   
+   A Return to Roscha|QID|66006|M|83.38,32.39|N|To Khasar.
    C Return to Roscha|QID|66006|M|83.50,32.17|N|Loot Supplies.
    T The Sole Mender|QID|65949|M|84.40,25.00|N|To Khasar, Hand in both Quest.
    T Return to Roscha|QID|66006|M|84.40,25.00|N|To Khasar.
@@ -68,7 +68,7 @@ return [[
    A Maruukai|QID|65806|M|69.97,37.98|N|From Sansok Khan.
    C Maruukai|QID|65806|M|61.44,39.51|N|Fly ahead to the final stop.
    T Maruukai|QID|65806|M|61.44,39.51|N|To Sansok Khan.
-  
+
    ;Maruukai Questing zone
    A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|S|
    A Clan Teerai|QID|66016|M|61.44,39.51|N|From Sansok Khan.|S|
@@ -158,12 +158,12 @@ return [[
    C And Stay Dead!|QID|66657|QO|2|M|99.99,99.99|N|From ADD NOTE.
    C And Stay Dead!|QID|66657|QO|3|M|99.99,99.99|N|From ADD NOTE.
    T And Stay Dead!|QID|66657|M|99.99,99.99|N|From ADD NOTE.
-   C The Calm Before the Storm|QID|4|66222|M|99.99,99.99N|From ADD NOTE.
-   C The Calm Before the Storm|QID|1|66222|M|99.99,99.99|N|From ADD NOTE.
+   C The Calm Before the Storm|QID|66222|QO|4|M|99.99,99.99|N|From ADD NOTE.
+   C The Calm Before the Storm|QID|66222||QO|1|M|99.99,99.99|N|From ADD NOTE.
    A WANTED: Mara'nar the Thunderous|QID|71027|M|99.99,99.99|N|From ADD NOTE.
    A Artisan's Supply: Resilient Leather Boots|QID|70033|M|99.99,99.99|N|From ADD NOTE.
-   C The Calm Before the Storm|QID|3|66222|M|99.99,99.99|N|From ADD NOTE.
-   C The Calm Before the Storm|QID|2|66222|M|99.99,99.99|N|From ADD NOTE.
+   C The Calm Before the Storm|QID|66222|QO|3|M|99.99,99.99|N|From ADD NOTE.
+   C The Calm Before the Storm|QID|66222|QO|2|M|99.99,99.99|N|From ADD NOTE.
    A Signs of the Wind|QID|66688|M|99.99,99.99|N|From ADD NOTE.
    A Land of the Apex|QID|66687|M|99.99,99.99|N|From ADD NOTE.
    C Signs of the Wind|QID|66688|M|99.99,99.99|N|From ADD NOTE.|S|
@@ -179,12 +179,12 @@ return [[
    T Land of the Apex|QID|66687|M|99.99,99.99|N|From ADD NOTE.
    T Himia, the Blessed|QID|70374|M|99.99,99.99|N|From ADD NOTE.
    A Rellen, the Learned|QID|66834|QO|1|M|99.99,99.99|N|From ADD NOTE.
-   C Rellen, the Learned|QID|66834|M|QO|2|99.99,99.99|N|From ADD NOTE.
-   C Rellen, the Learned|QID|66834|M|QO|3|99.99,99.99|N|From ADD NOTE.
-   C Rellen, the Learned|QID|66834|M|QO|4|99.99,99.99|N|From ADD NOTE.
-   C Rellen, the Learned|QID|66834|M|QO|5|99.99,99.99|N|From ADD NOTE.
-   C Rellen, the Learned|QID|66834|M|QO|6|99.99,99.99|N|From ADD NOTE.
-   C Rellen, the Learned|QID|66834|M|QO|7|99.99,99.99|N|From ADD NOTE.
+   C Rellen, the Learned|QID|66834|QO|2||M|99.99,99.99|N|From ADD NOTE.
+   C Rellen, the Learned|QID|66834|QO|3|M|99.99,99.99|N|From ADD NOTE.
+   C Rellen, the Learned|QID|66834|QO|4|M|99.99,99.99|N|From ADD NOTE.
+   C Rellen, the Learned|QID|66834|QO|5|M|99.99,99.99|N|From ADD NOTE.
+   C Rellen, the Learned|QID|66834|QO|6|M|99.99,99.99|N|From ADD NOTE.
+   C Rellen, the Learned|QID|66834|QO|7|M|99.99,99.99|N|From ADD NOTE.
    T Rellen, the Learned|QID|66834|QO|1|M|99.99,99.99|N|From ADD NOTE.
    A The Final Ancestor|QID|66690|M|99.99,99.99|N|From ADD NOTE.
    T The Calm Before the Storm|QID|66222|M|99.99,99.99|N|From ADD NOTE.

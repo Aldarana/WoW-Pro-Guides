@@ -42,7 +42,7 @@ return [[
    A A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.
    C A Chief of Legends|QID|65952|M|81.98, 31.29|N|Kill Chief Grrlgllmesh.
    A Medallion of a Fallen Friend|QID|66005|M|81.98, 31.29|N|To Khasar.
-   T A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.
+   T A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.F
    T Medallion of a Fallen Friend|QID|66005|M|83.38,32.39|N|To Khasar.
    A The Sole Mender|QID|65949|M|83.38,32.39|N|To Khasar, Pick up both Quest.
    A Return to Roscha|QID|66006|M|83.38,32.39|N|To Khasar.
@@ -68,9 +68,11 @@ return [[
    A Maruukai|QID|65806|M|69.97,37.98|N|From Sansok Khan.
    C Maruukai|QID|65806|M|61.44,39.51|N|Fly ahead to the final stop.
    T Maruukai|QID|65806|M|61.44,39.51|N|To Sansok Khan.
+
    A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|S|
    A Clan Teerai|QID|66016|M|61.44,39.51|N|From Sansok Khan.|S|
    A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.
+   h Maruukai |QID|70337|M|61.44,39.51|N|At the innkeeper.|
    A Emberwatch|QID|70337|M|62.15,36.42|N|From Windsage Kven.
    T Clan Ohn'ir|QID|66017|M|62.97,33.68|N|To Ohn Sesshteng.
    A Omens and Incense|QID|66020|M|62.99,33.67|N|From Ohn Sesshteng.
@@ -112,10 +114,10 @@ return [[
    C Clans of the plains|QID|66969|QO|1|M|61.43,39.53|N|Talk to Sansok Khan.
    C Clans of the plains|QID|66969|QO|2|M|61.43,39.53|N|First pick Clan Teerai, Second pick Clan Ohn'ir, Third pick Clan Nokhud, Fourth iick Clan Shikaar.
    T Clans of the plains|QID|66969|M|61.43,39.53|N|To Sansok Khan.
-   A The Emissary's Arrival|QID|66948|M|61.06,39.31|N|From Gemisath Wait for the RP.
-   C The Emissary's Arrival|QID|66948|M|61.06,39.31|N|Speak to Gemisath.
-   T The Emissary's Arrival|QID|66948|M|61.06,39.31|N|To Gemisath.
-   A The Khanam Matra|QID|66022|M|61.06,39.31|N|From Gemisath.
+   A The Emissary's Arrival|QID|66948|M|61.03,40.44|N|From Gemisath Wait for the RP.
+   C The Emissary's Arrival|QID|66948|M|61.03,40.44|N|Speak to Gemisath.
+   T The Emissary's Arrival|QID|66948|M|61.03,40.44|N|To Gemisath.
+   A The Khanam Matra|QID|66022|M|61.03,40.44|N|From Gemisath.
    C The Khanam Matra|QID|66022|M|60.28,37.86|N|Fly to the top and speak to Khansguard Akato.
    T The Khanam Matra|QID|66022|M|60.28,37.86|N|To Khansguard Akato.
    A Trucebreakers|QID|66023|M|60.28,37.86|N|From Khansguard Akato.
@@ -135,8 +137,8 @@ return [[
    C Return to Mender|QID|66652|QO|1|M|37.22,65.54|N|Kill Tombcaller Ganzaya.
    C Return to Mender|QID|66652|QO|2|M|37.04,65.47|N|Pick up Spear.
    T Return to Mender|QID|66652|M|39.03,66.04|N|To Initiate Zorig.
-   A Reagents of De-Necromancy|QID|66655|M|99.99,99.99|N|From Initiate Zorig.
-   A Desecrator Annihilator|QID|66654|M|99.99,99.99|N|From Initiate Zorig.
+   A Reagents of De-Necromancy|QID|66655|M|39.03,66.04|N|From Initiate Zorig.
+   A Desecrator Annihilator|QID|66654|M|39.03,66.04|N|From Initiate Zorig.
    C Reagents of De-Necromancy|QID|66655|M|34.69,67.80|S|
    C Desecrator Annihilator|QID|66654|M|34.69,67.80||S|
    C Reagents of De-Necromancy|QID|66655|M|34.69,67.80|US|
@@ -144,7 +146,7 @@ return [[
    T Reagents of De-Necromancy|QID|66655|M|33.77,65.36|N|To Initiate Zorig. 
    T Desecrator Annihilator|QID|66654|M|33.77,65.36|N|To Initiate Zorig.
    A Zambul, Head Vandal|QID|69936|M|33.77,65.36|N|Kill Zambul.
-   C Zambul, Head Vandal|QID|69936|M|34.84,67.81|N|From ADD NOTE.
+   C Zambul, Head Vandal|QID|69936|M|34.84,67.81
    T Zambul, Head Vandal|QID|69936|M|33.77,65.36|N|To Initiate Zorig.
    A Definitely Eternal Slumber|QID|66656|M|33.77,65.36|N|From Initiate Zorig.
    C Definitely Eternal Slumber|QID|66656|QO|1|M|31.12,68.86|N|Release Carhans's Spirit.
@@ -166,14 +168,15 @@ return [[
    A Land of the Apex|QID|66687|M|41.62,56.74|N|From Elder Nazuun.
    C Signs of the Wind|QID|66688|M|46.47,52.94|N|Loot Wind tokens in the area.|S|
    C Land of the Apex|QID|66687|M|50.00,51.54|N|Kill Thundespine Rumblers and loot them.|S|
-   C Signs of the Wind|QID|66688|M|99.99,99.99|N|From ADD NOTE.|US|
-   C Land of the Apex|QID|66687|QO|3|M|50.00,51.54|N|From ADD NOTE.|US|
+   C Signs of the Wind|QID|66688|M|46.47,52.94|N|From Loot Wind tokens in the area.|US|
+   C Land of the Apex|QID|66687|QO|3|M|50.00,51.54|N|Kill Thundespine Rumblers and loot them.||US|
    T Signs of the Wind|QID|66688|M|49.35,49.52|N|To Offering Vessel.
    A Himia, the Blessed|QID|70374|M|49.35,49.52|N|From Himia, the Blessed.
    C Himia, the Blessed|QID|70374|QO|1|M|49.35,49.52|N|Speak to Himia, the Blessed.
    C Himia, the Blessed|QID|70374|QO|2||M|49.35,49.52|N|Speak to Himia, the Blessed.
    C Land of the Apex|QID|66687|QO|1|CC|M|43.60,48.06;43.69,50.20|N|Run into the cave and kill the spiders.
    C Land of the Apex|QID|66687|QO|2|M|42.26,47.21|N|From Kill The Nimblewings.|S|
+   C Land of the Apex|QID|66687|QO|2|M|42.26,47.21|N|From Kill The Nimblewings.|US|
    C WANTED: Mara'nar the Thunderous|QID|71027|M|42.26,47.21|N|Kill Mara'nar.
    T Land of the Apex|QID|66687|M|41.62,56.75|N|To Elder Nazuun.
    T Himia, the Blessed|QID|70374|M|41.62,56.75|N|To Elder Nazuun.
@@ -208,10 +211,10 @@ return [[
    A Weather Control|QID|66242|M|58.11,68.95|N|From Initiate Boku.
    A Eagle-itarian|QID|66256|M|58.11,68.95|N|From Initiate Boku.
    A Fowl Sorcery|QID|66257|M|58.11,68.95|N|From Initiate Boku.
-   C Weather Control|QID|66242|M|99.99,99.99
+   C Weather Control|QID|66242|M|58.11,68.95|S|
    C Eagle-itarian|QID|66256|M|59.58,65.86|N|Look around for stunned Eagles.|S|
    C Fowl Sorcery|QID|66257|CS|M|58.16,67.40;59.21,65.57;58.84,61.92;61.76,66.71|N|Click Boku's Wind totems.|US|
-   C Weather Control|QID|66242|M|99.99,99.99
+   C Weather Control|QID|66242|M|58.11,68.95|S|
    C Eagle-itarian|QID|66256|M|59.58,65.86|N|Look around for stunned Eagles.|US|
    C Fowl Sorcery|QID|66257|CS|M|58.16,67.40;59.36,63.39;58.84,61.92;61.76,66.71|N|Click Boku's Wind totems.|US|
    T Weather Control|QID|66242|M|60.65,63.54|N|To Initiate Boku.
@@ -236,7 +239,7 @@ return [[
    C Blowing of the Horn|QID|66329|M|76.70,40.94|N|Speak to Khanman Matra Sarest.
    T Blowing of the Horn|QID|66329|M|76.70,40.94|N|To Khanman Matra Sarest.
    A Green Dragon Down|QID|66328|M|76.70,40.94|N|From Khanman Matra Sarest.
-   C Green Dragon Down|QID|66328|QO|1|M|76.70,40.94|N|Speak to Khanman Matra Sarest.
+   C Green Dragon Down|QID|66328|QO|1|M|72.34,50.33|N|Speak to Khanman Matra Sarest.
    C Green Dragon Down|QID|66328|QO|2|M|72.34,50.33|N|Speak to Khanman Matra Sarest.
    A Counting Sheep|QID|66680|M|81.04,58.94|N|From Scout Watu.
    A Tempests Abound|QID|66681|M|81.04,58.94|N|From Sentinel Olekk.
@@ -244,7 +247,7 @@ return [[
    C Counting Sheep|QID|66680|QO|2|M|81.04,59.54|N|Feed Wish the Diced Meat.
    C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|S|
    C Counting Sheep|QID|66680|QO|3|M|82.74,64.61|N|Save lost Argali
-   C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|US|
+   C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|US| 
    A More Than A Rock|QID|66689|M|82.74,64.61
    T Counting Sheep|QID|66680|M|81.01,58.96|N|To Scout Watu.|S|
    T Tempests Abound|QID|66681|M|81.01,58.96|N|To Scout Watu.|S|
@@ -277,9 +280,9 @@ return [[
    T Shady Sanctuary|QID|70220|M|28.26,57.69|N|To Merithra.
    A The Primalist Front|QID|66331|M|28.26,57.69|N|From Merithra.
    C The Primalist Front|QID|66331|QO|2|M|27.57,45.98|N|Speak to Belika.
-   C The Primalist Front|QID|66331|QO|1|M|25.74,44.24|N|Speak to Boku.
-   C The Primalist Front|QID|66331|QO|3|M|26.18, 40.05|N|Speak to Ohn Seshteng's.
-   C The Primalist Front|QID|66331|QO|4|M|25.65,40.53|N|Speak Merithra.
+   C The Primalist Front|QID|66331|QO|3|M|25.74,44.24|N|Speak to Boku.
+   C The Primalist Front|QID|66331|QO|4|M|26.18, 40.05|N|Speak to Ohn Seshteng's.
+   C The Primalist Front|QID|66331|QO|5|M|25.65,40.53|N|Speak Merithra.
    T The Primalist Front|QID|66331|M|25.65,40.53|N|To Khanman Matra Sarest.
    A Justice for Solethus|QID|66333|M|25.65,40.53|N|From Merithra.
    A Bonus Objective: The Storm Scar|QID|66421|M|25.65,40.53
@@ -308,6 +311,7 @@ return [[
    C Renewal of Vows|QID|66783|QO|4|M|22.15,50.97|N|Take Merithra Offering and give to Khanam Matra Sarest.
    T Renewal of Vows|QID|66783|M|22.15,50.97|N|To Merithra
    A Into the Azure|QID|66340|M|22.15,50.97|N|From Merithra
+   H  Maruukai |QID|66340|U|6948|
    T Into the Azure|QID|66340|M|71.66,80.60|N|To Masud the Wise
   ]]
 end)

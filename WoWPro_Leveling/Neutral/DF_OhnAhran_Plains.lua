@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide("DF_OP", "Leveling", "Ohn'ahran Plains", "Ald
 WoWPro:GuideName(guide,"Ohn'ahran Plains")
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideLevels(guide, 62, 65)
+WoWPro:GuideNextGuide(guide, "The Azure Span")
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -313,5 +314,8 @@ return [[
    A Into the Azure|QID|66340|M|22.15,50.97|N|From Merithra
    H  Maruukai |QID|66340|U|6948|
    T Into the Azure|QID|66340|M|71.66,80.60|N|To Masud the Wise
+   A To the Azure Span|QID|65686|M|71.66,80.60|N|From Masud the Wise
+   T To the Azure Span|QID|65686|M|41.44,35.62|Z|The Azure Span#2128|N|To Giania of the Blessed Ones
   ]]
 end)
+

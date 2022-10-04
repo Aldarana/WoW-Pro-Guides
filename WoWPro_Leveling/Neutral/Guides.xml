@@ -13,6 +13,7 @@
 	<Script file="DF_Waking_Shores.lua"/>
 	<Script file="DF_OhnAhran_Plains.lua"/>
 	<Script file="DF_The_Azure_Span.lua"/>
+    <Script file="DF_Thaldraszus.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>

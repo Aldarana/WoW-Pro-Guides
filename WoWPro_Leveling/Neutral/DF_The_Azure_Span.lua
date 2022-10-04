@@ -2,6 +2,7 @@ local guide = WoWPro:RegisterGuide("DF_AS", "Leveling", "The Azure Span", "Aldar
 WoWPro:GuideName(guide,"The Azure Span")
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideLevels(guide, 65, 68)
+WoWPro:GuideNextGuide(guide, "Thaldraszus")
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -45,7 +46,6 @@ return [[
    T The Many Images of Kalecgos|QID|65689|M|40.75,59.03|N|To Kalecgos
    A Driven Mad|QID|65702|M|40.75,59.03|N|From Kalecgos
    A Arcane Pruning|QID|65709|M|40.69,59.11|N|From Kalecgos
-   
    C Driven Mad|QID|65702|M|41.18,62.25|N|Kill and loot mobs|S|
    C Arcane Pruning|QID|65709|QO|1|M|40.69,59.11|N|Use item "Bag of Helpful Goods"
    C Arcane Pruning|QID|65709|QO|2|M|39.57,60.29|N|North arcane field repaired
@@ -69,7 +69,6 @@ return [[
    A Aiding Azure Span|QID|65855|M|39.49,63.07|N|From Sindragosa
    h The Conjured Biscuit|QID|65855|M|37.37,62.42|N|At the innkeeper.|S|
    C Aiding Azure Span|QID|65855|M|37.06,60.82|N|Speak to the Flightmaster
-   h The Conjured Biscuit|QID|65855|M|37.37,62.42|N|At the innkeeper.
    T Aiding Azure Span|QID|65855|M|46.64,40.16|N|To Noriko The All-remembering
 
   ;Chapter 2
@@ -118,7 +117,7 @@ return [[
    A Falling Water|QID|71233|M|28.47,35.12|N|From Unkimi
    C Another Ambush|QID|65869|QO|1|M|28.68,34.76|N|Speak to Akiun
    C Another Ambush|QID|65869|QO|2|CS|M|29.25,33.57;29.17,32.59;28.19,31.86;27.96,32.81|N|Click on the bodies
-   T Another Ambush|QID|65869|M|26.68,34.82|N|To Brena
+   T Another Ambush|QID|65869|M|28.68,34.82|N|To Brena
    A Urgent Action Required|QID|65869|M|26.68,34.82|N|From Brena
    T Urgent Action Required|QID|65869|M|20.53,35.68|N|To Kalecgos
 

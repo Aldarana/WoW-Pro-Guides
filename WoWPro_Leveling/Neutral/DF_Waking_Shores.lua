@@ -3,7 +3,7 @@ WoWPro:GuideName(guide,"The Waking Shores")
 WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideLevels(guide, 60, 63)
 WoWPro:GuideSort(guide, 1)
-WoWPro:GuideNextGuide(guide, "DF_OP")
+WoWPro:GuideNextGuide(guide, "Ohn'ahran Plains")
 WoWPro:GuideSteps(guide, function()
 return [[
   ;Chapter 1
@@ -170,9 +170,6 @@ return [[
     C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.
     C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall
     C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz
-    A Stay a While|QID|70132|M|57.84,66.82|N|From Veritistrasz.
-    C Stay a While|QID|70132|M|57.84,66.82|QO|2|CHAT|N|[color=b50202]PICK <You are busy. Get up and leave>[/color]
-    T Stay a While|QID|70132|M|57.84,66.82|N|To Veritistrasz.
     T Dragonriding|QID|68795|M|56.67,66.89|N|To Lord Andestrasz.
     A How to Glide with Your Dragon|QID|65118|M|57.84,66.82|N|From Lord Andestrasz.
     C How to Glide with Your Dragon|QID|65118|M|57.84,66.82|QO|1|N|Mount Renewd Proto-drake

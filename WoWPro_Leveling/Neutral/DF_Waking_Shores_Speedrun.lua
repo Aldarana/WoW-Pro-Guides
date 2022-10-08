@@ -50,8 +50,8 @@ return [[
     A Give Peace a Chance|QID|66110|M|76.31,33.14|N|From Warlord Breka Grimaxe.|FACTION|Horde|
     T Primal Pests|QID|65453|M|76.27,33.10|N|To Scalecommander Cindrethresh.|FACTION|Horde|
     T Practice Materials|QID|65451|M|75.96,33.24|N|To Boss Magor.|FACTION|Horde|
-    A Dragon Isles Engineering|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
-    T Dragon Isles Engineering|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
+    A Dragon Isles Engineering|P|Engineering;202;0|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
+    T Dragon Isles Engineering|P|Engineering;202;0|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
     A From Such Great Heights|QID|66101|M|75.86,33.48|N|From Aster Cloudgaze.
     C From Such Great Heights|QID|66101|M|75.86,33.48|QO|1|V|N|Click the floating disc.
     M From Such Great Heights|QID|66101|M|75.86,33.48|QO|2|N|Use the [color=349eeb]"Search for Power"[/color] ability from the vehicle bar.
@@ -62,11 +62,15 @@ return [[
     C Where is Wrathion?|QID|69910|M|76.56,33.60|QO|1|CHAT|N|Do the next steps while you wait for the RP.|FACTION|Horde|US|
     T Where is Wrathion?|QID|69910|M|76.61,33.68|N|To Sendrax.|FACTION|Horde
     A Excuse the Mess|QID|69911|M|76.61,33.68|N|From Sendrax.|PRE|69910|
-    A Dragon Isles Herbalism|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
+    A Dragon Isles Herbalism|P|Herbalism;182;0|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
+    T Dragon Isles Herbalism|P|Herbalism;182;0|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
     T Give Peace a Chance|QID|66110|M|76.67,34.57|N|To Captian Garrick.|FACTION|Horde|
     A Encroaching Elementals|QID|66111|M|76.69,34.51|N|From Captian Garrick.|PRE|66110|
+    A Dragon Isles Blacksmithing|P|Blacksmithing;164;0|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
+    T Dragon Isles Blacksmithing|P|Blacksmithing;164;0|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
     A Quality Assurance|QID|69965|M|76.37,34.60|N|From Haephesta.|PRE|66110|
     A Always Be Crafting|QID|66112|M|76.37,34.65|N|From Grun Ashbeard.|PRE|66110|
+    ;A Dragon Isles Mining|P|Mining;164;0|QID|70358|M|76.37,34.60|N|Talk to Grun Ashbeard. Needs QUI
     C Excuse the Mess|QID|69911|QO|1|CS|M|76.31,35.81;76.32,35.58|CHAT|N|Talk to Abmassador Fastrasz.
     M Excuse the Mess|QID|69911|QO|2|M|76.32,35.58|N|Click the book on the stand and select any options to fill out the form.
     M Excuse the Mess|QID|69911|QO|3|M|75.65,34.16|N|Click the large stone with runes on it.

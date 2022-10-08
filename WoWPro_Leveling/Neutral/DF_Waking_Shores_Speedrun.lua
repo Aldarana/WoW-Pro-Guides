@@ -7,7 +7,8 @@ WoWPro:GuideNextGuide(guide, "Ohn'ahran Plains")
 WoWPro:GuideSteps(guide, function()
 return [[
   ;Chapter 1
-    R Orgrimmar|AVAILABLE|65435|IZ|-85|N|If you aren't in Orgrimmar, go there to get the starting quest.|FACTION|Horde|
+    R Orgrimmar|ACTIVE|65435|IZ|-85|N|If you aren't in Orgrimmar, go there to get started.|FACTION|Horde|
+    N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. If you don't have them the guide will skip them.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|65435
     A The Dragon Isles Await|QID|65435|N|Auto Accepted.|FACTION|Horde|LVL|58|
     T The Dragon Isles Await|QID|65435|M|44.17,38.01|N|To Ebyssian.|FACTION|Horde|
     A Aspectral Invitation|QID|65437|Z|Orgrimmar|N|From Ebyssian.|PRE|65435
@@ -17,7 +18,10 @@ return [[
     A The Dark Talons|QID|72256|M|44.17,38.01|N|From Scalecommander Cindrethresh.|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|38.47,56.91|Z|Orgrimmar|QO|2|CHAT|N|Speak with Pathfinder Tacha.|FACTION|Horde|
     C The Dark Talons|QID|72256|M|54.96,89.44|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kodethi.|FACTION|Horde|
+    T Stolen Shipments|O|QID|66253|M|48.49,76.02|Z|Orgrimmar|N|To Zaa'je|FACTION|Horde|
+    T Even Thieves Get Hungry|O|QID|26235|M|56.52,62.72|Z|Orgrimmar|N|To Marogg|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|56.91,54.00|Z|Orgrimmar|QO|1|CHAT|N|Speak with Boss Magor.|FACTION|Horde|
+    T A Furious Catch|O|QID|26588|M|65.74,41.12|Z|Orgrimmar|N|To Razgar|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|71.31,50.66|Z|Orgrimmar|QO|3|CHAT|N|Upstairs speak with Cataloger Kieule.|FACTION|Horde|
     T Expeditionary Coordination|QID|65443|M|55.84,12.58|Z|Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
     T The Dark Talons|QID|72256|M|55.84,12.58|N|To Naleidea Rivergleam.|FACTION|Horde|

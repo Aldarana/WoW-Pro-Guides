@@ -143,11 +143,10 @@ return [[
     T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|US|
     T The Obsisdian Citadel|QID|65995|M|62.63,33.05|Z|The Waking Shores|QO|1|N|Hand into Wrathion.|US|
     A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|
-    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|S|
-    A Fighting fire with... Water|QID|66998|M|59.04,34.83|Z|The Waking Shores|N|Pick up when doing Veteran Reinforcements Quest And [color=b50202]FINISH[/color] before doing last Heal.|
-    C Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|From Caretaker Ventraz .
-    T Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|To Caretaker Ventraz .
-    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|US|
+    A Fighting fire with... Water|QID|66998|M|59.04,34.83|Z|The Waking Shores|N|Pick up when doing Veteran Reinforcements Quest And [color=b50202]FINISH[/color] before doing last Heal.|S|
+    C Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|From Caretaker Ventraz.|S|
+    T Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|To Caretaker Ventraz.|S|
+    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.
     T Veteran Reinforcements|QID|65996|M|55.02,30.88|Z|The Waking Shores|N|To Caretaker Azkra.
     A Chasing Sendrax|QID|65997|M|55.01,30.79|Z|The Waking Shores|N|From Caretaker Azkra .
     C Chasing Sendrax|QID|65997|M|55.15,24.97|Z|The Waking Shores|QO|1|CHAT|N|Speak Sendrax.
@@ -305,11 +304,12 @@ return [[
     C No Time For Heroes|QID|65957|M|35.63,68.58|QO|1|N|Kill Piercer Gigra
     C No Time For Heroes|QID|65957|M|34.97,67.00|QO|3|N|Kill Olphis the molten
     C No Time For Heroes|QID|65957|M|35.55,60.73|QO|2|N|Kill Modak Flamespit
-    T No Time For Heroes|QID|65957|M|34.05,61.34|N|To Wrathion.
+    T No Time For Heroes|QID|65957|M|34.05,61.34|N|To Wrathion.|S|
     T Talon Strike|QID|65956|M|34.05,61.34|N|To Wrathion.
+    T No Time For Heroes|QID|65957|M|34.05,61.34|N|To Wrathion.|US|
     A The Courage of One's Convictions|QID|65939|M|34.05,61.34|N|From Wrathion.
     C The Courage of One's Convictions|QID|65939|M|34.05,61.34|QO|1|CHAT|N|Speak to Wrathion.
-    C The Courage of One's Convictions|QID|65939|M|30.00,60.35|QO|2|N|Enter Obsidian Citadel.
+    C The Courage of One's Convictions|QID|65939|CS|M|32.17,61.94;30.00,60.35|QO|2|N|Enter Obsidian Citadel.
     C The Courage of One's Convictions|QID|65939|M|29.17,58.91|QO|3|N|Kill Qalashi Forces, Do this when you are on the quest "Taking the Walls".|S|
     A Taking the Walls|QID|66044|M|29.17,58.91|N|From Wrathion.
     C Taking the Walls|QID|66044|M|29.17,58.91|QO|1|N|Speak on Wrathion and assist him.

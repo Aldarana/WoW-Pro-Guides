@@ -50,8 +50,12 @@ return [[
     A Give Peace a Chance|QID|66110|M|76.31,33.14|N|From Warlord Breka Grimaxe.|FACTION|Horde|
     T Primal Pests|QID|65453|M|76.27,33.10|N|To Scalecommander Cindrethresh.|FACTION|Horde|
     T Practice Materials|QID|65451|M|75.96,33.24|N|To Boss Magor.|FACTION|Horde|
-    A Dragon Isles Engineering|P|Engineering;202;0+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
-    T Dragon Isles Engineering|P|Engineering;202;0+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
+    A Dragon Isles Engineering|P|Engineering;202;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
+    T Dragon Isles Engineering|P|Engineering;202;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
+    A Dragon Isles Tailoring|P|Tailoring;197;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72249|M|75.87,33.26|N|Talk to Zayn Starmaker.
+    T Dragon Isles Tailoring|P|Tailoring;197;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72249|M|75.87,33.26|N|Talk to Zayn Starmaker.
+    A Dragon Isles Enchanting|P|Enchanting;333;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70360|M|75.85,33.29|N|Talk to Veeno.
+    T Dragon Isles Enchanting|P|Enchanting;333;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70360|M|75.85,33.29|N|Talk to Veeno.
     A From Such Great Heights|QID|66101|M|75.86,33.48|N|From Aster Cloudgaze.
     C From Such Great Heights|QID|66101|M|75.86,33.48|QO|1|V|N|Click the floating disc.
     M From Such Great Heights|QID|66101|M|75.86,33.48|QO|2|N|Use the [color=349eeb]"Search for Power"[/color] ability from the vehicle bar.
@@ -59,15 +63,21 @@ return [[
     M From Such Great Heights|QID|66101|M|75.86,33.48|QO|4|N|Use the [color=b50202]"Search for Danger"[/color] ability from the vehicle bar.
     N From Such Great Heights|QID|66101|V|N|Use the exit vehicle button to get down quickly.|S|
     T From Such Great Heights|QID|66101|M|75.86,33.48|N|To Aster Cloudgaze, he might take a second to spawn in.
+    A Dragon Isles Jewelcrafting|P|Jewelcrafting;755;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72247|M|76.15,33.66|N|Talk to Misty Catseye.
+    T Dragon Isles Jewelcrafting|P|Jewelcrafting;755;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72247|M|76.15,33.66|N|Talk to Misty Catseye.
     C Where is Wrathion?|QID|69910|M|76.56,33.60|QO|1|CHAT|N|Do the next steps while you wait for the RP.|FACTION|Horde|US|
     T Where is Wrathion?|QID|69910|M|76.61,33.68|N|To Sendrax.|FACTION|Horde
     A Excuse the Mess|QID|69911|M|76.61,33.68|N|From Sendrax.|PRE|69910|
-    A Dragon Isles Herbalism|P|Herbalism;182;0+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
-    T Dragon Isles Herbalism|P|Herbalism;182;0+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
+    A Dragon Isles Herbalism|P|Herbalism;182;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
+    T Dragon Isles Herbalism|P|Herbalism;182;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
     T Give Peace a Chance|QID|66110|M|76.67,34.57|N|To Captian Garrick.|FACTION|Horde|
     A Encroaching Elementals|QID|66111|M|76.69,34.51|N|From Captian Garrick.|PRE|66110|
-    A Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
-    T Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
+    A Dragon Isles Skinning|P|Skinning;393;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70363|M|76.65,34.77|N|Talk to Toninaar.
+    T Dragon Isles Skinning|P|Skinning;393;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70363|M|76.65,34.77|N|Talk to Toninaar.
+    A Dragon Isles Leatherworking|P|Leatherworking;165;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70362|M|76.62,34.80|N|Talk to Deirdre Flemmin.
+    T Dragon Isles Leatherworking|P|Leatherworking;165;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70362|M|76.62,34.80|N|Talk to Deirdre Flemmin.
+    A Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
+    T Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
     A Quality Assurance|QID|69965|M|76.37,34.60|N|From Haephesta.|PRE|66110|
     A Always Be Crafting|QID|66112|M|76.37,34.65|N|From Grun Ashbeard.|PRE|66110|
     ;A Dragon Isles Mining|P|Mining;164;0+1|QID|70358|M|76.37,34.60|N|Talk to Grun Ashbeard. Needs QUI
@@ -133,11 +143,10 @@ return [[
     T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|US|
     T The Obsisdian Citadel|QID|65995|M|62.63,33.05|Z|The Waking Shores|QO|1|N|Hand into Wrathion.|US|
     A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|
+    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|S|
     A Fighting fire with... Water|QID|66998|M|59.04,34.83|Z|The Waking Shores|N|Pick up when doing Veteran Reinforcements Quest And [color=b50202]FINISH[/color] before doing last Heal.|
     C Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|From Caretaker Ventraz .
     T Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|To Caretaker Ventraz .
-    A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|US|
-    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|S|
     C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.|US|
     T Veteran Reinforcements|QID|65996|M|55.02,30.88|Z|The Waking Shores|N|To Caretaker Azkra.
     A Chasing Sendrax|QID|65997|M|55.01,30.79|Z|The Waking Shores|N|From Caretaker Azkra .
@@ -148,20 +157,19 @@ return [[
     A Library of Alexstrasza|QID|66000|M|55.25,24.69|Z|The Waking Shores|N|From Caretaker Azkra.|S|
     A Future of the Flights|QID|65998|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|US|
     A Red in Tooth and Claw|QID|65999|M|55.15,24.97|Z|The Waking Shores|N|From Caretaker Azkra.|US|
-    A Library of Alexstrasza|QID|66000|M|55.25,24.69|Z|The Waking Shores|N|From Caretaker Azkra.||US|
-    C Red in Tooth and Claw|QID|65999|Z|The Waking Shores|N|Kill 15 Primalist Forces.|S|
-    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.||S|
-    C Future of the Flights|QID|65998|Z|The Waking Shores|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|S|
-    C Firava the Rekindler|QID|70648|Z|The Waking Shores|N|Kill Firava, He walks around the area|S|
-    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.|US|
+    A Library of Alexstrasza|QID|66000|M|55.25,24.69|Z|The Waking Shores|N|From Caretaker Azkra.|US|
+    C Red in Tooth and Claw|QID|65999|N|Kill 15 Primalist Forces.|S|
+    C Future of the Flights|QID|65998|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|S|
+    C Firava the Rekindler|QID|70648|N|Kill Firava, He walks around the area|S|
+    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.
     C Future of the Flights|QID|65998|M|55.13,22.40|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|US|
     C Red in Tooth and Claw|QID|65999|M|55.13,22.40|QO|1|N|Kill 15 Primalist Forces.|US|
-    T Future of the Flights|QID|65998|Z|The Waking Shores|N|To Caretaker Sendrax .|S|
-    T Red in Tooth and Claw|QID|65999|Z|The Waking Shores|N|To Caretaker Sendrax.|S|
-    T Library of Alexstrasza|QID|66000|Z|The Waking Shores|N|To Caretaker Sendrax.
-    T Future of the Flights|QID|65998|Z|The Waking Shores|N|To Caretaker Sendrax.|US|
-    T Library of Alexstrasza|QID|66000|Z|The Waking Shores|N|To Caretaker Sendrax.|US|
-    A A Last Hope|QID|66001|M|56.24,22.05|Z|The Waking Shores|N|From Sendrax.|US|
+    T Library of Alexstrasza|QID|66000|M|56.26,22.05|N|To Caretaker Sendrax.|S|
+    T Red in Tooth and Claw|QID|65999|M|56.26,22.05|N|To Caretaker Sendrax.|S|
+    T Future of the Flights|QID|65998|M|56.26,22.05|N|To Caretaker Sendrax.
+    T Red in Tooth and Claw|QID|65999|M|56.26,22.05|N|To Caretaker Sendrax.|US|
+    T Library of Alexstrasza|QID|66000|M|56.26,22.05|N|To Caretaker Sendrax.|US|
+    A A Last Hope|QID|66001|M|56.24,22.05|Z|The Waking Shores|N|From Sendrax.
     C A Last Hope|QID|66001|M|56.24,22.05|Z|The Waking Shores|QO|1|CHAT|N|Under the tree.
     C A Last Hope|QID|66001|M|56.91,21.60|Z|The Waking Shores|QO|2|N|Pick up the egg.
     C A Last Hope|QID|66001|M|55.05,30.70|Z|The Waking Shores|QO|3|N|After Carrying the egg to Safety Pick up the side quest.

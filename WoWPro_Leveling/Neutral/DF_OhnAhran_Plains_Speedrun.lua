@@ -7,29 +7,29 @@ WoWPro:GuideSort(guide, 2)
 WoWPro:GuideSteps(guide, function()
 return [[
   ;Chapter 1
-   A Proving Oneself|QID|65780|M|77.72,23.87|N|Auto Accepted.|FACTION|Horde
-   C Proving Oneself|QID|65780|M|78.37,26.50|N|Kill Proto-Drafon.|FACTION|Horde
-   T Proving Oneself|QID|65780|M|78.65,25.50|N|To Scout Tomul.|FACTION|Horde
-   A Welcome at Our Fire|QID|65783|M|78.65,25.50|N|From Scout Tomul.|FACTION|Horde
-   T Welcome at Our Fire|QID|65783|M|85.30,25.41|N|To Scout Tomul.|FACTION|Horde
-   A The Shikaar|QID|70174|M|85.30,25.40|N|From Scout Tomul.|FACTION|Horde
-   A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.|FACTION|Horde
-   A Thieving Gorlocs|QID|65950|M|84.40,25.00|N|From Farrier Roscha.|FACTION|Horde
-   C The Shikaar|QID|70174|M|85.72,25.32|CHAT|N|Speak To Sansok Khan.|FACTION|Horde
-   T The Shikaar|QID|70174|M|85.72,25.32|N|To Sansok Khan.|FACTION|Horde
-   A Supplies for the Journey|QID|65802|M|85.72,25.32|N|From Sansok Khan.|FACTION|Horde
-   A Making Introductions|QID|65801|M|85.72,25.32|N|From Sansok Khan.|FACTION|Horde
-   C Supplies for the Journey|QID|65802|CS|M|86.15,25.34;86.50,25.21;86.46,26.28;85.74,26.56;85.51,26.89;84.62,27.09;84.29,27.20;83.94,25.93;84.34,24.91;84.38,23.13;85.62,20.86|N|Loot Camp Provisions and Feralbloom Pods Around the Camp|FACTION|Horde
-   C Making Introductions|QID|65801|QO|2|M|85.74,26.56|N|Speak to Aru and Belika.|FACTION|Horde
-   C Making Introductions|QID|65801|QO|3|M|83.94,25.93|N|Speak to Beastmaster Nuqut.|FACTION|Horde
-   C Making Introductions|QID|65801|QO|1|M|85.62,20.86|N|Speak to Ohn Seshteng.|FACTION|Horde
-   T Supplies for the Journey|QID|65802|M|84.68,22.90|N|To Scout Tomul.|FACTION|Horde
-   T Making Introductions|QID|65801|M|84.68,22.90|N|To Scout Tomul.|FACTION|Horde
-   A Toward the City|QID|65803|M|84.68,22.90|N|From Scout Tomul.|FACTION|Horde
-   C Toward the City|QID|65803|QO|1|M|83.14,23.74|CHAT|N|Speak to Scout Tomul Before going to Sole Supplier.|FACTION|Horde
-   l Thieving Gorlocs|QID|65950|M|80.59,30.76|N|Loot Shikaar Supplies from the murlocs|FACTION|Horde
-   T Sole Supplier|QID|65951|CS|M|83.14,23.74;80.59,30.76|N|To Khasar.|FACTION|Horde
-   T Thieving Gorlocs|QID|65950|M|80.59,30.76|N|To Khasar.|FACTION|Horde
+   A Proving Oneself|QID|65780|M|77.72,23.87|N|Auto Accepted.
+   C Proving Oneself|QID|65780|M|78.37,26.50|N|Kill Proto-Drafon.
+   T Proving Oneself|QID|65780|M|78.65,25.50|N|To Scout Tomul.
+   A Welcome at Our Fire|QID|65783|M|78.65,25.50|N|From Scout Tomul.
+   T Welcome at Our Fire|QID|65783|M|85.30,25.41|N|To Scout Tomul.
+   A The Shikaar|QID|70174|M|85.30,25.40|N|From Scout Tomul.
+   A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.
+   A Thieving Gorlocs|QID|65950|M|84.40,25.00|N|From Farrier Roscha.
+   C The Shikaar|QID|70174|M|85.72,25.32|CHAT|N|Speak To Sansok Khan.
+   T The Shikaar|QID|70174|M|85.72,25.32|N|To Sansok Khan.
+   A Supplies for the Journey|QID|65802|M|85.72,25.32|N|From Sansok Khan.
+   A Making Introductions|QID|65801|M|85.72,25.32|N|From Sansok Khan.
+   C Supplies for the Journey|QID|65802|CS|M|86.15,25.34;86.50,25.21;86.46,26.28;85.74,26.56;85.51,26.89;84.62,27.09;84.29,27.20;83.94,25.93;84.34,24.91;84.38,23.13;85.62,20.86|N|Loot Camp Provisions and Feralbloom Pods Around the Camp
+   C Making Introductions|QID|65801|QO|2|M|85.74,26.56|N|Speak to Aru and Belika.
+   C Making Introductions|QID|65801|QO|3|M|83.94,25.93|N|Speak to Beastmaster Nuqut.
+   C Making Introductions|QID|65801|QO|1|M|85.62,20.86|N|Speak to Ohn Seshteng.
+   T Supplies for the Journey|QID|65802|M|84.68,22.90|N|To Scout Tomul.
+   T Making Introductions|QID|65801|M|84.68,22.90|N|To Scout Tomul.
+   A Toward the City|QID|65803|M|84.68,22.90|N|From Scout Tomul.
+   C Toward the City|QID|65803|QO|1|M|83.14,23.74|CHAT|N|Speak to Scout Tomul Before going to Sole Supplier.
+   l Thieving Gorlocs|QID|65950|M|80.59,30.76|N|Loot Shikaar Supplies from the murlocs.
+   T Sole Supplier|QID|65951|CS|M|83.14,23.74;80.59,30.76|N|To Khasar.
+   T Thieving Gorlocs|QID|65950|M|80.59,30.76|N|To Khasar.
    A A Centaur's Best Friend|QID|65955|M|80.59,30.76|N|From Khasar.
    A Release the Hounds|QID|65954|M|80.59,30.76|N|From Khasar.
    A The Ora-cull|QID|65953|M|80.59,30.76|N|From Khasar.
@@ -144,7 +144,7 @@ return [[
    C Desecrator Annihilator|QID|66654|M|34.69,67.80||S|
    C Reagents of De-Necromancy|QID|66655|M|34.69,67.80|US|
    C Desecrator Annihilator|QID|66654|M|34.69,67.80|US|
-   T Reagents of De-Necromancy|QID|66655|M|33.77,65.36|N|To Initiate Zorig. 
+   T Reagents of De-Necromancy|QID|66655|M|33.77,65.36|N|To Initiate Zorig.
    T Desecrator Annihilator|QID|66654|M|33.77,65.36|N|To Initiate Zorig.
    A Zambul, Head Vandal|QID|69936|M|33.77,65.36|N|Kill Zambul.
    C Zambul, Head Vandal|QID|69936|M|34.84,67.81
@@ -248,7 +248,7 @@ return [[
    C Counting Sheep|QID|66680|QO|2|M|81.04,59.54|N|Feed Wish the Diced Meat.
    C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|S|
    C Counting Sheep|QID|66680|QO|3|M|82.74,64.61|N|Save lost Argali
-   C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|US| 
+   C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|US|
    A More Than A Rock|QID|66689|M|82.74,64.61
    T Counting Sheep|QID|66680|M|81.01,58.96|N|To Scout Watu.|S|
    T Tempests Abound|QID|66681|M|81.01,58.96|N|To Scout Watu.|S|
@@ -318,4 +318,3 @@ return [[
    T To the Azure Span|QID|65686|M|41.44,35.62|Z|The Azure Span#2128|N|To Giania of the Blessed Ones
   ]]
 end)
-

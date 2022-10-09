@@ -317,8 +317,9 @@ return [[
     C Taking the Walls|QID|66044|CS|M|26.78,61.22;29.51,61.01|QO|3|N|Jump on Wrathion, Destroy East Siege Arbalast.
     C Taking the Walls|QID|66044|CS|M|29.00,61.88;27.74,56.59|QO|4|N|Jump on Wrathion, Destroy North Siege Arbalast.
     C Taking the Walls|QID|66044|M|26.79,57.10|QO|5|N|Kill Champion Choruk
-    T Taking the Walls|QID|66044|M|26.42,58.73|N|To Wrathion.
+    T Taking the Walls|QID|66044|M|26.42,58.73|N|To Wrathion.|S|
     T The Courage of One's Convictions|QID|65939|M|26.42,58.73|N|To Wrathion.
+    T Taking the Walls|QID|66044|M|26.42,58.73|N|To Wrathion.|US|
     A Obsidian Oathstone|QID|66049|M|26.42,58.73|N|From Wrathion.
     C Obsidian Oathstone|QID|66049|CC|M|26.00,59.95;25.75,60.92;27.30,62.57|QO|1|N|speak to Wrathion.
     C Obsidian Oathstone|QID|66049|M|27.62,63.31|QO|2|N|Click the Oathstone.

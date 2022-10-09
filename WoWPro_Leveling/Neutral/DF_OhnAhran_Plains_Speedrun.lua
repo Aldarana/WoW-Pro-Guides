@@ -13,22 +13,25 @@ return [[
    A Welcome at Our Fire|QID|65783|M|78.65,25.50|N|From Scout Tomul.
    T Welcome at Our Fire|QID|65783|M|85.30,25.41|N|To Scout Tomul.
    A The Shikaar|QID|70174|M|85.30,25.40|N|From Scout Tomul.
-   A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.
+   A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.|S|
    A Thieving Gorlocs|QID|65950|M|84.40,25.00|N|From Farrier Roscha.
+  A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.|US|
    C The Shikaar|QID|70174|M|85.72,25.32|CHAT|N|Speak To Sansok Khan.
    T The Shikaar|QID|70174|M|85.72,25.32|N|To Sansok Khan.
-   A Supplies for the Journey|QID|65802|M|85.72,25.32|N|From Sansok Khan.
+   A Supplies for the Journey|QID|65802|M|85.72,25.32|N|From Sansok Khan.|S|
    A Making Introductions|QID|65801|M|85.72,25.32|N|From Sansok Khan.
+   A Supplies for the Journey|QID|65802|M|85.72,25.32|N|From Sansok Khan.|US|
    C Supplies for the Journey|QID|65802|CS|M|86.15,25.34;86.50,25.21;86.46,26.28;85.74,26.56;85.51,26.89;84.62,27.09;84.29,27.20;83.94,25.93;84.34,24.91;84.38,23.13;85.62,20.86|N|Loot Camp Provisions and Feralbloom Pods Around the Camp
    C Making Introductions|QID|65801|QO|2|M|85.74,26.56|N|Speak to Aru and Belika.
    C Making Introductions|QID|65801|QO|3|M|83.94,25.93|N|Speak to Beastmaster Nuqut.
    C Making Introductions|QID|65801|QO|1|M|85.62,20.86|N|Speak to Ohn Seshteng.
-   T Supplies for the Journey|QID|65802|M|84.68,22.90|N|To Scout Tomul.
+   T Supplies for the Journey|QID|65802|M|84.68,22.90|N|To Scout Tomul.|S|
    T Making Introductions|QID|65801|M|84.68,22.90|N|To Scout Tomul.
+   T Supplies for the Journey|QID|65802|M|84.68,22.90|N|To Scout Tomul.|US|
    A Toward the City|QID|65803|M|84.68,22.90|N|From Scout Tomul.
    C Toward the City|QID|65803|QO|1|M|83.14,23.74|CHAT|N|Speak to Scout Tomul Before going to Sole Supplier.
-   l Thieving Gorlocs|QID|65950|M|80.59,30.76|N|Loot Shikaar Supplies from the murlocs.
-   T Sole Supplier|QID|65951|CS|M|83.14,23.74;80.59,30.76|N|To Khasar.
+   l Thieving Gorlocs|QID|65950|QO|1|M|80.59,30.76|N|Loot Shikaar Supplies from the murlocs.|S|
+   T Sole Supplier|QID|65951|M|80.59,30.76|N|To Khasar.
    T Thieving Gorlocs|QID|65950|M|80.59,30.76|N|To Khasar.
    A A Centaur's Best Friend|QID|65955|M|80.59,30.76|N|From Khasar.
    A Release the Hounds|QID|65954|M|80.59,30.76|N|From Khasar.
@@ -37,26 +40,32 @@ return [[
    C A Centaur's Best Friend|QID|65955|QO|1|M|80.59,30.76|N|Free Khasar From the Cage.
    C Release the Hounds|QID|65954|CS|M|80.59,30.76;81.25,31.74;81.16,29.78;81.46,29.73;82.25,30.45|N|Free people from the cages, Loot collars from the corpse.
    C A Centaur's Best Friend|QID|65955|QO|2|M|83.38,32.39|N|Free Baba From the Cage.
-   T A Centaur's Best Friend|QID|65955|M|83.38,32.39|N|To Khasar.
-   T Release the Hounds|QID|65954|M|83.38,32.39|N|To Khasar.
+   T A Centaur's Best Friend|QID|65955|M|83.38,32.39|N|To Khasar.|S|
+   T Release the Hounds|QID|65954|M|83.38,32.39|N|To Khasar.|S|
    T The Ora-cull|QID|65953|M|83.38,32.39|N|To Khasar.
+   T A Centaur's Best Friend|QID|65955|M|83.38,32.39|N|To Khasar.|US|
+   T Release the Hounds|QID|65954|M|83.38,32.39|N|To Khasar.|US|
    A A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.
    C A Chief of Legends|QID|65952|M|81.98, 31.29|N|Kill Chief Grrlgllmesh.
    A Medallion of a Fallen Friend|QID|66005|M|81.98, 31.29|N|To Khasar.
-   T A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.F
+   T A Chief of Legends|QID|65952|M|83.38,32.39|N|To Khasar.|S|
    T Medallion of a Fallen Friend|QID|66005|M|83.38,32.39|N|To Khasar.
-   A The Sole Mender|QID|65949|M|83.38,32.39|N|To Khasar, Pick up both Quest.
+   A The Sole Mender|QID|65949|M|83.38,32.39|N|To Khasar.|S|
    A Return to Roscha|QID|66006|M|83.38,32.39|N|To Khasar.
+   A The Sole Mender|QID|65949|M|83.38,32.39|N|To Khasar.|US|
    C Return to Roscha|QID|66006|M|83.50,32.17|N|Loot Supplies.
-   T The Sole Mender|QID|65949|M|84.40,25.00|N|To Khasar, Hand in both Quest.
+   T The Sole Mender|QID|65949|M|84.40,25.00|N|To Khasar.|S|
    T Return to Roscha|QID|66006|M|84.40,25.00|N|To Khasar.
+   T The Sole Mender|QID|65949|M|84.40,25.00|N|To Khasar.|US|
    T Toward the City|QID|65803|M|75.66,31.65|N|To Scout Tomul.
-   A For Food and Rivalry|QID|65804|M|75.66,31.65|N|From Scout Tomul.
+   A For Food and Rivalry|QID|65804|M|75.66,31.65|N|From Scout Tomul.|S|
    A Mysterious Beast|QID|70185|M|76.74,31.90|N|From the Poop Paw Print.
+   A For Food and Rivalry|QID|65804|M|75.66,31.65|N|From Scout Tomul.|US|
    C For Food and Rivalry|QID|65804|M|75.66,31.65|N|Collect 30 Fresh Game Meat from wildlife in Wanderer's Steppe.|S|
    C Mysterious Beast|QID|70185|M|77.54,35.45|N|Kill Konkhular and loot his pelt.
-   T Mysterious Beast|QID|70185|M|75.66,31.65|N|To Scout Tomul, Hand in both Quest.
+   T Mysterious Beast|QID|70185|M|75.66,31.65|N|To Scout Tomul.|S|
    T For Food and Rivalry|QID|65804|M|75.66,31.65|N|To Scout Tomul.
+   T Mysterious Beast|QID|70185|M|75.66,31.65|N|To Scout Tomul.|US|
    A By Broken Road|QID|65940|M|75.66,31.65|N|From Scout Tomul.
    C By Broken Road|QID|65940|M|69.97,37.98|N|Fly ahead to the second stop.
    T By Broken Road|QID|65940|M|69.97,37.98|N|To Ohn Seshteng.
@@ -69,11 +78,12 @@ return [[
    A Maruukai|QID|65806|M|69.97,37.98|N|From Sansok Khan.
    C Maruukai|QID|65806|M|61.44,39.51|N|Fly ahead to the final stop.
    T Maruukai|QID|65806|M|61.44,39.51|N|To Sansok Khan.
-
+   A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.|S|
    A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|S|
-   A Clan Teerai|QID|66016|M|61.44,39.51|N|From Sansok Khan.|S|
-   A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.
-   h Maruukai |QID|70337|M|61.44,39.51|N|At the innkeeper.|
+   A Clan Teerai|QID|66016|M|61.44,39.51|N|From Sansok Khan.
+   A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.|US|
+   A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|US|
+   h Maruukai |QID|70337|M|62.76,40.75|N|Set Hearthstone at the innkeeper.
    A Emberwatch|QID|70337|M|62.15,36.42|N|From Windsage Kven.
    T Clan Ohn'ir|QID|66017|M|62.97,33.68|N|To Ohn Sesshteng.
    A Omens and Incense|QID|66020|M|62.99,33.67|N|From Ohn Sesshteng.
@@ -83,16 +93,18 @@ return [[
    T Emberwatch|QID|70337|M|65.98,25.09|N|To Telemance Aerilyn.
    A The Nelthazan Ruins|QID|65890|M|65.98,25.09|N|From Telemance Aerilyn.
    T The Nelthazan Ruins|QID|65890|M|64.02,18.29|N|To Skyscibe Adenedal.
-   A The Relic Inquiry|QID|65893|M|64.02,18.29|N|From Skyscibe Adenedal.
+   A The Relic Inquiry|QID|65893|M|64.02,18.29|N|From Skyscibe Adenedal.|S|
    A Tools of the Tirade|QID|65891|M|64.02,18.29|N|From Skyscibe Adenedal.
+   A The Relic Inquiry|QID|65893|M|64.02,18.29|N|From Skyscibe Adenedal.|US|
    A The Sundered Asunder|QID|65892|M|64.02,18.29|N|Bonus Objective
    C The Sundered Asunder|QID|65892|M|63.57,15.78|N|Bonus Objective|S|
    C The Relic Inquiry|QID|65893|M|63.57,15.78|N|From Skyscibe Adenedal.|S|
+   C Tools of the Tirade|QID|65891|CS|M|63.60,17.11;63.46,16.72;64.04,14.94;63.93,14.44;63.54,15.12|N|From Skyscibe Adenedal.
    C The Sundered Asunder|QID|65892|M|63.57,15.78|N|Bonus Objective|US|
    C The Relic Inquiry|QID|65893|M|63.57,15.78|N|From Skyscibe Adenedal.|US|
-   C Tools of the Tirade|QID|65891|M|63.57,15.78|N|From Skyscibe Adenedal.
-   T The Relic Inquiry|QID|65893|M|64.01,18.29|N|To Skyscibe Adenedal
+   T The Relic Inquiry|QID|65893|M|64.01,18.29|N|To Skyscibe Adenedal|S|
    T Tools of the Tirade|QID|65891|M|64.01,18.29|N|To Skyscibe Adenedal.
+   T The Relic Inquiry|QID|65893|M|64.01,18.29|N|To Skyscibe Adenedal|US|
    T Clan Nokhud|QID|66018|M|60.40,40.69|N|To Scout Tomul.
    A Unwelcome Outsider|QID|66021|M|60.40,40.69|N|From Guard Bahir.
    C Unwelcome Outsider|QID|66021|M|59.57,41.75|N|Kill 6 Nokhud.
@@ -105,7 +117,7 @@ return [[
    C Honoring Our Ancestors|QID|66019|QO|4|M|59.15,37.59|N|Apply Spices "Extra action button"
    C Honoring Our Ancestors|QID|66019|QO|5|M|59.36,37.39|N|Basket of Spices.
    C Honoring Our Ancestors|QID|66019|QO|6|M|59.15,37.59|N|Apply Spices "Extra action button"
-   C Honoring Our Ancestors|QID|66019|QO|7|M|59.09,37.85|N|Pot of Spices.
+   C Honoring Our Ancestors|QID|66019|QO|7|M|59.05,37.87|N|Pot of Spices.
    C Honoring Our Ancestors|QID|66019|QO|8|M|59.15,37.59|N|Apply Spices "Extra action button"
    C Honoring Our Ancestors|QID|66019|QO|9|M|59.15,37.59|N|Pick up meat from the table.
    C Honoring Our Ancestors|QID|66019|QO|10|M|58.90,37.27|N|Roast Your Meat "Extra action button"
@@ -123,10 +135,12 @@ return [[
    T The Khanam Matra|QID|66022|M|60.28,37.86|N|To Khansguard Akato.
    A Trucebreakers|QID|66023|M|60.28,37.86|N|From Khansguard Akato.
    A Covering Their Tails|QID|66024|M|59.49,38.76|N|From Scout Tomul.
-   C Trucebreakers|QID|66023|M|58.06,39.35|N|From Khansguard Akato.|S|
+   C Trucebreakers|QID|66023|M|58.06,39.35|N|Kill attackers.|S|
    C Covering Their Tails|QID|66024|M|58.06,39.35|N|From Scout Tomul.
-   T Trucebreakers|QID|66023|M|60.35,38.06|N|To Khansguard Akato.|PRE|66024
+   C Trucebreakers|QID|66023|M|58.06,39.35|N|Kill attackers.|US|
+   T Trucebreakers|QID|66023|M|60.35,38.06|N|To Khansguard Akato.|S|
    T Covering Their Tails|QID|66024|M|60.35,38.06|N|To Khanam Matra Sarest.
+   T Trucebreakers|QID|66023|M|60.35,38.06|N|To Khansguard Akato.|US|
    A The Nokhud Threat|QID|66025|M|60.35,38.06|N|From Khanam Matra Sarest.
    T The Nokhud Threat|QID|66025|M|60.00,37.48|N|To Khanam Matra Sarest, Wait for the RP.
    A Hooves of War|QID|66201|M|60.00,37.48|N|From Khanam Matra Sarest.
@@ -138,22 +152,21 @@ return [[
    C Return to Mender|QID|66652|QO|1|M|37.22,65.54|N|Kill Tombcaller Ganzaya.
    C Return to Mender|QID|66652|QO|2|M|37.04,65.47|N|Pick up Spear.
    T Return to Mender|QID|66652|M|39.03,66.04|N|To Initiate Zorig.
-   A Reagents of De-Necromancy|QID|66655|M|39.03,66.04|N|From Initiate Zorig.
+   A Reagents of De-Necromancy|QID|66655|M|39.03,66.04|N|From Initiate Zorig.|S|
    A Desecrator Annihilator|QID|66654|M|39.03,66.04|N|From Initiate Zorig.
+   A Reagents of De-Necromancy|QID|66655|M|39.03,66.04|N|From Initiate Zorig.|US|
    C Reagents of De-Necromancy|QID|66655|M|34.69,67.80|S|
    C Desecrator Annihilator|QID|66654|M|34.69,67.80||S|
    C Reagents of De-Necromancy|QID|66655|M|34.69,67.80|US|
    C Desecrator Annihilator|QID|66654|M|34.69,67.80|US|
-   T Reagents of De-Necromancy|QID|66655|M|33.77,65.36|N|To Initiate Zorig.
+   T Reagents of De-Necromancy|QID|66655|M|33.77,65.36|N|To Initiate Zorig.|S|
    T Desecrator Annihilator|QID|66654|M|33.77,65.36|N|To Initiate Zorig.
+   T Reagents of De-Necromancy|QID|66655|M|33.77,65.36|N|To Initiate Zorig.|US|
    A Zambul, Head Vandal|QID|69936|M|33.77,65.36|N|Kill Zambul.
    C Zambul, Head Vandal|QID|69936|M|34.84,67.81
    T Zambul, Head Vandal|QID|69936|M|33.77,65.36|N|To Initiate Zorig.
    A Definitely Eternal Slumber|QID|66656|M|33.77,65.36|N|From Initiate Zorig.
-   C Definitely Eternal Slumber|QID|66656|QO|1|M|31.12,68.86|N|Release Carhans's Spirit.
-   C Definitely Eternal Slumber|QID|66656|QO|2|M|31.02,71.33|N|Release Zaphil's Spirit.
-   C Definitely Eternal Slumber|QID|66656|QO|3|M|32.12,69.71|N|Release Ganmats's Spirit.
-   C Definitely Eternal Slumber|QID|66656|QO|4|M|33.18,71.11|N|Release Dihar's Spirit.
+   C Definitely Eternal Slumber|QID|66656|QO|1;2;3;4|M|33.18,71.11|N|Release the spirits, they spawn around the area, some of them patrol.
    T Definitely Eternal Slumber|QID|66656|M|31.73,70.37|N|To Initiate Zorig.
    A And Stay Dead!|QID|66657|M|31.73,70.37|N|From Initiate Zorig.
    C And Stay Dead!|QID|66657|QO|1|M|31.43,70.94|N|Kill Tombcaller Arban.
@@ -165,31 +178,34 @@ return [[
    A WANTED: Mara'nar the Thunderous|QID|71027|M|39.55,56.43|N|From The note on the wall.
    C The Calm Before the Storm|QID|66222|QO|3|M|39.51,55.36|N|Speak to Khanguard Hojin.
    C The Calm Before the Storm|QID|66222|QO|2|M|40.74,56.37|N|Speak to Quartermaster Gensai.
-   A Signs of the Wind|QID|66688|M|41.62,56.74|N|From Elder Nazuun.
+   A Signs of the Wind|QID|66688|M|41.62,56.74|N|From Elder Nazuun.|S|
    A Land of the Apex|QID|66687|M|41.62,56.74|N|From Elder Nazuun.
+   A Signs of the Wind|QID|66688|M|41.62,56.74|N|From Elder Nazuun.|US|
    C Signs of the Wind|QID|66688|M|46.47,52.94|N|Loot Wind tokens in the area.|S|
    C Land of the Apex|QID|66687|M|50.00,51.54|N|Kill Thundespine Rumblers and loot them.|S|
    C Signs of the Wind|QID|66688|M|46.47,52.94|N|From Loot Wind tokens in the area.|US|
-   C Land of the Apex|QID|66687|QO|3|M|50.00,51.54|N|Kill Thundespine Rumblers and loot them.||US|
+   C Land of the Apex|QID|66687|QO|3|M|50.00,51.54|N|Kill Thundespine Rumblers and loot them.|US|
    T Signs of the Wind|QID|66688|M|49.35,49.52|N|To Offering Vessel.
    A Himia, the Blessed|QID|70374|M|49.35,49.52|N|From Himia, the Blessed.
    C Himia, the Blessed|QID|70374|QO|1|M|49.35,49.52|N|Speak to Himia, the Blessed.
    C Himia, the Blessed|QID|70374|QO|2||M|49.35,49.52|N|Speak to Himia, the Blessed.
    C Land of the Apex|QID|66687|QO|1|CC|M|43.60,48.06;43.69,50.20|N|Run into the cave and kill the spiders.
    C Land of the Apex|QID|66687|QO|2|M|42.26,47.21|N|From Kill The Nimblewings.|S|
+   C WANTED: Mara'nar the Thunderous|QID|71027|M|42.26,47.21|N|Kill Mara'nar the Thunderous.
    C Land of the Apex|QID|66687|QO|2|M|42.26,47.21|N|From Kill The Nimblewings.|US|
-   C WANTED: Mara'nar the Thunderous|QID|71027|M|42.26,47.21|N|Kill Mara'nar.
-   T Land of the Apex|QID|66687|M|41.62,56.75|N|To Elder Nazuun.
+   T Land of the Apex|QID|66687|M|41.62,56.75|N|To Elder Nazuun.|S|
    T Himia, the Blessed|QID|70374|M|41.62,56.75|N|To Elder Nazuun.
-   A Rellen, the Learned|QID|66834|QO|1|M|41.62,56.75|N|From Elder Nazuun.
-   C Rellen, the Learned|QID|66834|QO|2||M|40.11,57.86|N|Click Offering Basket.
-   C Rellen, the Learned|QID|66834|QO|3|M|40.21,57.99|N|Click the Torch,Then Use Extra action button.
+   T Land of the Apex|QID|66687|M|41.62,56.75|N|To Elder Nazuun.|US|
+   A Rellen, the Learned|QID|66834|M|41.62,56.75|N|From Elder Nazuun.
+   C Rellen, the Learned|QID|66834|QO|1||M|40.11,57.86|N|Click Offering Basket.
+   C Rellen, the Learned|QID|66834|QO|2|M|40.21,57.99|N|Click the Torch,Then Use Extra action button.
    C Rellen, the Learned|QID|66834|QO|4|M|40.21,57.99|N|Click The Spear,Then Use Extra action button.
-   C Rellen, the Learned|QID|66834|QO|9|M|40.06,57.76|N|Click The Bow, Then Use Extra action button.
+   C Rellen, the Learned|QID|66834|QO|6|M|40.06,57.76|N|Click The Bow, Then Use Extra action button.
    T Rellen, the Learned|QID|66834|M|41.62,56.75|N|To Elder Nazuun.
-   A The Final Ancestor|QID|66690|M|41.62,56.75|N|From Elder Nazuun.
+   A The Nokhud Offensive: The Final Ancestor|QID|66690|M|41.62,56.75|N|From Elder Nazuun.
+   T WANTED: Mara'nar the Thunderous|QID|71027|M|41.88,61.78|N|To Khansguard Jebotai.|S|
    T The Calm Before the Storm|QID|66222|M|41.88,61.78|N|To Khansguard Jebotai.
-   T WANTED: Mara'nar the Thunderous|QID|71027|M|41.88,61.78|N|To Khansguard Jebotai.
+   T WANTED: Mara'nar the Thunderous|QID|71027|M|41.88,61.78|N|To Khansguard Jebotai.|US|
    A Boku the Mystic|QID|70229|M|41.88,61.78|N|From Khansguard Jebotai.
    T Boku the Mystic|QID|70229|M|36.80,57.26|N|To Initiate Boku.
    A Pessimistic Mystic|QID|66254|M|36.80,57.26|N|From Initiate Boku.
@@ -201,17 +217,21 @@ return [[
    C Mystic Mystery|QID|66224|QO|3|M|46.55,63.26|N|Search for Boku
    C Mystic Mystery|QID|66224|QO|4|M|46.55,63.26|N|Click Unidentified Centaur
    T Mystic Mystery|QID|66224|M|49.33,63.22|N|To Initiate Boku.
-   A Taken By Storm|QID|70195|M|49.34,63.17|N|From Tigari Khan.
+   A Taken By Storm|QID|70195|M|49.34,63.17|N|From Tigari Khan.|S|
    A Toting Totems|QID|66225|M|49.34,63.17|N|From Tigari Khan.
+   A Taken By Storm|QID|70195|M|49.34,63.17|N|From Tigari Khan.|US|
    C Taken By Storm|QID|70195|M|48.94,68.94|N|Kill Shela The Windbinder.
    C Toting Totems|QID|66225|M|49.95,67.06|N|Kill Nokhud and loot Totems.
-   T Taken By Storm|QID|70195|M|49.34,63.17|N|To Tigari Khan.
+   T Taken By Storm|QID|70195|M|49.34,63.17|N|To Tigari Khan.|S|
    T Toting Totems|QID|66225|M|49.34,63.17|N|To Tigari Khan.
+   T Taken By Storm|QID|70195|M|49.34,63.17|N|To Tigari Khan.|US|
    A Catching Wind|QID|66236|M|49.34,63.17|N|From Tigari Khan.
    T Catching Wind|QID|66236|M|58.11,68.95|N|To Initiate Boku.
+   A Fowl Sorcery|QID|66257|M|58.11,68.95|N|From Initiate Boku.|S|
+   A Eagle-itarian|QID|66256|M|58.11,68.95|N|From Initiate Boku.|S|
    A Weather Control|QID|66242|M|58.11,68.95|N|From Initiate Boku.
-   A Eagle-itarian|QID|66256|M|58.11,68.95|N|From Initiate Boku.
-   A Fowl Sorcery|QID|66257|M|58.11,68.95|N|From Initiate Boku.
+   A Fowl Sorcery|QID|66257|M|58.11,68.95|N|From Initiate Boku.|US|
+   A Eagle-itarian|QID|66256|M|58.11,68.95|N|From Initiate Boku.|US|
    C Weather Control|QID|66242|M|58.11,68.95|S|
    C Eagle-itarian|QID|66256|M|59.58,65.86|N|Look around for stunned Eagles.|S|
    C Fowl Sorcery|QID|66257|CS|M|58.16,67.40;59.21,65.57;58.84,61.92;61.76,66.71|N|Click Boku's Wind totems.|US|

@@ -234,13 +234,17 @@ return [[
    A Eagle-itarian|QID|66256|M|58.11,68.95|N|From Initiate Boku.|US|
    C Weather Control|QID|66242|M|58.11,68.95|S|
    C Eagle-itarian|QID|66256|M|59.58,65.86|N|Look around for stunned Eagles.|S|
-   C Fowl Sorcery|QID|66257|CS|M|58.16,67.40;59.21,65.57;58.84,61.92;61.76,66.71|N|Click Boku's Wind totems.|US|
-   C Weather Control|QID|66242|M|58.11,68.95|S|
+   l Treasure|M|58.10,67.23
+   K Prozela Galeshot|QID|69968|M|59.88,66.92|N|Keep and eye out for this mob while you're in the area.|S|
+   C Fowl Sorcery|QID|66257|CS|M|58.16,67.40;59.21,65.57;58.84,61.92;61.76,66.71|N|Click Boku's Wind totems.
+   K Prozela Galeshot|QID|69968|M|59.88,66.92|N|Keep and eye out for this mob while you're in the area.|US|
    C Eagle-itarian|QID|66256|M|59.58,65.86|N|Look around for stunned Eagles.|US|
-   C Fowl Sorcery|QID|66257|CS|M|58.16,67.40;59.36,63.39;58.84,61.92;61.76,66.71|N|Click Boku's Wind totems.|US|
+   C Weather Control|QID|66242|M|58.11,68.95|US|
+   T Fowl Sorcery|QID|66257|M|60.65,63.54|N|To Initiate Boku.|S|
+   T Eagle-itarian|QID|66256|M|60.65,63.54|N|To Initiate Boku.|S|
    T Weather Control|QID|66242|M|60.65,63.54|N|To Initiate Boku.
-   T Eagle-itarian|QID|66256|M|60.65,63.54|N|To Initiate Boku.
-   T Fowl Sorcery|QID|66257|M|60.65,63.54|N|To Initiate Boku.
+   T Fowl Sorcery|QID|66257|M|60.65,63.54|N|To Initiate Boku.|US|
+   T Eagle-itarian|QID|66256|M|60.65,63.54|N|To Initiate Boku.|US|
    A Oh No, Ohn'ahra|QID|66258|M|60.65,63.54|N|From Initiate Boku.
    C Oh No, Ohn'ahra|QID|66258|M|60.65,63.54|N|Kill all the mob's
    T Oh No, Ohn'ahra|QID|66258|M|61.40,62.79|N|To Initiate Boku.
@@ -262,14 +266,14 @@ return [[
    A Green Dragon Down|QID|66328|M|76.70,40.94|N|From Khanman Matra Sarest.
    C Green Dragon Down|QID|66328|QO|1|M|72.34,50.33|N|Speak to Khanman Matra Sarest.
    C Green Dragon Down|QID|66328|QO|2|M|72.34,50.33|N|Speak to Khanman Matra Sarest.
-   A Counting Sheep|QID|66680|M|81.04,58.94|N|From Scout Watu.
+   A Counting Sheep|QID|66680|M|81.04,58.94|N|From Scout Watu.|S|
    A Tempests Abound|QID|66681|M|81.04,58.94|N|From Sentinel Olekk.
+   A Counting Sheep|QID|66680|M|81.04,58.94|N|From Scout Watu.|US|
    C Counting Sheep|QID|66680|QO|1|M|80.65,58.75|N|Buy Dice meat from the Vendor.
    C Counting Sheep|QID|66680|QO|2|M|81.04,59.54|N|Feed Wish the Diced Meat.
-   C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|S|
-   C Counting Sheep|QID|66680|QO|3|M|82.74,64.61|N|Save lost Argali
+   C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot for "More Than A Rock" quest.|S|
+   C Counting Sheep|QID|66680|QO|3|M|82.74,64.61|ITEM|193892|N|Save lost Argali
    C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|US|
-   A More Than A Rock|QID|66689|M|82.74,64.61
    T Counting Sheep|QID|66680|M|81.01,58.96|N|To Scout Watu.|S|
    T Tempests Abound|QID|66681|M|81.01,58.96|N|To Scout Watu.|S|
    T More Than A Rock|QID|66689|M|81.01,58.96|N|To Scout Watu.|S|
@@ -293,43 +297,45 @@ return [[
    C With the Wind At Our Backs|QID|66344|M|72.30,50.71|N|Speak to Gerithus.
    T With the Wind At Our Backs|QID|66344|M|28.26,57.69|N|To Merithra.
    A Shady Sanctuary|QID|70220|M|28.26,57.69|N|From Merithra.
-   C Shady Sanctuary|QID|70220|QO|5|M|29.75,59.98|N|Speak to Viranikus.
-   C Shady Sanctuary|QID|70220|QO|2|M|29.82,57.65|N|Speak to Sariosa.
-   C Shady Sanctuary|QID|70220|QO|3|M|30.23,55.70|N|Speak to Isidra the Mender.
-   C Shady Sanctuary|QID|70220|QO|4|M|29.28,56.42|N|Speak to Aronus.
-   C Shady Sanctuary|QID|70220|QO|1|M|29.07,55.26|N|Speak to Guard-Captain Alowen.
+   C Shady Sanctuary|QID|70220|QO|5|CHAT|M|29.75,59.98|N|Speak to Viranikus.
+   C Shady Sanctuary|QID|70220|QO|2|CHAT|M|29.82,57.65|N|Speak to Sariosa.
+   C Shady Sanctuary|QID|70220|QO|3|CHAT|M|30.23,55.70|N|Speak to Isidra the Mender.
+   C Shady Sanctuary|QID|70220|QO|4|CHAT|M|29.28,56.42|N|Speak to Aronus.
+   C Shady Sanctuary|QID|70220|QO|1|CHAT|M|29.07,55.26|N|Speak to Guard-Captain Alowen.
    T Shady Sanctuary|QID|70220|M|28.26,57.69|N|To Merithra.
    A The Primalist Front|QID|66331|M|28.26,57.69|N|From Merithra.
-   C The Primalist Front|QID|66331|QO|2|M|27.57,45.98|N|Speak to Belika.
-   C The Primalist Front|QID|66331|QO|3|M|25.74,44.24|N|Speak to Boku.
-   C The Primalist Front|QID|66331|QO|4|M|26.18, 40.05|N|Speak to Ohn Seshteng's.
-   C The Primalist Front|QID|66331|QO|5|M|25.65,40.53|N|Speak Merithra.
+   C The Primalist Front|QID|66331|QO|2|CHAT|M|27.57,45.98|N|Speak to Belika.
+   C The Primalist Front|QID|66331|QO|3|CHAT|M|25.74,44.24|N|Speak to Boku.
+   C The Primalist Front|QID|66331|QO|4|CHAT|M|26.18, 40.05|N|Speak to Ohn Seshteng's.
+   C The Primalist Front|QID|66331|QO|5|CHAT|M|25.65,40.53|N|Speak Merithra.
    T The Primalist Front|QID|66331|M|25.65,40.53|N|To Khanman Matra Sarest.
    A Justice for Solethus|QID|66333|M|25.65,40.53|N|From Merithra.
    A Bonus Objective: The Storm Scar|QID|66421|M|25.65,40.53
+   C Bonus Objective: The Storm Scar|QID|66421|M|25.38,37.71|S|
    C Justice for Solethus|QID|66333|QO|2|CS|M|24.84,39.84;24.41,38.50;25.38,37.71|N|Destroy ballista's.
    C Justice for Solethus|QID|66333|QO|1|M|25.38,37.71|N|Kill Nokhud Warmonger
-   C Bonus Objective: The Storm Scar|QID|66421|M|25.38,37.71|N||S|
    T Justice for Solethus|QID|66333|M|25.38,37.71|N|To Khanman Matra Sarest, He follows you around.
+   A Starve the Storm|QID|66784|M|25.38,37.71|N|From Khanman Matra Sarest, He follows you around.|S|
    A Deconstruct Additional Pylons|QID|66335|M|25.38,37.71|N|From Khanman Matra Sarest, He follows you around.
-   A Starve the Storm|QID|66784|M|25.38,37.71|N|From Khanman Matra Sarest, He follows you around.
+   A Starve the Storm|QID|66784|M|25.38,37.71|N|From Khanman Matra Sarest, He follows you around.|US|
    C Starve the Storm|QID|66784|M|25.02,34.86|N|In the cave
    C Deconstruct Additional Pylons|QID|66335|QO|1|M|23.92,39.48|N|First Primalist Pylon.
    C Deconstruct Additional Pylons|QID|66335|QO|2|M|23.09,37.34|N|Second Primalist Pylon.
    C Deconstruct Additional Pylons|QID|66335|QO|3|M|21.44,37.60|N|Third Primalist Pylon.
+   T Starve the Storm|QID|66784|M|21.44,37.60|N|To Khanman Matra Sarest, He follows you around.|S|
    T Deconstruct Additional Pylons|QID|66335|M|21.44,37.60|N|To Khanman Matra Sarest, He follows you around.
-   T Starve the Storm|QID|66784|M|21.44,37.60|N|To Khanman Matra Sarest, He follows you around.
+   T Starve the Storm|QID|66784|M|21.44,37.60|N|To Khanman Matra Sarest, He follows you around.|US|
    A Stormbreaker|QID|66337|M|21.44,37.60|N|From Khanman Matra Sarest, He follows you around.
-   C Stormbreaker|QID|66337|QO|1|M|22.58,39.55|N|Kill Koroleth
+   C Stormbreaker|QID|66337|QO|1|M|22.58,39.55|N|Attack and kill the Proto-Drake to active Koroleth.
    C Stormbreaker|QID|66337|QO|2|M|22.92,40.20|N|Speak to Gerithus
-   T Stormbreaker|QID|66337|M|25.66,28.38|N|To Merithra
+   T Stormbreaker|QID|66337|M|25.63,48.28|N|To Merithra
    A The Isle of Emerald|QID|66336|M|25.66,28.38|N|From Merithra
    T The Isle of Emerald|QID|66336|M|22.15,50.97|N|To Merithra
    A Renewal of Vows|QID|66783|M|22.15,50.97|N|From Merithra
-   C Renewal of Vows|QID|66783|QO|1|M|22.27, 50.91|N|Sansok Khan = <She offer A trophy from her first hunt>.
-   C Renewal of Vows|QID|66783|QO|2|M|22.35,51.05|N|Tigari Khan = <She offer an eagle feather>.
-   C Renewal of Vows|QID|66783|QO|3|M|22.32,50.96|N|Khanam Matra Sarest = <She offer Blood>.
-   C Renewal of Vows|QID|66783|QO|4|M|22.15,50.97|N|Take Merithra Offering and give to Khanam Matra Sarest.
+   C Renewal of Vows|QID|66783|QO|1|CHAT|M|22.27, 50.91|N|Sansok Khan = <Suggest she offer A trophy from her first hunt>.
+   C Renewal of Vows|QID|66783|QO|2|CHAT|M|22.35,51.05|N|Tigari Khan = <Suggest she offer an eagle feather>.
+   C Renewal of Vows|QID|66783|QO|3|CHAT|M|22.32,50.96|N|Khanam Matra Sarest = <Suggest she offer Blood>.
+   C Renewal of Vows|QID|66783|QO|4|CHAT|M|22.15,50.97|N|Take Merithra Offering and give to Khanam Matra Sarest.
    T Renewal of Vows|QID|66783|M|22.15,50.97|N|To Merithra
    A Into the Azure|QID|66340|M|22.15,50.97|N|From Merithra
    H  Maruukai |QID|66340|U|6948|

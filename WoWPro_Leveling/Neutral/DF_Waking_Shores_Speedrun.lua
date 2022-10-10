@@ -6,15 +6,15 @@ WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNextGuide(guide, "Ohn'ahran Plains")
 WoWPro:GuideSteps(guide, function()
 return [[
-  ;Chapter 1
+  ;Horde Opening
     R Orgrimmar|ACTIVE|65435|IZ|-85|N|If you aren't in Orgrimmar, go there to get started.|FACTION|Horde|
     N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. If you don't have them the guide will skip them.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|65435
     A The Dragon Isles Await|QID|65435|N|Auto Accepted.|FACTION|Horde|LVL|58|
     T The Dragon Isles Await|QID|65435|M|44.17,38.01|N|To Ebyssian.|FACTION|Horde|
-    A Aspectral Invitation|QID|65437|Z|Orgrimmar|N|From Ebyssian.|PRE|65435
+    A Aspectral Invitation|QID|65437|Z|Orgrimmar|N|From Ebyssian.|PRE|65435|FACTION|Horde|
     C Aspectral Invitation|QID|65437|M|44.17,38.01|QO|1|CHAT|N|Speak with Ebyssian.|FACTION|Horde|
     T Aspectral Invitation|QID|65437|M|44.17,38.01|N|To Ebyssian.|FACTION|Horde|
-    A Expeditionary Coordination|QID|65443|M|44.17,38.01|N|From Naleidea Rivergleam.|PRE|65437
+    A Expeditionary Coordination|QID|65443|M|44.17,38.01|N|From Naleidea Rivergleam.|PRE|65437|FACTION|Horde|
     A The Dark Talons|QID|72256|M|44.17,38.01|N|From Scalecommander Cindrethresh.|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|38.47,56.91|Z|Orgrimmar|QO|2|CHAT|N|Speak with Pathfinder Tacha.|FACTION|Horde|
     C The Dark Talons|QID|72256|M|54.96,89.44|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kodethi.|FACTION|Horde|
@@ -25,10 +25,10 @@ return [[
     C Expeditionary Coordination|QID|65443|M|71.31,50.66|Z|Orgrimmar|QO|3|CHAT|N|Upstairs speak with Cataloger Kieule.|FACTION|Horde|
     T Expeditionary Coordination|QID|65443|M|55.84,12.58|Z|Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
     T The Dark Talons|QID|72256|M|55.84,12.58|N|To Naleidea Rivergleam.|FACTION|Horde|
-    A Whispers on the Winds|QID|65439|M|55.84,12.58|N|From Khadgar after he appears from a portal.|PRE|65443
+    A Whispers on the Winds|QID|65439|M|55.84,12.58|N|From Khadgar after he appears from a portal.|PRE|65443|FACTION|Horde|
     C Whispers on the Winds|QID|65439|M|55.84,12.58|QO|1|CHAT|N|Speak with Khadgar.|FACTION|Horde|
     T Whispers on the Winds|QID|65439|M|55.84,12.58|Z|Durotar|N|To Ebyssian.|FACTION|Horde|
-    A To the Dragon Isles!|QID|65444|M|55.82,12.61|N|From Naleidea Rivergleam.|PRE|65439
+    A To the Dragon Isles!|QID|65444|M|55.82,12.61|N|From Naleidea Rivergleam.|PRE|65439|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|M|56.03,13.66|QO|1|NC|N|Wait for the zeppelin to arrrive and then board it.|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|QO|2|NC|N|Ride the zeppline to the Dragon Isles. Stand and wait at the ports on the side opposite from where you enter the zepplin.|FACTION|Horde|
     T To the Dragon Isles!|QID|65444|M|80.64, 27.63|N|To Naleidea Rivergleam.|FACTION|Horde|
@@ -44,12 +44,55 @@ return [[
     M Explorers in Peril|QID|65452|CS|M|77.38, 29.37;77.37,29.77|QO|3|N|Click the the Goblin hanging from the rope to rescue Spelunker Lazee.|FACTION|Horde|
     L Practice Materials|QID|65451|Z|The Waking Shores|QO|1|N|Kill the whelps and LOOT them for scales.|US|FACTION|Horde|
     K Primal Pests|QID|65453|Z|The Waking Shores|QO|1|N|Kill 15 Proto-drakes.|US|FACTION|Horde|
+
+  ;Alliance Opening
+    A The Dragon Isles Await|QID|65436|M|PLAYER|Z|85|N|From UI Alert.|FACTION|Alliance|
+    T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|85|N|To Wrathion.|FACTION|Alliance|
+    A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|85|N|From Wrathion.|FACTION|Alliance|
+    C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|85|QO|1|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
+    T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|85|N|To Wrathion.|FACTION|Alliance|
+    A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|85|N|From Scalecommander Azurathel.|FACTION|Alliance|
+    A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|85|N|From Toddy Whiskers.|FACTION|Alliance|
+    C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|85|QO|1|CHAT|N|Artisans recruited.|FACTION|Alliance|
+    C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|85|QO|1|CHAT|N|Orders delivered to Dervishian.|FACTION|Alliance|
+    C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|85|QO|3|CHAT|N|Scholars recruited.|FACTION|Alliance|
+    C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|85|QO|2|CHAT|N|Explorers recruited.|FACTION|Alliance|
+    T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|85|N|To Toddy Whiskers.|FACTION|Alliance|
+    T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|85|N|To Toddy Whiskers.|FACTION|Alliance|
+    A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|85|N|From Archmage Khadgar.|FACTION|Alliance|
+    C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|85|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
+    T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|85|N|To Wrathion.|FACTION|Alliance|
+    A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|85|N|From Toddy Whiskers.|FACTION|Alliance|
+    C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|85|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
+    C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
+    T To the Dragon Isles!|QID|67700|M|82.13,31.90|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
+    A Explorers in Peril|QID|70122|PRE|67700|M|82.13,31.90|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|
+    A Primal Pests|QID|70123|PRE|67700|M|82.16,31.86|Z|2022|N|From Scalecommander Azurathel.|FACTION|Alliance|
+    A Practice Materials|QID|70124|PRE|67700|M|82.09,31.89|Z|2022|N|From Thaelin Darkanvil.|FACTION|Alliance|
+    C Practice Materials|QID|70124|M|79.40,32.88|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|S|FACTION|Alliance|
+    C Primal Pests|QID|70123|M|83.59,36.12|Z|2022|QO|1|N|Primal Proto-drakes slain.|S|FACTION|Alliance|
+    C Explorers in Peril|QID|70122|M|79.47,35.32|Z|2022|QO|3|NC|N|Spelunker Lockeye rescued.|FACTION|Alliance|
+    C Explorers in Peril|QID|70122|M|83.14,36.22|Z|2022|QO|2|NC|N|Archivist Rellid rescued.|FACTION|Alliance|
+    C Explorers in Peril|QID|70122|M|83.56,33.61|Z|2022|QO|1|NC|N|Professor Cogcatcher rescued.|FACTION|Alliance|
+    C Practice Materials|QID|70124|M|79.40,32.88|Z|2022|QO|1|NC|N|Primal Proto-Whelp Scale.|US|FACTION|Alliance|
+    C Primal Pests|QID|70123|M|83.59,36.12|Z|2022|QO|1|N|Primal Proto-drakes slain.|US|FACTION|Alliance|
+
+    C Encroaching Elementals|QID|70135|M|73.98,33.91|Z|2022|QO|1|N|Primal elementals slain.|US|FACTION|Alliance|
+    T Encroaching Elementals|QID|70135|M|76.37,33.07|Z|2022|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
+
+  ;Merged Faction quests
     T Explorers in Peril|QID|65452|CS|M|77.62,31.01;77.37,32.37;76.81,33.08;76.62,33.56|N|To Naleidea Rivergleam.|FACTION|Horde|
+    T Explorers in Peril|QID|70122|M|76.62,33.63|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
     A Where is Wrathion?|QID|69910|M|76.62,33.56|N|From Naleidea Rivergleam.|PRE|65452|FACTION|Horde|
+    A Where is Wrathion?|QID|70125|PRE|70122|M|76.62,33.63|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|
     C Where is Wrathion?|QID|69910|M|76.56,33.60|QO|1|CHAT|N|TALK TO SENDRAX!!!! Do the next steps while you wait for the RP.|FACTION|Horde|S|
+    C Where is Wrathion?|QID|70125|M|76.61,33.65|Z|2022|QO|1|CHAT|N|TALK TO SENDRAX!!!! Do the next steps while you wait for the RP.|S|FACTION|Alliance|
     A Give Peace a Chance|QID|66110|M|76.31,33.14|N|From Warlord Breka Grimaxe.|FACTION|Horde|
+    A Give Peace a Chance|QID|67053|PRE|70124&70123|M|76.74,34.55|Z|2022|N|From Captain Garrick.|FACTION|Alliance|
     T Primal Pests|QID|65453|M|76.27,33.10|N|To Scalecommander Cindrethresh.|FACTION|Horde|
+    T Primal Pests|QID|70123|M|76.77,34.42|Z|2022|N|To Scalecommander Azurathel.|FACTION|Alliance|
     T Practice Materials|QID|65451|M|75.96,33.24|N|To Boss Magor.|FACTION|Horde|
+    T Practice Materials|QID|70124|M|76.50,34.34|Z|2022|N|To Thaelin Darkanvil.|FACTION|Alliance|
     A Dragon Isles Engineering|P|Engineering;202;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
     T Dragon Isles Engineering|P|Engineering;202;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
     A Dragon Isles Tailoring|P|Tailoring;197;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72249|M|75.87,33.26|N|Talk to Zayn Starmaker.
@@ -67,11 +110,15 @@ return [[
     T Dragon Isles Jewelcrafting|P|Jewelcrafting;755;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72247|M|76.15,33.66|N|Talk to Misty Catseye.
     C Where is Wrathion?|QID|69910|M|76.56,33.60|QO|1|CHAT|N|Do the next steps while you wait for the RP.|FACTION|Horde|US|
     T Where is Wrathion?|QID|69910|M|76.61,33.68|N|To Sendrax.|FACTION|Horde
-    A Excuse the Mess|QID|69911|M|76.61,33.68|N|From Sendrax.|PRE|69910|
+    T Where is Wrathion?|QID|70125|M|76.57,33.66|Z|2022|N|To Sendrax.|FACTION|Alliance|
+    A Excuse the Mess|QID|69911|M|76.61,33.68|N|From Sendrax.|PRE|69910|FACTION|Horde|
+    A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|FACTION|Alliance|
     A Dragon Isles Herbalism|P|Herbalism;182;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
     T Dragon Isles Herbalism|P|Herbalism;182;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
     T Give Peace a Chance|QID|66110|M|76.67,34.57|N|To Captian Garrick.|FACTION|Horde|
-    A Encroaching Elementals|QID|66111|M|76.69,34.51|N|From Captian Garrick.|PRE|66110|
+    T Give Peace a Chance|QID|67053|M|76.36,33.07|Z|2022|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
+    A Encroaching Elementals|QID|66111|M|76.69,34.51|N|From Captian Garrick.|PRE|66110|FACTION|Horde|
+    A Encroaching Elementals|QID|70135|PRE|67053|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|FACTION|Alliance|
     A Dragon Isles Skinning|P|Skinning;393;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70363|M|76.65,34.77|N|Talk to Toninaar.
     T Dragon Isles Skinning|P|Skinning;393;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70363|M|76.65,34.77|N|Talk to Toninaar.
     A Dragon Isles Leatherworking|P|Leatherworking;165;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70362|M|76.62,34.80|N|Talk to Deirdre Flemmin.
@@ -88,7 +135,8 @@ return [[
     T Excuse the Mess|QID|69911|M|76.60,33.66|N|To Sendrax.
     A My First Real Emergency!|QID|69912|M|76.60,33.66|N|From Sendrax.
     C My First Real Emergency!|QID|69912|QO|1|M|76.60,33.66|CHAT|N|TALK TO SENDRAX!!!! Go do other things while the RP happens.|S|
-    K Encroaching Elementals|QID|66111|QO|1|M|75.44,39.29|N|You don't need to kill all of these now, we'll come back later.|S|
+    K Encroaching Elementals|QID|66111|QO|1|M|75.44,39.29|N|You don't need to kill all of these now, we'll come back later.|S|FACTION|Horde|
+    K Encroaching Elementals|QID|70135|M|73.98,33.91|Z|2022|QO|1|N|You don't need to kill all of these now, we'll come back later.|S|FACTION|Alliance|
     l Quality Assurance|QID|69965|QO|1|M|75.44,39.29|N|You don't need all of this now, we'll come back later.|S|
     l Always Be Crafting|QID|66112|QO|2|CS|M|75.79,36.40;75.93,37.31;76.00,38.11;75.50,38.85;74.88,39.20|N|Kill and loot Baron Crustcore.
     C My First Real Emergency!|QID|69912|QO|2|M|76.60,33.66|CHAT|N|Wait for the RP to complete.
@@ -97,7 +145,10 @@ return [[
     C The Djaradin Have Awoken|QID|69914|QO|1|M|76.21,34.46|CHAT|N|TALK TO SELISTRA!!! Do other stuff while waiting for the RP|S|
     l Always Be Crafting|QID|66112|QO|1|CS|M|74.80,33.88;73.01,32.96|N|Kill and loot Baron Ashflow.
     l Quality Assurance|QID|69965|QO|1|M|74.63,35.03|N|Finish collecting these if you haven't.|US|
-    K Encroaching Elementals|QID|66111|QO|1|M|74.63,35.03|N|Finish killing these if you haven't.|US|
+    K Encroaching Elementals|QID|66111|QO|1|M|74.63,35.03|N|Finish killing these if you haven't.|US|FACTION|Horde|
+    C Encroaching Elementals|QID|70135|M|73.98,33.91|Z|2022|QO|1|N|Finish killing these if you haven't.|US|FACTION|Alliance|
+
+  ;End merged quests, everything should be nuteral from here on out
     C The Djaradin Have Awoken|QID|69914|QO|1|M|76.21,34.46|CHAT|N|Wait for the RP if it's not done yet|US|
     T Always Be Crafting|QID|66112|M|76.37,34.65|N|To Grun Ashbeard.|S|
     T Quality Assurance|QID|69965|M|76.37,34.60|N|To Haephesta.|S|

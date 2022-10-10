@@ -7,7 +7,7 @@ WoWPro:GuideNextGuide(guide, "Ohn'ahran Plains")
 WoWPro:GuideSteps(guide, function()
 return [[
   ;Horde Opening
-    R Orgrimmar|ACTIVE|65435|IZ|-85|N|If you aren't in Orgrimmar, go there to get started.|FACTION|Horde|
+    R Orgrimmar|ACTIVE|65435|IZ|-84|N|If you aren't in Orgrimmar, go there to get started.|FACTION|Horde|
     N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. If you don't have them the guide will skip them.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|65435
     A The Dragon Isles Await|QID|65435|N|Auto Accepted.|FACTION|Horde|LVL|58|
     T The Dragon Isles Await|QID|65435|M|44.17,38.01|N|To Ebyssian.|FACTION|Horde|
@@ -46,24 +46,24 @@ return [[
     K Primal Pests|QID|65453|Z|The Waking Shores|QO|1|N|Kill 15 Proto-drakes.|US|FACTION|Horde|
 
   ;Alliance Opening
-    A The Dragon Isles Await|QID|65436|M|PLAYER|Z|85|N|From UI Alert.|FACTION|Alliance|
-    T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|85|N|To Wrathion.|FACTION|Alliance|
-    A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|85|N|From Wrathion.|FACTION|Alliance|
-    C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|85|QO|1|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
-    T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|85|N|To Wrathion.|FACTION|Alliance|
-    A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|85|N|From Scalecommander Azurathel.|FACTION|Alliance|
-    A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|85|N|From Toddy Whiskers.|FACTION|Alliance|
-    C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|85|QO|1|CHAT|N|Artisans recruited.|FACTION|Alliance|
-    C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|85|QO|1|CHAT|N|Orders delivered to Dervishian.|FACTION|Alliance|
-    C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|85|QO|3|CHAT|N|Scholars recruited.|FACTION|Alliance|
-    C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|85|QO|2|CHAT|N|Explorers recruited.|FACTION|Alliance|
-    T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|85|N|To Toddy Whiskers.|FACTION|Alliance|
-    T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|85|N|To Toddy Whiskers.|FACTION|Alliance|
-    A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|85|N|From Archmage Khadgar.|FACTION|Alliance|
-    C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|85|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
-    T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|85|N|To Wrathion.|FACTION|Alliance|
-    A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|85|N|From Toddy Whiskers.|FACTION|Alliance|
-    C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|85|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
+    A The Dragon Isles Await|QID|65436|M|PLAYER|Z|84|N|From UI Alert.|FACTION|Alliance|
+    T The Dragon Isles Await|QID|65436|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
+    A Aspectral Invitation|QID|66577|PRE|65436|M|79.79,27.00|Z|84|N|From Wrathion.|FACTION|Alliance|
+    C Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|QO|1|CHAT|N|Speak with Wrathion.|FACTION|Alliance|
+    T Aspectral Invitation|QID|66577|M|79.79,27.00|Z|84|N|To Wrathion.|FACTION|Alliance|
+    A The Obsidian Warders|QID|72240|PRE|66577|M|79.94,26.95|Z|84|N|From Scalecommander Azurathel.|FACTION|Alliance|
+    A Expeditionary Coordination|QID|66589|PRE|66577|M|79.71,27.30|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
+    C Expeditionary Coordination|QID|66589|M|64.09,37.17|Z|84|QO|1|CHAT|N|Artisans recruited.|FACTION|Alliance|
+    C The Obsidian Warders|QID|72240|M|50.94,67.29|Z|84|QO|1|CHAT|N|Orders delivered to Dervishian.|FACTION|Alliance|
+    C Expeditionary Coordination|QID|66589|M|63.27,69.95|Z|84|QO|3|CHAT|N|Scholars recruited.|FACTION|Alliance|
+    C Expeditionary Coordination|QID|66589|M|38.22,45.51|Z|84|QO|2|CHAT|N|Explorers recruited.|FACTION|Alliance|
+    T Expeditionary Coordination|QID|66589|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
+    T The Obsidian Warders|QID|72240|M|22.67,55.71|Z|84|N|To Toddy Whiskers.|FACTION|Alliance|
+    A Whispers on the Winds|QID|66596|PRE|66589&72240|M|22.86,56.25|Z|84|N|From Archmage Khadgar.|FACTION|Alliance|
+    C Whispers on the Winds|QID|66596|M|22.86,56.25|Z|84|QO|1|CHAT|N|Speak with Archmage Khadgar.|FACTION|Alliance|
+    T Whispers on the Winds|QID|66596|M|22.88,56.05|Z|84|N|To Wrathion.|FACTION|Alliance|
+    A To the Dragon Isles!|QID|67700|PRE|66596|M|22.67,55.72|Z|84|N|From Toddy Whiskers.|FACTION|Alliance|
+    C To the Dragon Isles!|QID|67700|M|22.49,56.45|Z|84|QO|1|NC|N|Wait for the Rugged Dragonscale at Stormwind docks.|FACTION|Alliance|
     C To the Dragon Isles!|QID|67700|M|82.02,31.74|Z|2022|QO|2|NC|N|Ride the Rugged Dragonscale to Dragon Isles.|FACTION|Alliance|
     T To the Dragon Isles!|QID|67700|M|82.13,31.90|Z|2022|N|To Toddy Whiskers.|FACTION|Alliance|
     A Explorers in Peril|QID|70122|PRE|67700|M|82.13,31.90|Z|2022|N|From Toddy Whiskers.|FACTION|Alliance|

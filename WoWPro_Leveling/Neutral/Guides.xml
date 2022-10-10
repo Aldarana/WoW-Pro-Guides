@@ -13,7 +13,10 @@
 	<Script file="DF_Waking_Shores_Speedrun.lua"/>
 	<Script file="DF_OhnAhran_Plains_Speedrun.lua"/>
 	<Script file="DF_The_Azure_Span_Speedrun.lua"/>
-    <Script file="DF_Thaldraszus_Speedrun.lua"/>
+  <Script file="DF_Thaldraszus_Speedrun.lua"/>
+	<Script file="DF_Azure_Span.lua"/>
+  <Script file="DF_Thaldraszus.lua"/>
+	<Script file="DF_Waking_Shores.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>

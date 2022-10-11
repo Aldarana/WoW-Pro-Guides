@@ -165,7 +165,10 @@ return [[
     A Deliver Whelps From Evil|QID|65990|M|71.25,40.76|N|From Naleidea Rivergleam.|PRE|65444|
     A Invader Djaradin|QID|65989|M|71.25,40.76|N|From Commander Lethanak.|US|PRE|65760|
     K Invader Djaradin|QID|65989|QO|1|M|70.33,44.92|N|Kill 6 Djaradin.|S|
-    M Deliver Whelps From Evil|QID|65990|CS|M|71.39,44.63;70.99,46.66;69.88,45.33;69.31,43.33|QO|1|N|Click the Whelp to free it.|
+    M Deliver Whelps From Evil|QID|65990|QO|1<1|M|71.39,44.63|N|Click the Whelp to free it.
+    M Deliver Whelps From Evil|QID|65990|QO|1<2|M|70.99,46.66|N|Click the Whelp to free it.
+    M Deliver Whelps From Evil|QID|65990|QO|1<3|M|69.88,45.33|N|Click the Whelp to free it.
+    M Deliver Whelps From Evil|QID|65990|QO|1<4|M|69.31,43.33|N|Click the Whelp to free it.
     K Invader Djaradin|QID|65989|Z|The Waking Shores|QO|1|N|Kill 6 Djaradin.|US|
     T Invader Djaradin|QID|65989|M|71.25,40.76|Z|The Waking Shores|N|To Commander Lethanak.|S|
     T Deliver Whelps From Evil|QID|65990|M|71.25,40.76|Z|The Waking Shores|N|To Commander Lethanak.
@@ -183,9 +186,9 @@ return [[
     A Killjoy|QID|65993|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Meatgrinder Sotok slain|US|
     A The Obsidian Citadel|QID|65995|M|63.24,29.57|Z|The Waking Shores|QO|1|N|LOOT Meatgrinder or click quest in the cave|S|
     C Killjoy|QID|65993|M|63.24,29.57|Z|The Waking Shores|N|Kill Meatgrinder Sotok and LOOT the quest.|S|
-    C Blacktalon Intel|QID|65992|CS|M|63.06,33.36|QO|1|N|Talonstalker Kavia Consulted.
-    C Blacktalon Intel|QID|65992|CS|M|63.46,28.89|QO|2|N|Left Consulted.
-    C Blacktalon Intel|QID|65992|CS|M|65.10,29.38|QO|3|N|Right Consulted.
+    C Blacktalon Intel|QID|65992|M|63.06,33.36|QO|1|N|Talonstalker Kavia Consulted.
+    C Blacktalon Intel|QID|65992|M|63.46,28.89|QO|2|N|Left Consulted.
+    C Blacktalon Intel|QID|65992|M|65.10,29.38|QO|3|N|Right Consulted.
     A The Obsidian Citadel|QID|65995|M|63.24,29.57|Z|The Waking Shores|QO|1|US|
     K Djaradin Djustice|QID|65994|Z|The Waking Shores|QO|1|N|Djaradin Camp Invaded.|US|
     T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|S|
@@ -193,11 +196,14 @@ return [[
     T Killjoy|QID|65993|CC|M|64.54,32.92;62.63,33.05|N|Hand into Wrathion.
     T Blacktalon Intel|QID|65992|M|62.63,33.05|Z|The Waking Shores|N|Hand into Wrathion.|US|
     T The Obsisdian Citadel|QID|65995|M|62.63,33.05|Z|The Waking Shores|QO|1|N|Hand into Wrathion.|US|
-    A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.|
-    A Fighting fire with... Water|QID|66998|M|59.04,34.83|Z|The Waking Shores|N|Pick up when doing Veteran Reinforcements Quest And [color=b50202]FINISH[/color] before doing last Heal.|S|
-    C Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|From Caretaker Ventraz.|S|
-    T Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|To Caretaker Ventraz.|S|
-    C Veteran Reinforcements|QID|65996|CC|M|61.01,35.69;61.12,36.77;59.04,34.83;56.65,34.76|QO|1|N|Heal Culler.
+    A Veteran Reinforcements|QID|65996|M|62.63,33.05|Z|The Waking Shores|N|From Majordomo Selistra.
+    C Veteran Reinforcements|QID|65996|QO|1<1|M|61.01,35.69|N|Heal Culler.
+    C Veteran Reinforcements|QID|65996|QO|1<2|M|61.12,36.77|N|Heal Culler.
+    A Fighting fire with... Water|QID|66998|M|59.04,34.83|Z|The Waking Shores|N|From Caretaker Ventraz.
+    C Veteran Reinforcements|QID|65996|QO|1<3|M|59.04,34.83|N|Heal Culler.
+    C Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|Kill elementals in the cave.
+    T Fighting fire with... Water|QID|66998|Z|The Waking Shores|N|To Caretaker Ventraz.
+    C Veteran Reinforcements|QID|65996|QO|1<4|M|56.65,34.76|N|Heal Culler.
     T Veteran Reinforcements|QID|65996|M|55.02,30.88|Z|The Waking Shores|N|To Caretaker Azkra.
     A Chasing Sendrax|QID|65997|M|55.01,30.79|Z|The Waking Shores|N|From Caretaker Azkra .
     C Chasing Sendrax|QID|65997|M|55.15,24.97|Z|The Waking Shores|QO|1|CHAT|N|Speak Sendrax.
@@ -211,8 +217,11 @@ return [[
     C Red in Tooth and Claw|QID|65999|N|Kill 15 Primalist Forces.|S|
     C Future of the Flights|QID|65998|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|S|
     C Firava the Rekindler|QID|70648|N|Kill Firava, He walks around the area|S|
-    l Library of Alexstrasza|QID|66000|CS|M|53.38,22.40;53.46,22.00;54.85,20.47|QO|1|N|Click the books to loot them.
-    C Future of the Flights|QID|65998|M|55.13,22.40|N|Kill 9 Infused Ruby Whelpling Run on top on Eggs to spawn them.|US|
+    l Library of Alexstrasza|QID|66000|QO|1<1|M|53.38,22.40|N|Click the books to loot them.
+    l Library of Alexstrasza|QID|66000|QO|1<2|M|53.46,22.00|N|Click the books to loot them.
+    l Library of Alexstrasza|QID|66000|QO|1<3|M|54.85,20.47|N|Click the books to loot them.
+    l Library of Alexstrasza|QID|66000|QO|1<4|M|54.85,20.47|N|Click the books to loot them, this last one is upstairs.
+    C Future of the Flights|QID|65998|M|55.13,22.40|N|Kill 9 Infused Ruby Whelpling. Run on top on Eggs to spawn them.|US|
     C Red in Tooth and Claw|QID|65999|M|55.13,22.40|QO|1|N|Kill 15 Primalist Forces.|US|
     T Library of Alexstrasza|QID|66000|M|56.26,22.05|N|To Caretaker Sendrax.|S|
     T Red in Tooth and Claw|QID|65999|M|56.26,22.05|N|To Caretaker Sendrax.|S|

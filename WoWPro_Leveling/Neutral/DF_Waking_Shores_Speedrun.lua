@@ -321,9 +321,9 @@ return [[
     T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd
     A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd
     A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian
-    C Competitive Protography|QID|66525|N|Photo of Infused Proto-Drake/Proto-Drake Egg|S|
+    C Competitive Protography|QID|66525|N|Photo of Infused Proto-Drake/Proto-Drake Egg.\nThe Proto-Drake flies overhead.|S|
     C Preserving the Wilds|QID|66526|N|Free 5 Proto-Whelps or Proto-Drakes|S|
-    C Competitive Protography|QID|66525|M|38.30,80.84|N|Photo of Infused Proto-Drake/Proto-Drake Egg|US|
+    C Competitive Protography|QID|66525|M|38.30,80.84|N|Photo of Infused Proto-Drake/Proto-Drake Egg.\nThe Proto-Drake flies overhead.|US|
     C Preserving the Wilds|QID|66526|M|38.68,81.77|N|Free 5 Proto-Whelps or Proto-Drakes|US|
     T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|S|
     T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|S|

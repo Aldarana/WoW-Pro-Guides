@@ -200,11 +200,13 @@ return [[
    A To Iskaara|QID|65849|M|16.10,41.44|N|From Brena
    T To Iskaara|QID|65849|M|13.24,49.52|N|To Brena
    A Gather the Family|QID|66210|M|13.24,49.52|N|From Brena
-   A The Weave of a Tale|QID|66213|M|12.42,49.39|N|Fromm Nappa, do this when you go inside the hut.|S|
-   C The Weave of a Tale|QID|66213|M|12.42,49.39|N|Speak to Poa|S|
-   T The Weave of a Tale|QID|66213|M|12.42,49.39|N|Too Nappa|S|
-   C Gather the Family|NC|QID|66210|QO|1|CS|M|13.86,49.47;12.47,50.32;12.48,49.44;13.48,48.44|N|Click Offerings
-   C Gather the Family|NC|QID|66210|QO|2|M|13.13,48.60|N|Click on the boat
+   C Gather the Family|NC|QID|66210|QO|1<1|M|13.86,49.47|N|Click Offerings
+   C Gather the Family|NC|QID|66210|QO|1<2|M|12.47,50.32|N|Click Offerings
+   C Gather the Family|NC|QID|66210|QO|1<3|M|12.48,49.44|N|Click Offerings
+   A The Weave of a Tale|QID|66213|M|12.42,49.39|N|Fromm Nappa.
+   C The Weave of a Tale|QID|66213|M|12.42,49.39|N|Speak to Poa.
+   T The Weave of a Tale|QID|66213|M|12.42,49.39|N|Too Nappa.
+   C Gather the Family|NC|QID|66210|QO|1<4|M|13.48,48.44|N|Click Offerings.
    A WANTED: Krojek the Shoreprowler|QID|66217|M|13.21,48.81|N|From bukarakikk
    A Scampering Scamps|QID|66218|M|12.91,48.70|N|From Hanu
    T Gather the Family|QID|66210|M|13.24,49.52|N|To Brena

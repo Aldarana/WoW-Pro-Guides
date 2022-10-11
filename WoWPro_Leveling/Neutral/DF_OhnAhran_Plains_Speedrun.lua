@@ -15,7 +15,7 @@ return [[
    A The Shikaar|QID|70174|M|85.30,25.40|N|From Scout Tomul.
    A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.|S|
    A Thieving Gorlocs|QID|65950|M|84.40,25.00|N|From Farrier Roscha.
-  A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.|US|
+   A Sole Supplier|QID|65951|M|84.40,25.00|N|From Apprentice Ehri.|US|
    C The Shikaar|QID|70174|M|85.72,25.32|CHAT|N|Speak To Sansok Khan.
    T The Shikaar|QID|70174|M|85.72,25.32|N|To Sansok Khan.
    A Supplies for the Journey|QID|65802|M|85.72,25.32|N|From Sansok Khan.|S|

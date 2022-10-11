@@ -125,8 +125,8 @@ return [[
     T Dragon Isles Leatherworking|P|Leatherworking;165;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70362|M|76.62,34.80|N|Talk to Deirdre Flemmin.
     A Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
     T Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
-    A Quality Assurance|QID|69965|M|76.37,34.60|N|From Haephesta.|PRE|66110+67053|
-    A Always Be Crafting|QID|66112|M|76.37,34.65|N|From Grun Ashbeard.|PRE|66110+67053|
+    A Quality Assurance|QID|69965|M|76.37,34.60|N|From Haephesta.|PRE|66110^67053|
+    A Always Be Crafting|QID|66112|M|76.37,34.65|N|From Grun Ashbeard.|PRE|66110^67053|
     ;A Dragon Isles Mining|P|Mining;164;0+1|QID|70358|M|76.37,34.60|N|Talk to Grun Ashbeard. Needs QUI
     C Excuse the Mess|QID|69911|QO|1|CS|M|76.31,35.81;76.32,35.58|CHAT|N|Talk to Abmassador Fastrasz.
     M Excuse the Mess|QID|69911|QO|2|M|76.32,35.58|N|Click the book on the stand and select any options to fill out the form.

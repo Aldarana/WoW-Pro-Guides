@@ -1,8 +1,7 @@
 local guide = WoWPro:RegisterGuide("DF_AS", "Leveling", "The Azure Span", "Aldarana and Jme", "Neutral", 10)
 WoWPro:GuideName(guide,"The Azure Span")
 WoWPro:GuideContent(guide, "Dragonflight")
-WoWPro:GuideLevels(guide, 65, 68)
-WoWPro:GuideNextGuide(guide, "Thaldraszus")
+WoWPro:GuideLevels(guide, 65, 70)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -311,112 +310,127 @@ return [[
  ;The Ailing Apprentice Side quest's
    A The Ailing Apprentice|QID|67111|M|67.23,44.39|N|From Kattigat
    A Kill it with Fire|QID|70856|M|67.23,44.39|N|From To'tik|S|
-   A The fending Flames|QID|67724|M|67.23,44.39|N|From To'tik
+   A The Fending Flames|QID|67724|M|67.23,44.39|N|From To'tik
    A Kill it with Fire|QID|70856|M|67.23,44.39|N|From To'tik|US|
    C The Ailing Apprentice|QID|67111|M|68.40,43.79|N|Kill Crawlers and lot Vemon Glands|S|
    C Kill it with Fire|QID|70856|U|199928|M|68.40,43.79|N|Burn bodies on the floor|S|
-   C The fending Flames|NC|QID|67724|M|68.40,43.79|N|Click on the Spider Silk Cocoon's|S|
+   C The Fending Flames|NC|QID|67724|QO|1<1|M|68.03,43.13|N|Click on the Spider Silk Cocoon's
+   C The Fending Flames|NC|QID|67724|QO|1<2|M|68.48,43.70|N|Click on the Spider Silk Cocoon's
+   C The Fending Flames|NC|QID|67724|QO|1<3|M|68.76,45.35|N|Click on the Spider Silk Cocoon's
+   C The Fending Flames|NC|QID|67724|QO|1<4|M|68.49,45.97|N|Click on the Spider Silk Cocoon's
    C The Ailing Apprentice|QID|67111|M|68.40,43.79|N|Kill Crawlers and lot Vemon Glands|US|
    C Kill it with Fire|QID|70856|M|68.40,43.79|N|Burn bodies on the floor|US|
-   C The fending Flames|NC|QID|67724|M|68.40,43.79|N|Click on the Spider Silk Cocoon's|US|
    T The Ailing Apprentice|QID|67111|M|67.23,44.39|N|From Kattigat
-   T Kill it with Fire|QID|70856|M|67.23,44.39|N|From To'tik
-   T The fending Flames|QID|67724|M|67.23,44.39|N|From To'tik
+   T Kill it with Fire|QID|70856|M|67.32,44.39|N|From To'tik|S|
+   T The Fending Flames|QID|67724|M|67.32,44.39|N|From To'tik
+   T Kill it with Fire|QID|70856|M|67.32,44.39|N|From To'tik|S|
    A Back into the Action|QID|70858|M|67.23,44.39|N|From Kattigat
-   C Back into the Action|QID|70858|M|67.23,44.39|N|Click on Alia Sunsoar, she is on the floor
-   T Back into the Action|QID|70858|M|67.23,44.39|N|To Alia Sunsoar
+   C Back into the Action|NC|QID|70858|M|67.23,44.39|N|Click on Alia Sunsoar, she is on the floor
+   T Back into the Action|QID|70858|M|67.23,44.39|N|To Alia Sunsoar, she RPs for a bit before you can hand in.
    A What the Guardian Beholds|QID|70859|M|67.23,44.39|N|From Alia Sunsoar
    C What the Guardian Beholds|QID|70859|M|69.53,43.25|N|Fly to the top of the tower, and kill Edavis
    T What the Guardian Beholds|QID|70859|M|67.23,44.39|N|To Alia Sunsoar
    A Whispered Fragments|QID|70931|M|67.23,44.39|N|From Alia Sunsoar
    A What Valthrux Once Was|QID|70937|M|67.23,44.39|N|From To'tik
-   C Whispered Fragments|QID|70931|M|67.23,44.39|N|From Alia Sunsoar|S|
-   C What Valthrux Once Was|QID|70937|QO|4|M|69.54,44.12|N|Click Journal
-   C What Valthrux Once Was|QID|70937|QO|1|M|70.20,43.30|N|Click Tablet
-   C What Valthrux Once Was|QID|70937|QO|2|M|70.24,46.17|N|Click Tablet, Find it upstairs
-   C What Valthrux Once Was|QID|70937|QO|4|M|70.00,46.16|N|Click Journal
-   T Whispered Fragments|QID|70931|M|67.23,44.39|N|From Alia Sunsoar
-   T What Valthrux Once Was|QID|70937|M|67.23,44.39|N|From To'tik
+   C Whispered Fragments|QID|70931|M|67.23,44.39|N|Kill mobs in the area for fragments.|S|
+   C What Valthrux Once Was|NC|QID|70937|QO|4|M|69.54,44.12|N|Click Journal
+   C What Valthrux Once Was|NC|QID|70937|QO|1|M|70.20,43.30|N|Click Tablet
+   C What Valthrux Once Was|NC|QID|70937|QO|2|M|70.24,46.17|N|Click Tablet, Find it upstairs
+   ;Dracthyr Supple Chest|M|70.24,46.09|loot the chest next to the tablet.
+   T Whispered Fragments|QID|70931|M|67.23,44.39|N|To Alia Sunsoar
+   T What Valthrux Once Was|QID|70937|M|67.23,44.39|N|To To'tik
    A No One May Wield It|QID|70946|M|67.23,44.39|N|From To'tik
-   C No One May Wield It|QID|70946|M|67.23,44.39|N|Speak to Alia Sunsoar
-   T No One May Wield It|QID|70946|M|67.23,44.39|N|From To'tik
-   A Good Intentions|QID|70970|M|67.23,44.39|N|From Kattigat
-   C Good Intentions|QID|70970|QO|1|CS|M|71.67,43.74;72.25,42.91|N|Fly to marker and Kill Alia Sunsoar
-   C Good Intentions|QID|70970|QO|2||M|72.56,42.86|N|Click the book to Destroy it
+   C No One May Wield It|CHAT|QID|70946|M|67.23,44.39|N|Speak to Alia Sunsoar and then wait for the RP.
+   T No One May Wield It|QID|70946|M|67.32,44.37|N|To To'tik
+   A Good Intentions|QID|70970|M|67.32,44.37|N|From Kattigat
+   K Good Intentions|QID|70970|QO|1|CS|M|71.67,43.74;72.25,42.91|N|Fly to marker and Kill Alia Sunsoar inside the ice cave.
+   C Good Intentions|CHAT|QID|70970|QO|2||M|72.56,42.86|N|Click the book to Destroy it
    T Good Intentions|QID|70970|M|67.23,44.39|N|To Kattigat
    T Path to Nowhere|QID|66671|M|63.22,58.40|N|To Maddy Scattershot
    A To the Ruins!|QID|66391|M|63.44,57.99|N|From Rannan Korren
    A Broken Traditions, Broken Bodies|QID|66141|M|63.19,58.62|N|From Garz
    T To the Ruins!|QID|66391|M|65.02,58.61|N|To Rannan Korren
-   A R.A.D Anomalies|QID|66353|M|65.02,58.61|N|From Rannan Korren
+   A R.A.D Anomalies|QID|66353|M|65.02,58.61|N|From Rannan Korren|S|
    A What the Enemy Knows|QID|66352|M|65.02,58.61|N|From Lathos Sunband
-   C What the Enemy Knows|QID|66352|M|65.02,58.61|N|From Lathos Sunband|S|
-   C R.A.D Anomalies|QID|66353|CS|M|65.51,58.86;66.40,59.72;66.30,59.38|N|Use Quest item
+   A R.A.D Anomalies|QID|66353|M|65.02,58.61|N|From Rannan Korren|US|
+   C What the Enemy Knows|QID|66352|M|65.02,58.61|N|Kill mobs in the area for documents.|S|
+   C R.A.D Anomalies|NC|QID|66353|QO|1<1|U|191909|M|65.51,58.86|N|Use the quest item.
+   C R.A.D Anomalies|NC|QID|66353|QO|1<2|U|191909|M|66.40,59.72|N|Use the quest item.
+   C R.A.D Anomalies|NC|QID|66353|QO|1<3|U|191909|M|66.30,59.38|N|Use the quest item.
    C What the Enemy Knows|QID|66352|M|65.02,58.61|N|From Lathos Sunband|US|
-   T R.A.D Anomalies|QID|66353|M|65.02,58.61|N|To Rannan Korren
+   T R.A.D Anomalies|QID|66353|M|65.02,58.61|N|To Rannan Korren|S|
    T What the Enemy Knows|QID|66352|M|65.02,58.61|N|To Lathos Sunband
+   T R.A.D Anomalies|QID|66353|M|65.02,58.61|N|To Rannan Korren|US|
    A The Expedition Continues!|QID|66422|M|65.02,58.61|N|From Lathos Sunband
    T The Expedition Continues!|QID|66422|M|65.65,60.78|N|To Lathos Sunband
    A Worries and Validations|QID|66423|M|65.65,60.78|N|From Lathos Sunband
-   C Worries and Validations|QID|66423|CS|M|65.85,60.57;65.31,60.80|N|Click on the Tablet
+   C Worries and Validations|QID|66423|QO|1<1|M|65.85,60.57|N|Click on the Tablet
+   C Worries and Validations|QID|66423|QO|1<2|M|65.31,60.80|N|Click on the Tablet
    T Worries and Validations|QID|66423|M|65.65,60.78|N|To Lathos Sunband
    A Arcane Overload|QID|66425|M|65.65,60.78|N|From Rannan Korren
-   C Arcane Overload|QID|66425|M|65.15,61.19|N|Dispell Arcane Bubbles
+   C Arcane Overload|NC|QID|66425|U|192110|M|65.15,61.19|N|Dispell Arcane Bubbles inside the building, check upstaris for the 3rd one.
    T Arcane Overload|QID|66425|M|65.65,60.78|N|To Rannan Korren
    A Running Out of Time|QID|66426|M|65.65,60.78|N|From Lathos Sunband
-   A Running Out of Time|QID|66426|M|65.65,60.78|N|Listen to Tharohn
+   C Running Out of Time|QID|66426|M|65.65,60.78|N|Listen to Tharohn
    T Running Out of Time|QID|66426|M|68.46,60.50|N|To Lathos Sunband
    A A Looming Menace|QID|66427|M|68.46,60.50|N|From Lathos Sunband
-   C A Looming Menace|QID|66427|M|68.13,61.32|N|Kill Tharohn
+   K A Looming Menace|QID|66427|QO|1|M|68.13,61.32|N|Kill Tharohn
    T A Looming Menace|QID|66427|M|68.46,60.50|N|To Lathos Sunband
    A Friendship For Granted|QID|66428|M|68.46,60.50|N|From Rannan Korren
-   C Friendship For Granted|QID|66428|QO|1|M|68.46,60.50|N|Use Quest item
-   C Friendship For Granted|QID|66428|QO|2|M|68.46,60.50|N|Wait for Lathos Sunband to RP
+   C Friendship For Granted|NC|QID|66428|QO|1|U|192475|M|68.57,60.41|N|Use Quest item
+   C Friendship For Granted|CHAT|QID|66428|QO|2|M|68.46,60.50|N|Wait for Lathos Sunband to RP
    T Friendship For Granted|QID|66428|M|68.46,60.50|N|To Rannan Korren
    A I Will Remember|QID|66429|M|68.46,60.50|N|From Rannan Korren
-   C Broken Traditions, Broken Bodies|QID|66141|M|65.64,54.86|N|Speak to Narn
+   C Broken Traditions, Broken Bodies|CHAT|QID|66141|M|65.64,54.86|N|Speak to Narn
    T Broken Traditions, Broken Bodies|QID|66141|M|63.50,52.98|N|To Garz
-   A Former Furbolg Family|QID|66148|M|63.50,52.98|N|From Garz
-   A Elemental Influence|QID|66149|M|63.50,52.98|N|From Garz
+   A Former Furbolg Family|QID|66148|M|63.50,52.98|N|From Garz|S|
+   A Elemental Influence|QID|66149|M|63.50,52.98|N|From Garz|S|
    A Rescuing Radza|QID|66150|M|63.50,52.98|N|From Garz
-   C Former Furbolg Family|QID|66148|M|61.77,51.75|N|From Garz|S|
-   C Elemental Influence|QID|66149|M|61.77,51.75|N|From Garz|S|
-   C Rescuing Radza|QID|66150|QO|1|M|60.98,51.40|N|From Garz
-   C Rescuing Radza|QID|66150|QO|2|M|60.98,51.40|N|From Garz
-   C Former Furbolg Family|QID|66148|M|61.77,51.75|N|From Garz|US|
-   C Elemental Influence|QID|66149|M|61.77,51.75|N|From Garz|US|
-   T Former Furbolg Family|QID|66148|M|60.93,50.53|N|To Narn
+   A Former Furbolg Family|QID|66148|M|63.50,52.98|N|From Garz|US|
+   A Elemental Influence|QID|66149|M|63.50,52.98|N|From Garz|US|
+   K Former Furbolg Family|QID|66148|QO|1|M|61.77,51.75|N|Kill mobs in the area.|S|
+   C Elemental Influence|NC|QID|66149|M|61.77,51.75|N|Click the totems found in the area|S|
+   C Rescuing Radza|QID|66150|QO|1|M|60.98,51.40|N|Talk to Radza to start the event, if the event is already in progress you can skip this step.
+   C Rescuing Radza|QID|66150|QO|2|M|60.98,51.40|N|Kill the furbolgs and elementals that spawn.
+   ;Iacepaw Strong Cache|M|62.04,51.64|N|Loot the cache.
+   K Former Furbolg Family|QID|66148|QO|1|M|61.77,51.75|N|Kill mobs in the area.|US|
+   C Elemental Influence|NC|QID|66149|M|61.77,51.75|N|Click the totems found in the area|US|
+   T Former Furbolg Family|QID|66148|M|60.93,50.53|N|To Narn|S|
    T Elemental Influence|QID|66149|M|60.93,50.53|N|To Narn
+   T Former Furbolg Family|QID|66148|M|60.93,50.53|N|To Narn|US|
    T Rescuing Radza|QID|66150|M|60.93,50.53|N|To Radza Thunderclaw
    A His Stone Heart|QID|66151|M|60.91,50.50|N|From Radza Thunderclaw
-   C His Stone Heart|QID|66151|M|60.60,49.63|N|Kill Stoneheart
+   K His Stone Heart|QID|66151|QO|1|M|60.60,49.63|N|Kill Stoneheart
    T His Stone Heart|QID|66151|M|60.91,50.50|N|To Radza Thunderclaw
-   T Nowhere to Go|QID|66152|M|63.19,58.65|N|To Garz
-   A I Will Remember|QID|66429|M|63.69,58.92|N|From Rannan Korren
-   A What of the Winterpelt Clan?|QID|66429|M|63.69,58.92|N|To Rannan Korren
-   H The Conjured Biscuit|QID|66015|U|6948||S|
-   C The Blue Dragon Oathstone|QID|66015|M|39.49,63.06|N|Speak to Sindragosa
+   A Nowhere to Go|QID|66152|M|63.19,58.65|N|From Garz
+   H The Conjured Biscuit Inn|QID|66015|U|6948|M|37.37,62.42
+   C The Blue Dragon Oathstone|CHAT|QID|66015|M|39.49,63.06|N|Speak to Sindragosa
    T The Blue Dragon Oathstone|QID|66015|M|39.49,63.06|N|To Sindragosa
-   A To Valdrakken|QID|66244|M|39.49,63.06|N|From Sindragosa
+   A To Valdrakken|QID|66244|M|39.49,63.06|N|From Kalecgos
    T I Will Remember|QID|66429|M|63.69,58.92|N|To Sonova Snowden
-   A Aggressive Self-Defence|QID|66554|M|65.38,15.93|N|From Sonova Snowden
+   T Nowhere to Go|QID|66152|M|63.23,58.64|N|To Garz
+   A What of the Winterpelt Clan?|QID|70627|M|63.18,58.64|N|From Radza Thunderclaw.
+   T What of the Winterpelt Clan?|QID|70627|M|65.38,15.93|N|To Sonova Snowden|S|
+   A Aggressive Self-Defence|QID|66554|M|65.38,15.93|N|From Sonova Snowden|S|
+   A Hollow Up|QID|66553|M|65.38,15.93|N|From Sonova Snowden
+   T What of the Winterpelt Clan?|QID|70627|M|65.38,15.93|N|To Sonova Snowden|US|
+   A Aggressive Self-Defence|QID|66554|M|65.38,15.93|N|From Sonova Snowden|US|
    A Wayward Tools|QID|66622|M|65.57,16.17|N|From Tyrnokos Sunstrike
-   A Hollow Up|QID|66244|M|65.38,15.93|N|From Sonova Snowden
-   C Wayward Tools|QID|66622|M|65.55,17.18|N|Click the tools in the area
+   C Wayward Tools|NC|QID|66622|M|65.55,17.18|N|Click the tools in the area
    T Wayward Tools|QID|66622|M|65.57,16.17|N|To Tyrnokos Sunstrike
-   C Aggressive Self-Defence|QID|66554|M|66.23,12.77|N|From Sonova Snowden|S|
-   ;C Hollow Up|QID|66244|M|39.49,63.06|N|From Sonova Snowden|S|
-   C Aggressive Self-Defence|QID|66554|M|66.23,12.77|N|From Sonova Snowden|US|
-   ;C Hollow Up|QID|66244|M|39.49,63.06|N|From Sonova Snowden|US|
-   T Aggressive Self-Defence|QID|66554|M|65.38,15.93|N|From Sonova Snowden
-   ;T Hollow Up|QID|66244|M|65.38,15.93|N|From Sonova Snowden
+   C Aggressive Self-Defence|QID|66554|QO|1|M|66.23,12.77|N|Fight furbolgs in the area.|S|
+   C Hollow Up|NC|QID|66553|QO|1|M|66.23,12.77|N|Click objects to uncover clues.
+   C Aggressive Self-Defence|QID|66554|QO|1|M|66.23,12.77|N|Fight furbolgs in the area.|US|
+   T Aggressive Self-Defence|QID|66554|M|65.38,15.93|N|To Sonova Snowden|S|
+   T Hollow Up|QID|66553|M|65.38,15.93|N|To Sonova Snowden
+   T Aggressive Self-Defence|QID|66554|M|65.38,15.93|N|To Sonova Snowden|US|
    A Bear with me|QID|66555|M|65.38,15.93|N|From Sonova Snowden
-   C Bear with me|QID|66555|M|65.38,15.93|N|Speak to Sonova Snowden
+   C Bear with me|CHAT|QID|66555|M|65.38,15.93|N|Speak to Sonova Snowden, click any of the options.
    T Bear with me|QID|66555|M|65.38,15.93|N|To Sonova Snowden
    A Ice Cave Ya Got There|QID|66556|M|65.38,15.93|N|From Sonova Snowden
-   C Ice Cave Ya Got There|QID|66556|QO|1|M|66.26,11.12|N|Enter the cave
-   C Ice Cave Ya Got There|QID|66556|QO|2|M|66.05,10.83|N|Kill Rynea
-   T Ice Cave Ya Got There|QID|66556|M|65.38,15.93|N|To Sonova Snowden
-   C To Valdrakken|QID|66244|M|39.49,63.06|N|Fly to the Valdrakken
+   R Ice Cave Ya Got There|QID|66556|QO|1|M|66.26,11.12|N|Enter the cave
+   K Ice Cave Ya Got There|QID|66556|QO|2|M|66.05,10.83|N|Kill Rynea, you need to kill the two stone bears to break her shield.
+   T Ice Cave Ya Got There|QID|66556|CS|M|66.33,11.48;65.38,15.93|N|To Sonova Snowden
+   F To Valdrakken|QID|66244|QO|1|M|39.49,63.06|Z|Thaldraszus|N|Fly to the Valdrakken
    ]]
 end)

@@ -93,12 +93,6 @@ return [[
     T Primal Pests|QID|70123|M|76.77,34.42|Z|2022|N|To Scalecommander Azurathel.|FACTION|Alliance|
     T Practice Materials|QID|65451|M|75.96,33.24|N|To Boss Magor.|FACTION|Horde|
     T Practice Materials|QID|70124|M|76.50,34.34|Z|2022|N|To Thaelin Darkanvil.|FACTION|Alliance|
-    A Dragon Isles Engineering|P|Engineering;202;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
-    T Dragon Isles Engineering|P|Engineering;202;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72242|M|75.96,33.24|N|Talk to Quizla Blastcaps.
-    A Dragon Isles Tailoring|P|Tailoring;197;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72249|M|75.87,33.26|N|Talk to Zayn Starmaker.
-    T Dragon Isles Tailoring|P|Tailoring;197;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72249|M|75.87,33.26|N|Talk to Zayn Starmaker.
-    A Dragon Isles Enchanting|P|Enchanting;333;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70360|M|75.85,33.29|N|Talk to Veeno.
-    T Dragon Isles Enchanting|P|Enchanting;333;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70360|M|75.85,33.29|N|Talk to Veeno.
     A From Such Great Heights|QID|66101|M|75.86,33.48|N|From Aster Cloudgaze.
     C From Such Great Heights|QID|66101|M|75.86,33.48|QO|1|V|N|Click the floating disc.
     M From Such Great Heights|QID|66101|M|75.86,33.48|QO|2|N|Use the [color=349eeb]"Search for Power"[/color] ability from the vehicle bar.
@@ -106,28 +100,17 @@ return [[
     M From Such Great Heights|QID|66101|M|75.86,33.48|QO|4|N|Use the [color=b50202]"Search for Danger"[/color] ability from the vehicle bar.
     N From Such Great Heights|QID|66101|V|N|Use the exit vehicle button to get down quickly.|S|
     T From Such Great Heights|QID|66101|M|75.86,33.48|N|To Aster Cloudgaze, he might take a second to spawn in.
-    A Dragon Isles Jewelcrafting|P|Jewelcrafting;755;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72247|M|76.15,33.66|N|Talk to Misty Catseye.
-    T Dragon Isles Jewelcrafting|P|Jewelcrafting;755;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72247|M|76.15,33.66|N|Talk to Misty Catseye.
     C Where is Wrathion?|QID|69910|M|76.56,33.60|QO|1|CHAT|N|Do the next steps while you wait for the RP.|FACTION|Horde|US|
     T Where is Wrathion?|QID|69910|M|76.61,33.68|N|To Sendrax.|FACTION|Horde
     T Where is Wrathion?|QID|70125|M|76.57,33.66|Z|2022|N|To Sendrax.|FACTION|Alliance|
     A Excuse the Mess|QID|69911|M|76.61,33.68|N|From Sendrax.|PRE|69910|FACTION|Horde|
     A Excuse the Mess|QID|69911|PRE|70125^69910|M|76.57,33.66|Z|2022|N|From Sendrax.|FACTION|Alliance|
-    A Dragon Isles Herbalism|P|Herbalism;182;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
-    T Dragon Isles Herbalism|P|Herbalism;182;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|72243|M|76.86,34.04|N|Talk to Feilin Kuan.
     T Give Peace a Chance|QID|66110|M|76.67,34.57|N|To Captian Garrick.|FACTION|Horde|
     T Give Peace a Chance|QID|67053|M|76.36,33.07|Z|2022|N|To Warlord Breka Grimaxe.|FACTION|Alliance|
     A Encroaching Elementals|QID|66111|M|76.69,34.51|N|From Captian Garrick.|PRE|66110|FACTION|Horde|
     A Encroaching Elementals|QID|70135|PRE|67053|M|76.36,33.07|Z|2022|N|From Warlord Breka Grimaxe.|FACTION|Alliance|
-    A Dragon Isles Skinning|P|Skinning;393;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70363|M|76.65,34.77|N|Talk to Toninaar.
-    T Dragon Isles Skinning|P|Skinning;393;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70363|M|76.65,34.77|N|Talk to Toninaar.
-    A Dragon Isles Leatherworking|P|Leatherworking;165;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70362|M|76.62,34.80|N|Talk to Deirdre Flemmin.
-    T Dragon Isles Leatherworking|P|Leatherworking;165;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70362|M|76.62,34.80|N|Talk to Deirdre Flemmin.
-    A Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
-    T Dragon Isles Blacksmithing|P|Blacksmithing;164;0+1;1+1;2+1;3+1;4+1;5+1;6+1;7+1;8+1|QID|70358|M|76.37,34.60|N|Talk to Kholmar Sunrunner.
     A Quality Assurance|QID|69965|M|76.37,34.60|N|From Haephesta.|PRE|66110^67053|
     A Always Be Crafting|QID|66112|M|76.37,34.65|N|From Grun Ashbeard.|PRE|66110^67053|
-    ;A Dragon Isles Mining|P|Mining;164;0+1|QID|70358|M|76.37,34.60|N|Talk to Grun Ashbeard. Needs QUI
     C Excuse the Mess|QID|69911|QO|1|CS|M|76.31,35.81;76.32,35.58|CHAT|N|Talk to Abmassador Fastrasz.
     M Excuse the Mess|QID|69911|QO|2|M|76.32,35.58|N|Click the book on the stand and select any options to fill out the form.
     M Excuse the Mess|QID|69911|QO|3|M|75.65,34.16|N|Click the large stone with runes on it.

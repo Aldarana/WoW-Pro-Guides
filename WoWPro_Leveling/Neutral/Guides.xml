@@ -15,6 +15,7 @@
 	<Script file="DF_The_Azure_Span_Speedrun.lua"/>
   <Script file="DF_Thaldraszus_Speedrun.lua"/>
 	<Script file="DF_Azure_Span.lua"/>
+	<Script file="DF_Ohnahran_Plains.lua"/>
   <Script file="DF_Thaldraszus.lua"/>
 	<Script file="DF_Waking_Shores.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>

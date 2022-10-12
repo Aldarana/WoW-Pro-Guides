@@ -285,7 +285,7 @@ return [[
     T Egg Evac|QID|66121|M|53.73,80.17|N|To Majordomo Selistra.|S|
     T Proto-fight|QID|66122|M|53.73,80.17|N|To Majordomo Selistra.|S|
     A Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.
-    K Cut off the head|QID|QO|1|66123|M|53.29,82.95|N|Kill Jadzigeth
+    K Cut off the head|QID|66123|QO|1|M|53.29,82.95|N|Kill Jadzigeth
     T Cut off the head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.
     A Exeunt, Triumphant|QID|66124|M|53.73,80.17|N|From Majordomo Selistra.
     A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.

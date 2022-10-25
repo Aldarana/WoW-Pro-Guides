@@ -1,6 +1,5 @@
-local guide = WoWPro:RegisterGuide("DF_OP", "Leveling", "Ohn'ahran Plains", "Aldarana and Jme", "Neutral", 10)
+local guide = WoWPro:RegisterGuide("DF_OP", "Leveling", "Ohn'ahran Plains", "Aldarana and Jme", "Neutral")
 WoWPro:GuideName(guide,"Ohn'ahran Plains")
-WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideLevels(guide, 62, 66)
 WoWPro:GuideNextGuide(guide, "DF_AS")
 WoWPro:GuideSort(guide, 2)

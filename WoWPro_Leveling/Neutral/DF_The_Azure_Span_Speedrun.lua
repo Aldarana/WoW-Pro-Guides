@@ -1,6 +1,5 @@
-local guide = WoWPro:RegisterGuide("DF_AS", "Leveling", "The Azure Span", "Aldarana and Jme", "Neutral", 10)
+local guide = WoWPro:RegisterGuide("DF_AS", "Leveling", "The Azure Span", "Aldarana and Jme", "Neutral")
 WoWPro:GuideName(guide,"The Azure Span")
-WoWPro:GuideContent(guide, "Dragonflight")
 WoWPro:GuideLevels(guide, 65, 70)
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideSteps(guide, function()

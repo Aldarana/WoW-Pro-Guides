@@ -255,7 +255,6 @@ function WoWPro:CreateEAButtonSecured(id)
     eabutton:SetHeight(32)
     eabutton:SetWidth(32)
     eabutton:Hide()
-    eabutton:RegisterForClicks("anyDown")
     return eabutton
 end
 
@@ -266,7 +265,6 @@ function WoWPro:CreateTargetButtonSecured(id)
     targetbutton:SetHeight(32)
     targetbutton:SetWidth(32)
     targetbutton:Hide()
-	targetbutton:RegisterForClicks("anyDown")
     return targetbutton
 end
 
@@ -277,7 +275,6 @@ function WoWPro:CreateItemButtonSecured(id)
     itembutton:SetHeight(32)
     itembutton:SetWidth(32)
     itembutton:Hide()
-	itembutton:RegisterForClicks("anyDown")
     return itembutton
 end
 

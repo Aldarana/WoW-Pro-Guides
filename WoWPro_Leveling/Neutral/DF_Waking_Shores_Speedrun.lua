@@ -246,6 +246,7 @@ return [[
     C Dragon Glyphs and You|QID|68798|M|73.24,52.10|QO|5|N|Speak to Celormu.
     T Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|To Lord Andestrasz.
     A Return to the Ruby Lifeshrine|QID|68799|M|75.16,54.95|N|From Lord Andestrasz.
+    C Return to the Ruby Lifeshrine|QID|68799|QO|1|M|75.16,54.95|V|N|Ride the dragon to the top of the tower.
     T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back[/color]
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion

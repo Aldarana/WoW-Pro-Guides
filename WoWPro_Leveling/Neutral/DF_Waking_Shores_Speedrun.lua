@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide("DF_WS", "Leveling", "The Waking Shores", "Al
 WoWPro:GuideName(guide,"The Waking Shores")
 WoWPro:GuideLevels(guide, 60, 63)
 WoWPro:GuideSort(guide, 1)
-WoWPro:GuideNextGuide(guide, "Ohn'ahran Plains")
+WoWPro:GuideNextGuide(guide, "DF_OP")
 WoWPro:GuideSteps(guide, function()
 return [[
   ;Horde Opening

@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("DF_WS", "Leveling", "The Waking Shores", "Aldarana and Jme", "Neutral")
-WoWPro:GuideName(guide,"The Waking Shores")
+WoWPro:GuideName(guide,"The Waking Shores Speedrun")
 WoWPro:GuideLevels(guide, 60, 63)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNextGuide(guide, "DF_OP")

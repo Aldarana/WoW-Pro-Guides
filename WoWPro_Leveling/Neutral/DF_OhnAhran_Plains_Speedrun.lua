@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("DF_OP", "Leveling", "Ohn'ahran Plains", "Aldarana and Jme", "Neutral")
-WoWPro:GuideName(guide,"Ohn'ahran Plains")
+WoWPro:GuideName(guide,"Ohn'ahran Plains Speedrun")
 WoWPro:GuideLevels(guide, 62, 66)
 WoWPro:GuideNextGuide(guide, "DF_AS")
 WoWPro:GuideSort(guide, 2)

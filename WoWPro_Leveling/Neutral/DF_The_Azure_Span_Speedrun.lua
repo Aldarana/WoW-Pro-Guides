@@ -7,10 +7,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
   ;Chapter 1
    A Camp Antonidas|QID|66228|M|41.38,35.70|N|From Giania of the Blessed Ones.
-   A Arcane Detection|QID|67174|M|41.22,35.88|N|From Miva Star-Eye.
-   C Arcane Detection|QID|67174|QO|1|M|41.38,35.70|N|
-   C Arcane Detection|QID|67174|QO|2|M|41.41,35.83|N|
-   C Arcane Detection|QID|67174|QO|3|M|41.24,36.40|N|
+   A Arcane Detection|NC|QID|67174|M|41.22,35.88|N|From Miva Star-Eye.
+   C Arcane Detection|NC|QID|67174|QO|1|M|41.38,35.70|N|
+   C Arcane Detection|NC|QID|67174|QO|2|M|41.41,35.83|N|
+   C Arcane Detection|NC|QID|67174|QO|3|M|41.24,36.40|N|
    A WANTED: Gorger|QID|67177|M|41.42,36.42|N|From Shala.
    T Arcane Detection|QID|67174|M|41.22,35.88|N|To Miva Star-Eye.
    A How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|N|From Miva Star-Eye.

@@ -14,10 +14,10 @@ return [[
    A WANTED: Gorger|QID|67177|M|41.42,36.42|N|From Shala.
    T Arcane Detection|QID|67174|M|41.22,35.88|N|To Miva Star-Eye.
    A How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|N|From Miva Star-Eye.
-   C How To Stop An Exploding Toy Boat|QID|67175|QO|1|M|41.22,35.88|N|Speak to Julk.
-   C How To Stop An Exploding Toy Boat|QID|67175|QO|2|M|41.22,35.88|N|Click the Wand on the table.
-   C How To Stop An Exploding Toy Boat|QID|67175|QO|3|M|40.62,36.54|N|Click on the Toy Boat.
-   C WANTED: Gorger|QID|67177|M|39.69,37.27|N|
+   C How To Stop An Exploding Toy Boat|CHAT|QID|67175|QO|1|M|41.22,35.88|N|Speak to Julk and then wait for the RP.
+   C How To Stop An Exploding Toy Boat|NC|QID|67175|QO|2|M|41.22,35.88|N|Click the wand on the table.
+   C How To Stop An Exploding Toy Boat|NC|QID|67175|QO|3|M|40.62,36.54|N|Click on the Toy Boat.
+   K WANTED: Gorger|QID|67177|QO|1|M|39.69,37.27|N|
    T How To Stop An Exploding Toy Boat|QID|67175|M|41.22,35.88|N|From Miva Star-Eye
    T WANTED: Gorger|QID|67177|M|41.42,36.42|N|To Shala
    T Camp Antonidas|QID|66228|M|46.64,40.16|N|To Noriko The All-remembering
@@ -31,20 +31,20 @@ return [[
    T Preservation of Knowledge|QID|67035|M|46.68,39.76|N|To Althanus
    T Assemble the Defenses|QID|67033|M|46.68,39.76|N|To Noriko The All-remembering|US|
    A Wrath of the Kirin Tor|QID|67036|M|46.68,39.76|N|From Noriko The All-remembering
-   C Wrath of the Kirin Tor|QID|67036|M|46.32,38.85|N|Use Arcane Blaster\n[color=ff0000]DO NOT GET OUT EARLY[/color]\nAfter you kill the proto-drakes there's RP where Kalecgos comes down, don't get out of the vehicle until the quest completes. Canceling the RP will force you to do the quest over again.
+   C Wrath of the Kirin Tor|V|QID|67036|M|46.32,38.85|N|Use Arcane Blaster\n[color=ff0000]DO NOT GET OUT EARLY[/color]\n\nAfter you kill the proto-drakes there's RP where Kalecgos comes down, don't get out of the vehicle until the quest completes. Canceling the RP will force you to do the quest over again.
    T Wrath of the Kirin Tor|QID|67036|M|46.64,40.16|N|To Noriko The All-remembering
    A WANTED: Frigellus|QID|66488|M|46.16,39.61|N|The Wanted Poster
    A Meeting Kalecgos|QID|65688|M|46.64,40.16|N|From Khadgar
    A Path to Nowhere|QID|66671|M|45.68,39.78|N|To Maddy Scattershot
    C Meeting Kalecgos|QID|65688|M|45.99,38.80|NC|N|Click portal, Then a bag will appear on the floor next to you.
-   K WANTED: Frigellus|QID|66488|M|47.93,38.05|N|Kill Frigellus
+   K WANTED: Frigellus|QID|66488|QO|1|M|47.93,38.05|N|Kill Frigellus
    T WANTED: Frigellus|QID|66488|M|46.01,38.31|N|To Custodian Cynegos
    A Setting the Defense|QID|66489|M|45.99,38.40|N|From Arch Enchanter Celeste
    C Setting the Defense|QID|66489|NC|U|192471|M|46.18,38.97|N|Use quest item
    T Setting the Defense|QID|66489|M|45.99,38.40|N|To Arch Enchanter Celeste
    T Meeting Kalecgos|QID|65688|M|40.92,55.00|N|To Kalecgos
    A The Many Images of Kalecgos|QID|65689|M|40.92,55.00|N|From Kalecgos
-   C The Many Images of Kalecgos|QID|65689|M|41.13,55.37|N|Use Crystal Pylon
+   C The Many Images of Kalecgos|NC|QID|65689|M|41.13,55.37|N|Use Crystal Pylon\n\nYou can mount while flying in the pylon.
    T The Many Images of Kalecgos|QID|65689|M|40.75,59.03|N|To Kalecgos
    A Driven Mad|QID|65702|M|40.75,59.03|N|From Kalecgos
    A Arcane Pruning|QID|65709|M|40.69,59.11|N|From Kalecgos
@@ -61,7 +61,7 @@ return [[
    A Platform Adjustments|QID|65751|M|39.96,61.46|N|From Kalecgos|S|
    A Arcane Annoyances|QID|65752|M|39.96,61.46|N|From Kalecgos
    A Platform Adjustments|QID|65751|M|39.96,61.46|N|From Kalecgos|US|
-   C Arcane Annoyances|U|194891|QID|65752|M|39.96,61.46|N|Use Quest item on Feasting Wyrm's |S|
+   C Arcane Annoyances|U|194891|QID|65752|M|39.96,61.46|N|Use Quest item on Feasting Wyrm's|T|Feasting Wyrm|S|
    C Platform Adjustments|NC|QID|65751|CS|M|40.22,62.03;39.58,62.68;39.52,61.54|N|Click the Arcane Energy
    C Arcane Annoyances|QID|65752|M|39.96,61.46|N|Use Quest item on Feasting Wyrm's |US|
    T Platform Adjustments|QID|65751|M|39.96,61.46|N|To Kalecgos|S|
@@ -72,23 +72,23 @@ return [[
    T Reclaiming the Oathstone|QID|65854|M|39.49,63.07|N|To Sindragosa
    A Aiding Azure Span|QID|65855|M|39.49,63.07|N|From Sindragosa
    h The Conjured Biscuit Inn|QID|65855|M|37.37,62.42|N|At the innkeeper.
-   C Aiding Azure Span|QID|65855|M|37.06,60.82|N|Speak to the Flightmaster
+   C Aiding Azure Span|CHAT|QID|65855|M|37.06,60.82|N|Speak to the Flightmaster
    T Aiding Azure Span|QID|65855|M|46.64,40.16|N|To Noriko The All-remembering
 
   ;Chapter 2
    A Suspiciously Quiet|QID|69904|M|46.63,40.16|N|From Noriko The All-remembering|S|
    A Ask the Locals|QID|66699|M|46.63,40.16|N|From Noriko The All-remembering
    A Suspiciously Quiet|QID|69904|M|46.63,40.16|N|From Noriko The All-remembering|US|
-   C Ask the Locals|QID|66699|QO|1|M|46.77,38.58|N|Speak to korrikunit the Whalebringer
-   C Ask the Locals|QID|66699|QO|2|M|46.33,38.15|N|Speak to Jokomuupat
-   C Ask the Locals|QID|66699|QO|3|M|45.72,38.85|N|Speak to Babunituk
+   C Ask the Locals|CHAT|QID|66699|QO|1|M|46.77,38.58|N|Speak to korrikunit the Whalebringer
+   C Ask the Locals|CHAT|QID|66699|QO|2|M|46.33,38.15|N|Speak to Jokomuupat
+   C Ask the Locals|CHAT|QID|66699|QO|3|M|45.72,38.85|N|Speak to Babunituk
    T Ask the Locals|QID|66699|M|45.72,38.85|N|To Babunituk
    A Catch the Caravan|QID|65864|M|45.72,38.85|N|From Babunituk
    C Catch the Caravan|CHAT|QID|65864|M|35.25,36.98|N|Speak to Brena
    T Catch the Caravan|QID|65864|M|35.25,36.98|N|To Brena, she RPs for a bit before you can hand in.
    A Those Aren't for Chewing|QID|65868|M|35.37,36.94|N|From Elder Poa
    A Howling in the Big Tree Hills|QID|65867|M|35.25,36.98|N|From Brena|S|
-   A Snap the Traps|QID|65866|M|35.25,36.98|N|From Brena
+   A Snap the Traps|QID|65866|M|35.25,36.98|N|From Brena, you might have to wait for the RP to complete.
    A Howling in the Big Tree Hills|QID|65867|M|35.25,36.98|N|From Brena|US|
    l Those Aren't for Chewing|QID|65868|QO|1|M|34.82,33.79|S|
    C Snap the Traps|NC|QID|65866|M|34.82,33.79|S|
@@ -109,13 +109,13 @@ return [[
    C Leader of the Shadepaw Pack|QID|65873|M|40.95,17.11|N|Kill Kargpaw and loot totem|S|
    C Gnoll Way Out|NC|QID|65871|M|30.06,74.94|N|Rescue Tuskarr and Norukk in the cave|S|
    K Ill Gnolls With Ill Intent|QID|65872|QO|1|M|30.06,74.94|S|
-   C Supplies!|NC|QID|65870|QO|3|M|33.90,30.45|N|Click the Basket
-   C Supplies!|NC|QID|65870|QO|1||M|30.42,74.58|N|Click the Barrel of salt
-   C Gnoll Way Out|NC|QID|65871|QO|2|M|40.99,63.78|N|Rescue Norukk.
-   C Supplies!|NC|QID|65870|QO|2||M|52.88,39.06|N|Click the Barrel of Skinning tools
-   C Leader of the Shadepaw Pack|QID|65873|M|40.95,17.11|N|Kill Kargpaw and loot totem|US|
-   C Gnoll Way Out|NC|QID|65871|M|30.06,74.94|N|Rescue Tuskarr and Norukk in the cave|US|
-   K Ill Gnolls With Ill Intent|QID|65872|QO|1|M|30.06,74.94|US|
+   C Supplies!|NC|QID|65870|QO|3|Z|2132|M|33.90,30.45|N|Click the Basket
+   C Supplies!|NC|QID|65870|QO|1|Z|2132|M|30.42,74.58|N|Click the Barrel of salt
+   C Gnoll Way Out|NC|QID|65871|QO|2|Z|2132|M|40.99,63.78|N|Rescue Norukk.
+   C Supplies!|NC|QID|65870|QO|2|Z|2132|M|52.88,39.06|N|Click the Barrel of Skinning tools
+   C Leader of the Shadepaw Pack|QID|65873|Z|2132|M|40.95,17.11|N|Kill Kargpaw and loot totem|US|
+   C Gnoll Way Out|NC|QID|65871|Z|2132|M|30.06,74.94|N|Rescue Tuskarr and Norukk in the cave|US|
+   K Ill Gnolls With Ill Intent|QID|65872|QO|1|Z|2132|M|30.06,74.94|US|
    T Supplies!|NC|QID|65870|Z|2024|M|34.36,31.07|N|To Elder Poa|S|
    T Gnoll Way Out|QID|65871|M|34.36,31.07|N|To Hanu|S|
    T Ill Gnolls With Ill Intent|QID|65872|M|34.36,31.07|N|To Brena|S|
@@ -134,7 +134,7 @@ return [[
    T Urgent Action Required|QID|65869|M|20.53,35.68|N|To Kalecgos
 
   ;Chapter 3
-   A Breaching the Brackenhide|QID|65838|M|20.53,35.68|N|From Kalecgos
+   A Breaching the Brackenhide|QID|65838|M|20.53,35.68|N|From Kalecgos, there's a bit of RP before you can pick it up.
    A Out of Lukh|QID|66843|M|19.26,26.91|N|From Roki
    A The Great Shokhari|QID|66844|M|19.05,23.98|N|From Zon'Wogi
    A It's Brew Time!|QID|66839|M|18.98,23.33|N|From Modurun Siztoes
@@ -147,9 +147,9 @@ return [[
    C Nothing for Breakfast|QID|66837|M|16.55,26.39
    T Out of Lukh|QID|66843|M|19.26,26.91|N|To Roki
    C It's Cold Up Here|QID|66838|M|21.31,26.86|S|
-   C It's Brew Time!|QID|66839|M|21.31,26.86|S|
+   C It's Brew Time!|NC|QID|66839|M|21.31,26.86|S|
    C It's Cold Up Here|QID|66838|M|21.31,26.86|US|
-   C It's Brew Time!|QID|66839|M|21.31,26.86|US|
+   C It's Brew Time!|NC|QID|66839|M|21.31,26.86|US|
    T The Great Shokhari|QID|66844|M|19.05,23.98|N|To Zon'Wogi
    T It's Brew Time!|QID|66839|M|18.98,23.33|N|To Modurun Siztoes
    T Nothing for Breakfast|QID|66837|M|18.74,24.47|N|To Willa Stronghinge
@@ -168,10 +168,10 @@ return [[
    T The Heart of the Deck|QID|66846|M|18.75,24.42|N|To Apparition
    A Stop the Spread|QID|65841|M|18.57,35.37|N|Bonus Objective|S|
    C Breaching the Brackenhide|NC|QID|65838|QO|1|M|18.37,34.74|N|Click the Root
-   C Stop the Spread|QID|65841|M|17.68,38.09|N|Do this while you work on Breacking the Brakenhide.|S|
+   C Stop the Spread|QID|65841|M|17.68,38.09|N|Do this while you work on the next 5 quests in this area.|S|
    C Breaching the Brackenhide|NC|QID|65838|QO|2|M|18.90,37.00|N|Click the Root
    C Breaching the Brackenhide|NC|QID|65838|QO|3|M|17.59,37.02|N|Click the Root
-   T Breaching the Brackenhide|QID|65838|M|16.74,37.27|N|
+   T Breaching the Brackenhide|QID|65838|M|16.74,37.27|N|To Kalecgos
    A Echoes of the Fallen|QID|65845|M|16.74,37.27|N|From Brena|S|
    A Cut Out the Rot|QID|65844|M|16.74,37.27|N|From Norukk|S|
    A Ley Litter|QID|65846|M|16.74,37.27|N|From Kalecgos
@@ -191,7 +191,8 @@ return [[
    A Tome-ward Bound|QID|65848|M|16.74,37.27|N|From Kalecgos
    C Tome-ward Bound|CHAT|QID|65848|QO|1|M|16.74,37.27
    C Tome-ward Bound|V|QID|65848|QO|2|M|16.74,37.27
-   C Tome-ward Bound|QID|65848|QO|3|M|16.74,37.27
+   C Tome-ward Bound|QID|65848|QO|3|M|16.74,37.27|N|Use the 1 ability to charge forward and the 2 to kill the Putrifiers
+   C Tome-ward Bound|QID|65848|QO|4|M|16.74,37.27|N|Use the 1 ability to slay the Twisted Ancient.
    T Tome-ward Bound|QID|65848|M|15.26,39.49|N|To Kalecgos
    A Realignment|QID|65847|M|15.26,39.49|N|From Kalecgos
    C Realignment|NC|QID|65847|QO|1|M|15.26,39.49|N|Click the Ley Crystal
@@ -208,6 +209,7 @@ return [[
    T The Weave of a Tale|QID|66213|M|12.42,49.39|N|Too Nappa.
    C Gather the Family|NC|QID|66210|QO|1<4|M|13.48,48.44|N|Click Offerings.
    A WANTED: Krojek the Shoreprowler|QID|66217|M|13.21,48.81|N|From bukarakikk
+   C Gather the Family|NC|QID|66210|QO|2|M|13.15,48.61|N|Click the boat.
    A Scampering Scamps|QID|66218|M|12.91,48.70|N|From Hanu
    T Gather the Family|QID|66210|M|13.24,49.52|N|To Brena
    A The Cycle of the Sea|QID|65850|M|13.24,49.52|N|From Kalecgos
@@ -229,7 +231,7 @@ return [[
    T Can We Keep It?|QID|66223|M|10.59,46.87|N|To Neelo
    C WANTED: Krojek the Shoreprowler|QID|66217|M|10.70,54.38|N|You'll want lust and all CDs for this. \n\nSkip if you think its to hard.|US|
    T WANTED: Krojek the Shoreprowler|QID|66217|M|12.51,49.80|N|Skip if it was to hard
-   H The Conjured Biscuit|QID|65911|U|6948|M|37.39,62.41
+   H The Conjured Biscuit Inn|QID|65911|U|6948|M|37.39,62.41
    T Azure Alignment|QID|65911|M|39.47,63.02|N|To kalecgos
 
   ;Chapter 4
@@ -256,8 +258,9 @@ return [[
    C Lava Burst|NC|QID|65944|CS|M|72.25,37.26;73.10,37.77;73.77,38.33|N|Click Lava Orbs|S|
    K Primal Offensive|QID|65943|QO|1|M|70.01,35.24|S|
    K Elemental Unfocus|QID|66647|QO|1|M|72.91,38.71|N|kill Stonegrinder
-   C Lava Burst|NC|QID|65944|CS|M|72.25,37.26;73.10,37.77;73.77,38.33|N|Click Lava Orbs|US|
-   ;shimmering chest treasure here |M|73.20,37.93
+   C Lava Burst|NC|QID|65944|QO|1<1|CS|M|72.25,37.26|N|Click the Lava Orbs|US|
+   C Lava Burst|NC|QID|65944|QO|1<2|CS|M|73.10,37.77|N|Click the Lava Orbs
+   C Lava Burst|NC|QID|65944|QO|1<3|CS|M|73.77,38.33|N|Click the Lava Orbs
    K Primal Offensive|QID|65943|QO|1|M|70.01,35.24|US|
    T Primal Offensive|QID|65943|M|74.46,37.82|N|To Kalecgos|S|
    T Lava Burst|QID|65944|M|74.46,37.82|N|To Khadgar|S|
@@ -281,7 +284,9 @@ return [[
    T In Defense of Vakthros|QID|66009|M|78.00,32.49|N|To Khadgar
    A The Storm-Eater's Fury|QID|70041|M|78.00,32.49|N|From Khadgar
    C The Storm-Eater's Fury|V|QID|70041|QO|1|M|78.03,32.43|N|Jump on the Flying disc
-   C The Storm-Eater's Fury|V|QID|70041|QO|2|M|78.03,32.43|N|Use Vehicle 1 and 2 to kill the mobs.\n\n[color=ff0000]DO NOT USE VECHICLE 3[/color]
+   C The Storm-Eater's Fury|V|QID|70041|QO|2|M|78.03,32.43|N|Use Vehicle 1 to kill the mobs.\n\n[color=ff0000]USE VECHICLE 2 AS SOON AS IT'S READY[/color]
+   C The Storm-Eater's Fury|V|QID|70041|QO|3|M|78.03,32.43|N|Use Vehicle 4 to dispel the gray clouds.
+   C The Storm-Eater's Fury|V|QID|70041|QO|4|M|78.03,32.43|N|Use Vehicle 1 and 2 to kill the mobs, Vehicle 3 does not kill the any mobs.
    T The Storm-Eater's Fury|QID|70041|M|78.21,33.33|N|To Kalecgos
    A The Blue Dragon Oathstone|QID|66015|M|78.00,32.49|N|From Khadgar
    T Riders in the Snow|QID|66708|M|59.26,39.71|N|Fly to Old Grimtusk
@@ -337,8 +342,8 @@ return [[
    C Whispered Fragments|QID|70931|M|67.23,44.39|N|Kill mobs in the area for fragments.|S|
    C What Valthrux Once Was|NC|QID|70937|QO|4|M|69.54,44.12|N|Click Journal
    C What Valthrux Once Was|NC|QID|70937|QO|1|M|70.20,43.30|N|Click Tablet
+   C What Valthrux Once Was|NC|QID|70937|QO|3|M|70.24,46.17|N|Click Journal, find it inside on the crates.
    C What Valthrux Once Was|NC|QID|70937|QO|2|M|70.24,46.17|N|Click Tablet, Find it upstairs
-   ;Dracthyr Supple Chest|M|70.24,46.09|loot the chest next to the tablet.
    T Whispered Fragments|QID|70931|M|67.23,44.39|N|To Alia Sunsoar
    T What Valthrux Once Was|QID|70937|M|67.23,44.39|N|To To'tik
    A No One May Wield It|QID|70946|M|67.23,44.39|N|From To'tik

@@ -221,18 +221,18 @@ return [[
     C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz
     T Dragonriding|QID|68795|M|56.67,66.89|N|To Lord Andestrasz.
     A How to Glide with Your Dragon|QID|65118|M|57.84,66.82|N|From Lord Andestrasz.
-    C How to Glide with Your Dragon|QID|65118|NC|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|BUFF|368896|
+    C How to Glide with Your Dragon|QID|65118|NC|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|BUFF|368896^368899^368901^360954|
     F How to Glide with Your Dragon|QID|65118|QO|2|M|57.48,61.28|N|Glide Through the rings
     F How to Glide with Your Dragon|QID|65118|M|57.45,59.14|QO|3|N|Land in the target area
     $ Crumbling Life Archway|N|Inside the actual archway, at the top of it.|M|57.6,55.0|Z|2022;The Waking Shores!Dragonflight|ACH|15991|
     T How to Glide with Your Dragon|QID|65118|M|57.45,59.14|N|To Celormu.
     A How to Dive with Your Dragon|QID|65120|M|57.84,66.82|N|From Lord Andestrasz.
-    C How To Dive with Your Dragon|QID|65120|NC|M|57.40,59.03|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896|
+    C How To Dive with Your Dragon|QID|65120|NC|M|57.40,59.03|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896^368899^368901^360954|
     F How to Dive with Your Dragon|QID|65120|QO|2|N|Glide Through the rings
     F How to Dive with Your Dragon|QID|65120|M|57.45,59.14|QO|3|N|Land in the target area
     T How to Dive with Your Dragon|QID|65120|M|57.45,59.14|N|To Celormu.
     A How to Use Momentum with Your Dragon|QID|65133|M|57.84,66.82|N|From Lord Andestrasz.
-    C How to Use Momentum with Your Dragon|QID|65133|NC|M|57.65,66.87|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896|
+    C How to Use Momentum with Your Dragon|QID|65133|NC|M|57.65,66.87|Z|2022|QO|1|N|Hop on a Dragonriding Mount (Optional).|BUFF|368896^368899^368901^360954|
     F How to Use Momentum with Your Dragon|QID|65133|QO|2|N|Glide Through the rings
     F How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|QO|3|N|Land in the target area
     T How to Use Momentum with Your Dragon|QID|65133|M|57.45,59.14|N|To Celormu.
@@ -266,7 +266,7 @@ return [[
     C Who Brought the Ruckus?|CHAT|QID|66931|M|59.46,72.65|N|Meet Majordomo Selistra at the Check point.
     T Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|To Majordomo Selistra.
     A The Primary Threat|QID|66116|M|59.46,72.65|N|From Majordomo Selistra.
-    C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|BUFF|368896|
+    C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|BUFF|368896^368899^368901^360954|
     $ Flashfrost Enclave|N|Just above the arch.|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|ACH|16669|
     C The Primary Threat|CHAT|QID|66116|QO|2|M|59.41,75.91|N|Report to Commander Lethanak.
     T The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.
@@ -393,7 +393,7 @@ return [[
     T Heir Apparent|QID|66779|M|24.29,55.83|N|To Sabellian.
     T Claimant to the Throne|QID|66780|M|24.43,55.54|N|To Wrathion.
     A Black Wagon Flight|QID|65793|M|24.29,55.83|N|From Sabellian.
-    C Black Wagon Flight|NC|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|O|BUFF|368896|
+    C Black Wagon Flight|NC|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|O|BUFF|368896^368899^368901^360954|
     F Black Wagon Flight|QID|65793|QO|2|CC|M|25.45,56.77;43.86,66.44|N|Fly to Sabellian, Speak to him to begin moving the eggs.
     C Black Wagon Flight|QID|65793|QO|3|CC|M|45.85,66.24;47.89,67.16;48.86,65.44;50.28,65.81;52.09,67.04|N|Escort The Wagon, [color=b50202]MUST STAY CLOSE[/color].
     T Black Wagon Flight|QID|65793|M|57.93,67.35|N|To Sabellian, Use Renewed Proto-drake to fly to Sabellian.

@@ -608,7 +608,7 @@ end
 function WoWPro:GuideFormalName(GID)
     if WoWPro.Guides[GID] then
         -- GID is a proper guide ID
-         WoWPro:dbp("WoWPro:GuideFormalName(%s):  GID", GID)
+         WoWPro:dbp("WoWPro:GuideFormalName(%s): is GID", GID)
         return GID
     end
     if type(WoWPro.Nickname2Guide[GID]) == 'string' then
@@ -1018,6 +1018,8 @@ function WoWPro:RowUpdate(offset)
             note = note.."\n(No coordinates)"
         end
 
+        local mapID = _G.C_Map.GetBestMapForUnit("player")
+        local isCampaign = _G.C_QuestLine and tonumber(QID) and mapID and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID) and _G.C_QuestLine.GetQuestLineInfo(tonumber(QID), mapID).isCampaign
         currentRow.note:SetText(note)
         currentRow.action:SetTexture(WoWPro.actiontypes[action])
         currentRow.action.tooltip.text:SetText(WoWPro.actionlabels[action])
@@ -1040,6 +1042,12 @@ function WoWPro:RowUpdate(offset)
         elseif WoWPro.elite[k] and WoWPro.action[k] == "A" then
             currentRow.action:SetTexture(WoWPro.actiontypes[action.." ELITE"])
             currentRow.action.tooltip.text:SetText("Elite Quest")
+        elseif isCampaign and WoWPro.action[k] == "A" then
+            currentRow.action:SetTexture(WoWPro.actiontypes[action.." Campaign"])
+            currentRow.action.tooltip.text:SetText("Campaign Quest")
+        elseif isCampaign and WoWPro.action[k] == "T" then
+            currentRow.action:SetTexture(WoWPro.actiontypes[action.." Campaign"])
+            currentRow.action.tooltip.text:SetText("Campaign Quest")
         end
 
         currentRow.check:SetScript("OnClick", function(this, button, down)

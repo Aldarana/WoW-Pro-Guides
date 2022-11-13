@@ -40,6 +40,8 @@ return [[
     K Primal Pests|QID|65453|M|80.33, 26.34|Z|The Waking Shores|QO|1|N|Kill 15 Proto-drakes.|S|FACTION|Horde|
     M Explorers in Peril|QID|65452|CC|M|79.99, 28.40;80.33, 26.34|QO|1|N|Click the ribcage to free Pathfinder Poppy.|FACTION|Horde|
     M Explorers in Peril|QID|65452|M|78.74, 24.39|QO|2|N|Click the the Tauren in the air to rescue Archivist Spearbloom.|FACTION|Horde|
+    A Ancient Hornswog|QID|66076|M|77.30,22.06|N|He's in the cave.|FACTION|Horde|
+    C Ancient Hornswog|QID|66076|M|77.30,22.06|N|Kill the frog in the cave.|FACTION|Horde|
     M Explorers in Peril|QID|65452|CS|M|77.38, 29.37;77.37,29.77|QO|3|N|Click the the Goblin hanging from the rope to rescue Spelunker Lazee.|FACTION|Horde|
     L Practice Materials|QID|65451|Z|The Waking Shores|QO|1|N|Kill the whelps and LOOT them for scales.|US|FACTION|Horde|
     K Primal Pests|QID|65453|Z|The Waking Shores|QO|1|N|Kill 15 Proto-drakes.|US|FACTION|Horde|
@@ -159,6 +161,8 @@ return [[
     A Killjoy|QID|65993|M|66.34,34.92|Z|The Waking Shores|QO|1|N|Meatgrinder Sotok slain|US|
     A The Obsidian Citadel|QID|65995|M|63.24,29.57|Z|The Waking Shores|QO|1|N|LOOT Meatgrinder or click quest in the cave|S|
     C Killjoy|QID|65993|M|63.24,29.57|Z|The Waking Shores|N|Kill Meatgrinder Sotok and LOOT the quest.|S|
+    A Dragonhunter Igordan|QID|66956|M|64.17,32.89|S|
+    C Dragonhunter Igordan|QID|66956|M|64.17,32.89|
     C Blacktalon Intel|CHAT|QID|65992|M|63.06,33.36|QO|1|N|Talonstalker Kavia Consulted.
     C Blacktalon Intel|CHAT|QID|65992|M|63.46,28.89|QO|2|N|Left Consulted.
     C Blacktalon Intel|CHAT|QID|65992|M|65.10,29.38|QO|3|N|Right Consulted.
@@ -217,9 +221,13 @@ return [[
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|US|
     h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.
+    A A Ruby Lifecalling|QID|66825|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.
+    C A Ruby Lifecalling|NC|QID|66825|QO|1<1|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.
     C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall
     C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz
+    A Stay a While|QID|70132|M|57.83,66.84|From the sitting dwarf.
+    C Stay a While|NC|QID|70132|M|57.83,66.84|Use the extra action button to sit down then talk to the dwarf.\nSelect <You are busy. Get up and leave.>
     T Dragonriding|QID|68795|M|56.67,66.89|N|To Lord Andestrasz.
     A How to Glide with Your Dragon|QID|65118|M|57.84,66.82|N|From Lord Andestrasz.
     C How to Glide with Your Dragon|QID|65118|NC|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|BUFF|368896^368899^368901^360954|
@@ -255,7 +263,8 @@ return [[
     A Return to the Ruby Lifeshrine|QID|68799|M|75.16,54.95|N|From Lord Andestrasz.
     C Return to the Ruby Lifeshrine|QID|68799|QO|1|M|75.00,55.54|V|N|Hop on the dragon and then exit vehicle.
     H Ruby Lifeshrine|QID|68799|M|PLAYER|Z|2022|N|Hearth back to the Ruby Lifeshrine, skip this if you have more than 10min hearth CD, there's a better hearth soon.
-    T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back[/color]
+    C A Ruby Lifecalling|NC|QID|66825|QO|1<2|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
+    T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back if you decide to fly.[/color]
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion
     C The Mandate of the Red|QID|66115|M|62.75,70.45|QO|4|CHAT|N|Speak with Zahkrana
@@ -263,13 +272,19 @@ return [[
     A Training Wings|QID|70061|M|62.20,70.58|N|From Amella.
     C Training Wings|V|QID|70061|M|61.08,71.45|N|Click on the Ruby Whelpling.
     C Training Wings|QID|70061|M|61.08,71.45|N|When finished Use the exit vehicle button to get out quickly
+    C A Ruby Lifecalling|NC|QID|66825|QO|1<3|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     T Training Wings|QID|70061|M|62.33,73.02|N|To Majordomo Selistra.
     A Who Brought the Ruckus?|QID|66931|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
+    C A Ruby Lifecalling|NC|QID|66825|QO|1<4|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
+    T A Ruby Lifecalling|NC|QID|66825|M|61.89,73.84|Z|2022|N|To Lifecaller Tzadrak.
+    A Hornstrider Havoc|QID|66879|M|61.75,73.77|N|From Dazakros
     C Who Brought the Ruckus?|CHAT|QID|66931|M|59.46,72.65|N|Meet Majordomo Selistra at the Check point.
     T Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|To Majordomo Selistra.
     A The Primary Threat|QID|66116|M|59.46,72.65|N|From Majordomo Selistra.
     C The Primary Threat|QID|66116|M|59.41,75.92|Z|2022|QO|1|NC|N|Hop on a dragonriding mount (Optional).|BUFF|368896^368899^368901^360954|
     $ Flashfrost Enclave|N|Just above the arch.|M|58.10,78.63|Z|2022;The Waking Shores!Dragonflight|ACH|16669|
+    A Terillod the Devout|QID|70751|M|60.04,82.92|N|On top of the archway.
+    K Terillod the Devout|QID|70751|QO|1|M|60.04,82.92|N|On top of the archway.
     C The Primary Threat|CHAT|QID|66116|QO|2|M|59.41,75.91|N|Report to Commander Lethanak.
     T The Primary Threat|QID|66116|M|59.41,75.91|N|Report to Commander Lethanak.
     A Basalt Assault|QID|66118|M|59.41,75.91|N|From Commander Lethanak.
@@ -282,6 +297,7 @@ return [[
     C Proto-fight|QID|66122|U|192436|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|T|Rumbling Proto-Dragon,tar Galestrike Proto-Dragon|S|
     C Egg Evac|NC|QID|66121|M|57.35,83.27|QO|2|N|Azune Egg.
     C Egg Evac|NC|QID|66121|M|56.12,81.30|QO|1|N|Bronze Egg.
+    K Klozicc the Ascended|QID|66960|QO|1|M|54.79,82.26|N|Kill this guy if he's up.|S|
     C Egg Evac|NC|QID|66121|M|55.32,83.30|QO|3|N|Emerald Egg.
     C Egg Evac|NC|QID|66121|M|54.99,80.94|QO|4|N|Ruby Egg.
     C Proto-fight|QID|66122|U|192436|M|56.12,81.30|N|Use Harpoon on Proto-Dragons|T|Rumbling Proto-Dragon,tar Galestrike Proto-Dragon|US|
@@ -291,9 +307,9 @@ return [[
     K Cut Off the Head|QID|66123|U|192436|QO|1|M|53.29,82.95|N|Kill Jadzigeth
     T Cut Off the Head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.
     A Exeunt, Triumphant|QID|66124|M|53.73,80.17|N|From Majordomo Selistra.
-    A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.
-    T Out for Delivery|QID|66963|M|48.49,82.71|N|To Cataloger Wulferd.
-    A Amateur Protography|QID|66524|M|48.49,82.71|N|From Cataloger Wulferd.
+    ;A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.
+    ;T Out for Delivery|QID|66963|M|48.49,82.71|N|To Cataloger Wulferd.
+    ;A Amateur Protography|QID|66524|M|48.49,82.71|N|From Cataloger Wulferd.
     C Exeunt, Triumphant|CHAT|QID|66124|M|46.15,78.46|N|Talk To Majordomo Selistra.
     T Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|To Majordomo Selistra.
     A Wrathion Awaits|QID|66079|M|46.10,78.30|N|From Alexstrasza The Life-Binder.
@@ -400,6 +416,14 @@ return [[
     C Black Wagon Flight|NC|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|O|BUFF|368896^368899^368901^360954|
     F Black Wagon Flight|QID|65793|QO|2|CC|M|25.45,56.77;43.86,66.44|N|Fly to Sabellian, Speak to him to begin moving the eggs.
     C Black Wagon Flight|QID|65793|QO|3|CC|M|45.85,66.24;47.89,67.16;48.86,65.44;50.28,65.81;52.09,67.04|N|Escort The Wagon, [color=b50202]MUST STAY CLOSE[/color].
+    T Hornstrider Havoc|QID|66879|M|53.43,58.40|Z|2022|N|To Dazakros.
+    A Deluge Dilemma|QID|66892|PRE|66879|M|53.43,58.40|Z|2022|N|From Dazakros.
+    A Beaky Reclamation|QID|66893|PRE|66879|M|53.43,58.40|Z|2022|N|From Dazakros.
+    C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders.|S|
+    C Deluge Dilemma|QID|66892|M|51.49,58.30|Z|2022|N|Slay Water Elementals.
+    C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders healed.|US|
+    T Deluge Dilemma|QID|66892|M|53.42,58.36|Z|2022|N|To Dazakros.
+    T Beaky Reclamation|QID|66893|M|53.42,58.36|Z|2022|N|To Dazakros.
     T Black Wagon Flight|QID|65793|M|57.93,67.35|N|To Sabellian, Use Renewed Proto-drake to fly to Sabellian.
     A The Last Eggtender|QID|66785|M|24.29,55.83|N|From Sabellian.
     T The Last Eggtender|QID|66785|M|61.59,68.72|N|To Mother Elion.

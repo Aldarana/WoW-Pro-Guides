@@ -934,9 +934,9 @@ function WoWPro:RowUpdate(offset)
         end
 
         --Loading Variables --
-        local step = WoWPro.step[k]
+        local step = (WoWPro.step[k] and WoWPro.ExpandMarkup(WoWPro.step[k])) or ""
         local action = WoWPro.action[k]
-        local note = WoWPro.note[k] or ""
+        local note = (WoWPro.note[k] and WoWPro.ExpandMarkup(WoWPro.note[k])) or ""
         local QID = tonumber(WoWPro.QID[k])
         local coord = WoWPro.map[k]
         local sticky = WoWPro.sticky[k]
@@ -2716,7 +2716,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     local expansion = WoWPro.fly[guideIndex]
                     local spellName
                     local spellKnown
-					local canFly
+                    local canFly
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
@@ -2724,7 +2724,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
 					local eSkill = _G.GetSpellInfo(34090)
 					if WoWPro.WRATH then
-						if WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
+						if WoWProCharDB.Tradeskills[762] and WoWProCharDB.Tradeskills[762].skillLvl >= 225 then
 							canFly = true
 						end
 						if expansion == "BC" and canFly then

@@ -216,6 +216,7 @@ return [[
     A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|S|
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|US|
+    h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.
     C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.
     C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall
     C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz
@@ -239,6 +240,7 @@ return [[
     A The Skytop Observatory|QID|68796|M|57.84,66.82|N|From Lord Andestrasz.
     C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|1|CHAT|N|Speak with Celormu
     C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|2|CHAT|N|Race to the Skytop Observatory.
+    $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
     T The Skytop Observatory|QID|68796|M|75.16,52.95|N|To Lord Andestrasz.
     A A New Set of Horns|QID|68797|M|75.16,52.95|N|From Lord Andestrasz.
     C A New Set of Horns|CHAT|QID|68797|M|74.06,57.95|QO|1|N|Meet Glensera
@@ -251,8 +253,8 @@ return [[
     C Dragon Glyphs and You|CHAT|QID|68798|M|73.24,52.10|QO|5|N|Speak to Celormu.
     T Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|To Lord Andestrasz.
     A Return to the Ruby Lifeshrine|QID|68799|M|75.16,54.95|N|From Lord Andestrasz.
-    C Return to the Ruby Lifeshrine|QID|68799|QO|1|M|75.00,55.54|V|N|Ride the dragon to the top of the tower.
-    $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
+    C Return to the Ruby Lifeshrine|QID|68799|QO|1|M|75.00,55.54|V|N|Hop on the dragon and then exit vehicle.
+    H Ruby Lifeshrine|QID|68799|M|PLAYER|Z|2022|N|Hearth back to the Ruby Lifeshrine, skip this if you have more than 10min hearth CD, there's a better hearth soon.
     T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back[/color]
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion
@@ -337,6 +339,7 @@ return [[
     T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|S|
     T Sharp Practice|QID|66078|M|42.46,66.81|N|To Wrathion.
     T Best Plans and Intentions|QID|66048|M|42.46,66.81|N|To Wrathion.|US|
+    h Obsidian Bulwark|AVAILABLE|65957|M|43.07,66.58
     A No Time for heroes|QID|65957|M|42.46,66.81|N|From Wrathion, He RP's for 15 seconds.
     A Talon Strike|QID|65956|M|42.46,66.81|N|From Wrathion.|S|
     C Talon Strike|QID|65956|M|42.46,66.81|N|Kiil mobs and Disrupt Djaradin desfenses|S|
@@ -393,6 +396,7 @@ return [[
     T Heir Apparent|QID|66779|M|24.29,55.83|N|To Sabellian.
     T Claimant to the Throne|QID|66780|M|24.43,55.54|N|To Wrathion.
     A Black Wagon Flight|QID|65793|M|24.29,55.83|N|From Sabellian.
+    H Obsidian Bulwark|ACTIVE|65793|M|PLAYER|Z|2022|N|If your hearthstone is on CD skip this step and just fly.
     C Black Wagon Flight|NC|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|O|BUFF|368896^368899^368901^360954|
     F Black Wagon Flight|QID|65793|QO|2|CC|M|25.45,56.77;43.86,66.44|N|Fly to Sabellian, Speak to him to begin moving the eggs.
     C Black Wagon Flight|QID|65793|QO|3|CC|M|45.85,66.24;47.89,67.16;48.86,65.44;50.28,65.81;52.09,67.04|N|Escort The Wagon, [color=b50202]MUST STAY CLOSE[/color].

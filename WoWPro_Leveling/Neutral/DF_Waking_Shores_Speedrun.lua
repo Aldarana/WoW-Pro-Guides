@@ -307,37 +307,37 @@ return [[
     K Cut Off the Head|QID|66123|U|192436|QO|1|M|53.29,82.95|N|Kill Jadzigeth
     T Cut Off the Head|QID|66123|M|53.73,80.17|N|From Majordomo Selistra.
     A Exeunt, Triumphant|QID|66124|M|53.73,80.17|N|From Majordomo Selistra.
-    ;A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.
-    ;T Out for Delivery|QID|66963|M|48.49,82.71|N|To Cataloger Wulferd.
-    ;A Amateur Protography|QID|66524|M|48.49,82.71|N|From Cataloger Wulferd.
+    A Out for Delivery|QID|66963|M|48.49,78.83|N|From Hauler Bennet.
+    T Out for Delivery|QID|66963|M|48.49,82.71|N|To Cataloger Wulferd.
+    A Amateur Protography|QID|66524|M|48.49,82.71|N|From Cataloger Wulferd.
     C Exeunt, Triumphant|CHAT|QID|66124|M|46.15,78.46|N|Talk To Majordomo Selistra.
     T Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|To Majordomo Selistra.
     A Wrathion Awaits|QID|66079|M|46.10,78.30|N|From Alexstrasza The Life-Binder.
-    ;C Amateur Protography|NC|QID|66524|U|192465|M|44.94,78.16|QO|2|N|Whelp learning to fly
-    ;C Amateur Protography|NC|QID|66524|U|192465|M|43.79,78.83|QO|3|N|Hungry Proto-Drake
-    ;C Amateur Protography|NC|QID|66524|U|192465|M|43.43,82.81|QO|1|N|Proto-dragon Egg
-    ;T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd
-    ;A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd
-    ;A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian
-    ;C Preserving the Wilds|QID|66526|M|38.61,81.67|N|Free 5 Proto-Whelps or Proto-Drakes|S|
-    ;C Competitive Protography|NC|QID|66525|U|192465|M|38.30,80.84|N|Photo of Infused Proto-Drake/Proto-Drake Egg.\nThe Proto-Drake flies overhead.
-    ;C Preserving the Wilds|QID|66526|M|38.68,81.77|N|Free 5 Proto-Whelps or Proto-Drakes|US|
-    ;T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|S|
-    ;T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|S|
-    ;T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|US|
-    ;T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|US|
-    ;A Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd
-    ;C Professional Protography|NC|QID|66527|M|38.94,83.38|QO|1|N|Stand on the Spring
-    ;C Professional Protography|NC|QID|66527|U|192465|M|38.80,83.85|QO|2|N|Take the photo
-    ;T Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd
-    ;A King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian
-    ;C King Without a Crown|NC|QID|66528|M|38.84,83.51|QO|2|N|Charred Foreclaw
-    ;C King Without a Crown|NC|QID|66528|M|39.11,83.94|QO|1|N|Severed Spine
-    ;C King Without a Crown|NC|QID|66528|M|39.44,83.97|QO|3|N|Cracked Rib
-    ;T King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian
-    ;A A Thousand Words|QID|66529|M|39.04,83.29|N|From Dervishian
-    ;C A Thousand Words|NC|QID|66529|U|192465|M|38.76,83.63|N|Wait For Dervishian And take a Photo of him
-    ;T A Thousand Words|QID|66529|M|38.76,83.63|N|To Dervishian|US|
+    C Amateur Protography|NC|QID|66524|U|192465|M|44.94,78.16|QO|2|N|Whelp learning to fly
+    C Amateur Protography|NC|QID|66524|U|192465|M|43.79,78.83|QO|3|N|Hungry Proto-Drake
+    C Amateur Protography|NC|QID|66524|U|192465|M|43.43,82.81|QO|1|N|Proto-dragon Egg
+    T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd
+    A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd
+    A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian
+    C Preserving the Wilds|QID|66526|M|38.61,81.67|N|Free 5 Proto-Whelps or Proto-Drakes|S|
+    C Competitive Protography|NC|QID|66525|U|192465|M|38.30,80.84|N|Photo of Infused Proto-Drake/Proto-Drake Egg.\nThe Proto-Drake flies overhead.
+    C Preserving the Wilds|QID|66526|M|38.68,81.77|N|Free 5 Proto-Whelps or Proto-Drakes|US|
+    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|S|
+    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|S|
+    T Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd|US|
+    T Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian|US|
+    A Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd
+    C Professional Protography|NC|QID|66527|M|38.94,83.38|QO|1|N|Stand on the Spring
+    C Professional Protography|NC|QID|66527|U|192465|M|38.80,83.85|QO|2|N|Take the photo
+    T Professional Protography|QID|66527|M|39.04,83.29|N|From Cataloger Wulferd
+    A King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian
+    C King Without a Crown|NC|QID|66528|M|38.84,83.51|QO|2|N|Charred Foreclaw
+    C King Without a Crown|NC|QID|66528|M|39.11,83.94|QO|1|N|Severed Spine
+    C King Without a Crown|NC|QID|66528|M|39.44,83.97|QO|3|N|Cracked Rib
+    T King Without a Crown|QID|66528|M|39.04,83.29|N|From Dervishian
+    A A Thousand Words|QID|66529|M|39.04,83.29|N|From Dervishian
+    C A Thousand Words|NC|QID|66529|U|192465|M|38.76,83.63|N|Wait For Dervishian And take a Photo of him
+    T A Thousand Words|QID|66529|M|38.76,83.63|N|To Dervishian|US|
     $ Obsidian Bulwark|N|[color=349eeb]You Will need 3 Vigor to collect this and make it to the next quest step[/color]\nFloating above the mountain pillar.|M|41.0,72.0|Z|2022;The Waking Shores!Dragonflight|ACH|15987|
     T Wrathion Awaits|QID|66079|M|42.46,66.81|N|Fly To Wrathion, he will RP for a bit before you can hand in the quest.\n\nHE MIGHT NOT HAVE THE HAND IN ICON ABOVE HIS HEAD. Just keep trying to talk to him until you can hand in.
     A Lessons from Our Past|QID|72241|M|42.46,66.81|N|From Scalecommander Emberthal.

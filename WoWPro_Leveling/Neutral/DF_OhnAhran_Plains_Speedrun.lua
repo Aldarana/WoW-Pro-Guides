@@ -95,6 +95,7 @@ return [[
    A Clan Teerai|QID|66016|M|61.44,39.51|N|From Sansok Khan.
    A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.|US|
    A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|US|
+   A Orientation: Maruukai|QID|72429|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.
    A Emberwatch|QID|70337|M|62.15,36.42|N|From Windsage Kven.
    T Clan Ohn'ir|QID|66017|M|62.97,33.68|N|To Ohn Sesshteng.
    A Omens and Incense|QID|66020|M|62.99,33.67|N|From Ohn Sesshteng.
@@ -120,6 +121,7 @@ return [[
    T Clan Nokhud|QID|66018|M|60.40,40.69|N|To Scout Tomul.
    A Unwelcome Outsider|QID|66021|M|60.40,40.69|N|From Guard Bahir.
    C Unwelcome Outsider|QID|66021|M|59.57,41.75|N|Kill 6 Nokhud.
+   A Trouble In The Pines|QID|65837|PRE|65805|M|61.99,41.81|Z|2023;Ohn'ahran Plains|N|From Beastmaster Tirren.
    T Unwelcome Outsider|QID|66021|M|62.42,41.72|N|To Scout Tomul.
    h Maruukai|QID|66021|M|62.76,40.75|N|Set Hearthstone at the innkeeper.
    T Clan Teerai|QID|66016|M|59.14, 37.60|N|to Qariin Dotur.
@@ -202,6 +204,8 @@ return [[
    A Himia, the Blessed|QID|70374|M|49.35,49.52|N|From Himia, the Blessed.
    C Himia, the Blessed|QID|70374|QO|1|M|49.35,49.52|N|Speak to Himia, the Blessed.
    C Himia, the Blessed|QID|70374|QO|2||M|49.35,49.52|N|Speak to Himia, the Blessed.
+   A Skaara|QID|70783|M|44.93, 49.17|Z|2023;Ohn'ahran Plains
+   K Skaara|ACTIVE|70783|QO|1|M|44.93, 49.17|Z|2023;Ohn'ahran Plains|N|In a cave
    C Land of the Apex|QID|66687|QO|1|CC|M|43.60,48.06;43.69,50.20|N|Run into the cave and kill the spiders.
    C Land of the Apex|QID|66687|QO|2|M|42.26,47.21|N|From Kill The Nimblewings.|S|
    C WANTED: Mara'nar the Thunderous|QID|71027|M|42.26,47.21|N|Kill Mara'nar the Thunderous.
@@ -264,11 +268,15 @@ return [[
    C Oh No, Ohn'ahra|QID|66258|M|60.65,63.54|N|Kill all the mob's
    T Oh No, Ohn'ahra|QID|66258|M|61.40,62.79|N|To Initiate Boku.
    A A Storm of Ill Tidings|QID|66259|M|61.40,62.79|N|From Initiate Boku.
-   H Maruukai |QID|70337|U|6948|N|If you're not in a guild fly back instead.
+   A Sunscale Behemoth|QID|69837|M|62.95,48.52|N|In a cave behind the waterfall.
+   K Sunscale Behemoth|QID|69837|QO|1|M|62.95,48.52|N|In a cave behind the waterfall.
    C A Storm of Ill Tidings|CHAT|QID|66259|M|60.02,37.50|N|Speak to Khanman Matra Sarest.
    T A Storm of Ill Tidings|QID|66259|M|60.02,37.50|N|To Khanman Matra Sarest.
    A Chasing the Wind|QID|66327|M|60.02,37.50|N|From Khanman Matra Sarest.
    C Chasing the Wind|NC|QID|66327|QO|1|M|60.02,37.50|N|Wait for the RP.
+   C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.
+   C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.
+   T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.
    C Chasing the Wind|CHAT|QID|66327|QO|2|M|60.02,37.50|N|Speak to Khanman Matra Sarest.
    F Chasing the Wind|QID|66327|QO|4|M|73.14,40.57|N|Fly to next quest
    T Chasing the Wind|QID|66327|M|73.04,40.60|N|To Khanam Matra Sarest.
@@ -282,6 +290,10 @@ return [[
    A Green Dragon Down|QID|66328|M|76.70,40.94|N|From Khanman Matra Sarest.
    F Green Dragon Down|QID|66328|QO|1|M|72.34,50.33|N|Find the green dragons.
    C Green Dragon Down|CHAT|QID|66328|QO|2|M|72.34,50.33|N|Speak to Khanman Matra Sarest.
+   T Green Dragon Down|QID|66328|M|72.35,50.35|N|To Khanman Matra Sarest.\n\nKill mobs in the area while you wait for the RP.
+   A With the Wind At Our Backs|QID|66344|M|72.44,50.73|N|From Merithra.
+   C With the Wind At Our Backs|V|QID|66344|M|72.30,50.71|N|Speak to Gerithus and then leave vehicle.
+   T Trouble in the Pines|QID|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|To Sentinel Olekk.|
    A Counting Sheep|QID|66680|M|81.04,58.94|N|From Scout Watu.|S|
    A Tempests Abound|QID|66681|M|81.04,58.94|N|From Sentinel Olekk.
    A Counting Sheep|QID|66680|M|81.04,58.94|N|From Scout Watu.|US|
@@ -302,16 +314,17 @@ return [[
    C Last Resort Analysis|CHAT|QID|66683|QO|1|M|80.96,59.52|N|Talk to Basaan.
    T Last Resort Analysis|QID|66683|M|81.01,58.96|N|To Scout Watu.
    A Show of Storm|QID|65836|M|81.04,58.94|N|From Scout Watu.
-   h Pinewood Post|QID|65836|M|81.29,59.26|N|Set Hearthstone at the innkeeper.
    R Show of Storm|QID|65836|QO|1|M|83.83,60.88
    K Show of Storm|QID|65836|QO|2|M|83.83,60.88|N|Kill the bear
    T Show of Storm|QID|65836|M|83.98,60.75|N|To Scout Watu.
    A Storm Chasing|QID|66684|M|83.98,60.32|N|From Scout Watu.
    C Storm Chasing|QID|66684|M|84.88,63.32|N|Run into the cave.
    T Storm Chasing|QID|66684|M|80.86, 58.94|N|To Scout Watu.
-   T Green Dragon Down|QID|66328|M|72.35,50.35|N|To Khanman Matra Sarest.
-   A With the Wind At Our Backs|QID|66344|M|72.44,50.73|N|From Merithra.
-   C With the Wind At Our Backs|V|QID|66344|M|72.30,50.71|N|Speak to Gerithus.
+   h Forkriver Crossing|QID|66344|M|72.12,80.49|N|Set Hearthstone at the innkeeper.
+   A Territorial Coastling|QID|69852|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
+   K Territorial Coastling|QID|69852|QO|1|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
+   A Ripsaw the Stalker|QID|69851|M|26.32,65.39|N|In a cave fighting a bear.
+   K Ripsaw the Stalker|QID|69851|QO|1|M|26.32,65.39|N|In a cave fighting a bear.
    T With the Wind At Our Backs|QID|66344|M|28.26,57.69|N|To Merithra.
    A Shady Sanctuary|QID|70220|M|28.26,57.69|N|From Merithra.
    C Shady Sanctuary|QID|70220|QO|5|CHAT|M|29.75,59.98|N|Speak to Viranikus.
@@ -354,7 +367,7 @@ return [[
    C Renewal of Vows|QID|66783|QO|4|CHAT|M|22.15,50.97|N|Take Merithra Offering and give to Khanam Matra Sarest.
    T Renewal of Vows|QID|66783|M|22.15,50.97|N|To Merithra
    A Into the Azure|QID|66340|M|22.15,50.97|N|From Merithra
-   H  Pinewood Post|QID|66340|U|6948|
+   H Forkriver Crossing|QID|66340|U|6948|
    T Into the Azure|QID|66340|M|71.66,80.60|N|To Masud the Wise
    A To the Azure Span|QID|65686|M|71.66,80.60|N|From Masud the Wise
    T To the Azure Span|QID|65686|M|41.44,35.62|Z|The Azure Span#2128|N|To Giania of the Blessed Ones

@@ -220,7 +220,7 @@ return [[
     A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|S|
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|US|
-    h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.
+    ;h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.
     A A Ruby Lifecalling|QID|66825|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.
     C A Ruby Lifecalling|NC|QID|66825|QO|1<1|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.
@@ -248,7 +248,6 @@ return [[
     A The Skytop Observatory|QID|68796|M|57.84,66.82|N|From Lord Andestrasz.
     C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|1|CHAT|N|Speak with Celormu
     C The Skytop Observatory|QID|68796|M|57.72,66.85|QO|2|CHAT|N|Race to the Skytop Observatory.
-    $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
     T The Skytop Observatory|QID|68796|M|75.16,52.95|N|To Lord Andestrasz.
     A A New Set of Horns|QID|68797|M|75.16,52.95|N|From Lord Andestrasz.
     C A New Set of Horns|CHAT|QID|68797|M|74.06,57.95|QO|1|N|Meet Glensera
@@ -261,8 +260,9 @@ return [[
     C Dragon Glyphs and You|CHAT|QID|68798|M|73.24,52.10|QO|5|N|Speak to Celormu.
     T Dragon Glyphs and You|QID|68798|M|75.16,54.95|N|To Lord Andestrasz.
     A Return to the Ruby Lifeshrine|QID|68799|M|75.16,54.95|N|From Lord Andestrasz.
-    C Return to the Ruby Lifeshrine|QID|68799|QO|1|M|75.00,55.54|V|N|Hop on the dragon and then exit vehicle.
-    H Ruby Lifeshrine|QID|68799|M|PLAYER|Z|2022|N|Hearth back to the Ruby Lifeshrine, skip this if you have more than 10min hearth CD, there's a better hearth soon.
+    C Return to the Ruby Lifeshrine|QID|68799|QO|1|M|75.00,55.54|V|N|Hop on the dragon and ride it to the top of the tower.
+    $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
+    ;H Ruby Lifeshrine|QID|68799|M|PLAYER|Z|2022|N|Hearth back to the Ruby Lifeshrine, skip this if you have more than 10min hearth CD, there's a better hearth soon.
     C A Ruby Lifecalling|NC|QID|66825|QO|1<2|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back if you decide to fly.[/color]
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
@@ -313,9 +313,11 @@ return [[
     C Exeunt, Triumphant|CHAT|QID|66124|M|46.15,78.46|N|Talk To Majordomo Selistra.
     T Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|To Majordomo Selistra.
     A Wrathion Awaits|QID|66079|M|46.10,78.30|N|From Alexstrasza The Life-Binder.
+    C Pruning the Preserve|QID|70196|M|43.09,86.99|N|Kill proto-dragons as you go.|S|
     C Amateur Protography|NC|QID|66524|U|192465|M|44.94,78.16|QO|2|N|Whelp learning to fly
     C Amateur Protography|NC|QID|66524|U|192465|M|43.79,78.83|QO|3|N|Hungry Proto-Drake
     C Amateur Protography|NC|QID|66524|U|192465|M|43.43,82.81|QO|1|N|Proto-dragon Egg
+    C Pruning the Preserve|QID|70196|M|43.09,86.99|N|Finish killing proto-dragons.|US|
     T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd
     A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd
     A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian

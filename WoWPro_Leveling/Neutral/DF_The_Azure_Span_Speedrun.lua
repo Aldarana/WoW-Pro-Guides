@@ -201,7 +201,10 @@ return [[
    A To Iskaara|QID|65849|M|16.10,41.44|N|From Brena
    T To Iskaara|QID|65849|M|13.24,49.52|N|To Brena
    A Gather the Family|QID|66210|M|13.24,49.52|N|From Brena
+   A Orientation: Iskaara|QID|72435|PRE|65849|M|13.14,49.27|Z|2024|N|From Murik.
+   A Nook News|QID|71234|PRE|65849|M|14.07,49.44|Z|2024|N|From Lukoturukk.
    C Gather the Family|NC|QID|66210|QO|1<1|M|13.86,49.47|N|Click Offerings
+   C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk.
    C Gather the Family|NC|QID|66210|QO|1<2|M|12.47,50.32|N|Click Offerings
    C Gather the Family|NC|QID|66210|QO|1<3|M|12.48,49.44|N|Click Offerings
    A The Weave of a Tale|QID|66213|M|12.42,49.39|N|Fromm Nappa.
@@ -209,7 +212,10 @@ return [[
    T The Weave of a Tale|QID|66213|M|12.42,49.39|N|Too Nappa.
    C Gather the Family|NC|QID|66210|QO|1<4|M|13.48,48.44|N|Click Offerings.
    A WANTED: Krojek the Shoreprowler|QID|66217|M|13.21,48.81|N|From bukarakikk
+   C Orientation: Iskaara|QID|72435|QO|3|M|13.19,48.82|Z|2024|NC|N|Click on Tatto.
    C Gather the Family|NC|QID|66210|QO|2|M|13.15,48.61|N|Click the boat.
+   C Orientation: Iskaara|QID|72435|QO|1|M|13.17,48.53|Z|2024|NC|N|Click on Arvik.
+   C Orientation: Iskaara|QID|72435|QO|4|M|12.93,48.62|Z|2024|CHAT|N|Click on Norukk.
    A Scampering Scamps|QID|66218|M|12.91,48.70|N|From Hanu
    T Gather the Family|QID|66210|M|13.24,49.52|N|To Brena
    A The Cycle of the Sea|QID|65850|M|13.24,49.52|N|From Kalecgos
@@ -231,6 +237,39 @@ return [[
    T Can We Keep It?|QID|66223|M|10.59,46.87|N|To Neelo
    C WANTED: Krojek the Shoreprowler|QID|66217|M|10.70,54.38|N|You'll want lust and all CDs for this. \n\nSkip if you think its to hard.|US|
    T WANTED: Krojek the Shoreprowler|QID|66217|M|12.51,49.80|N|Skip if it was to hard
+   T Nook News|QID|71234|M|7.46,44.28|Z|2024|N|To Wayun.
+   A A Matter of Taste|QID|66781|PRE|71234|M|7.64,44.35|Z|2024|N|From Mordigan Ironjaw.
+   C A Matter of Taste|QID|66781|M|7.24,45.11|Z|2024|QO|1|NC|N|Click to pick up the large stone at the water's edge.
+   T A Matter of Taste|QID|66781|M|7.62,44.36|Z|2024|N|To Mordigan Ironjaw.
+   A Fishy Fingers|QID|66164|PRE|66781|M|7.62,44.36|Z|2024|N|From LOU-C Fitzcog.
+   A Salivatory Samples|QID|66154|PRE|66781|M|7.66,44.28|Z|2024|N|From Examiner Rowe.
+   A Crystals in the Water|QID|66147|PRE|66781|M|7.63,44.25|Z|2024|N|From Aelnara.
+   C Salivatory Samples|QID|66154|M|10.25,43.29|Z|2024|N|Kill gorlocs to collect their saliva.|S|
+   C Fishy Fingers|QID|66164|M|10.26,42.80|Z|2024|NC|N|Pick up the Stolen parts scattered around.|S|
+   C Crystals in the Water|QID|66147|M|9.78,42.85|Z|2024|NC|N|Click the Mysterious crystals.
+   C Fishy Fingers|QID|66164|M|10.26,42.80|Z|2024|NC|N|Finish up collecting the Stolen parts scattered around.|US|
+   C Salivatory Samples|QID|66154|M|10.25,43.29|Z|2024|N|Finish up collecting enough Saliva from the gorlocs.|US|
+   T Crystals in the Water|QID|66147|M|7.62,44.23|Z|2024|N|To Aelnara.
+   T Salivatory Samples|QID|66154|M|7.66,44.27|Z|2024|N|To Examiner Rowe.
+   T Fishy Fingers|QID|66164|M|7.66,44.30|Z|2024|N|To LOU-C Fitzcog.
+   A Field Experiment|QID|66175|PRE|66147&66154&66164|M|7.66,44.30|Z|2024|N|From LOU-C Fitzcog.
+   C Field Experiment|QID|66175|M|7.63,44.34|Z|2024|NC|N|Activate the Geoscanner.
+   T Field Experiment|QID|66175|M|7.65,44.34|Z|2024|N|To LOU-C Fitzcog, after waiting a bit for the Geoscanner to be become fully activated.
+   A No Dwarf Left Behind|QID|66177|PRE|66175|M|7.65,44.34|Z|2024|N|From LOU-C Fitzcog.
+   A Afront 'Till A Salt|QID|66232|PRE|66175|M|7.46,44.28|Z|2024|N|From Wayun.
+   C Afront 'Till A Salt|QID|66232|M|10.37,41.12|Z|2024|QO|1|NC|N|Kill & loot Gorlocs as you look for clues.|S|
+   C No Dwarf Left Behind|QID|66177|M|9.37,42.54|Z|2024|QO|1|NC|N|Mordigan's journal is sitting on a rock.
+   C No Dwarf Left Behind|QID|66177|M|10.02,41.33|Z|2024|QO|2|NC|N|Mordigan lost his flask on a rock here (pretty small).
+   C No Dwarf Left Behind|QID|66177|M|9.93,39.69|Z|2024|QO|3|NC|N|His boots are beside a hut.
+   C No Dwarf Left Behind|QID|66177|M|10.61,41.25|Z|2024|QO|4|NC|N|And he seems to have lost his pants by a bush.
+   T No Dwarf Left Behind|QID|66177|M|10.78,41.18|Z|2024|N|To Aelnara.
+   A Mad Mordigan & The Crystal King|QID|66187|PRE|66177|M|10.78,41.18|Z|2024|N|From Aelnara.
+   C Mad Mordigan & The Crystal King|QID|66187|M|11.29,41.01|Z|2024|N|Fight Mordigan until he is decrystallized.
+   T Mad Mordigan & The Crystal King|QID|66187|M|10.78,41.18|Z|2024|N|To Aelnara.
+   A Back To Camp|QID|66559|PRE|66187|M|10.76,41.18|Z|2024|N|From Aelnara.
+   C Afront 'Till A Salt|QID|66232|M|10.37,41.12|Z|2024|N|Keep killing and looting the gorlocs 'till you have enough Crystal Flakes.|US|
+   T Back To Camp|QID|66559|M|7.65,44.28|Z|2024|N|To Examiner Rowe.
+   T Afront 'Till A Salt|QID|66232|M|7.47,44.28|Z|2024|N|To Wayun.
    H The Conjured Biscuit Inn|QID|65911|U|6948|M|37.39,62.41
    T Azure Alignment|QID|65911|M|39.47,63.02|N|To kalecgos
 
@@ -240,6 +279,28 @@ return [[
    T Calling the Blue Dragons|QID|66027|M|39.47,63.02|N|To Kalecgos
    A To Rhonin's Shield|QID|65886|M|39.47,63.02|N|From Kalecgos
    C To Rhonin's Shield|NC|QID|65886|QO|2|M|39.71,62.27|N|Use extra action button
+   A Field Medic 101|QID|66709|M|59.26,39.71|N|From Old Grimtusk
+   C Field Medic 101|NC|QID|66709|QO|1|M|59.26,39.71|N|Remove spear.
+   C Field Medic 101|NC|QID|66709|QO|2|M|59.26,39.71|N|Collect wood.
+   C Field Medic 101|NC|QID|66709|QO|3|M|59.26,39.71|N|Start campfire.
+   C Field Medic 101|CHAT|QID|66709|QO|4|M|59.26,39.71|N|Cautherize wounds.
+   T Field Medic 101|QID|66709|M|59.26,39.71|N|To Old Grimtusk
+   A The Extraction|QID|66715|M|59.26,39.71|N|From Old Grimtusk
+   C The Extraction|NC|QID|66715|M|58.28,41.86|N|Fly to the frozen tuskarrs.
+   T The Extraction|QID|66715|M|58.37,41.99|N|To Frostbite.
+   A Snowball Effect|QID|66703|M|58.37,41.99|N|From Frostbite
+   A Gnolls Must Die|O|QID|66718|M|56.95,42.33|N|Bonus objective.|S|
+   C Gnolls Must Die|QID|66718|M|56.95,42.33|S|
+   C Snowball Effect|QID|66703|CS|M|58.35,42.63;57.66,41.59;56.95,42.33|N|Kill Shamans and loot totems
+   A Gnolls Must Die|O|QID|66718|M|56.95,42.33|N|Bonus objective.|US|
+   T Gnolls Must Die|O|QID|66718|M|59.26,39.71
+   T Snowball Effect|QID|66703|M|58.37,41.99|N|To Frostbite
+   A Frostbite: Causes and Symptoms|QID|67050|M|58.37,41.99|N|From Frostbite
+   C Frostbite: Causes and Symptoms|NC|QID|67050|QO|1|M|58.24,41.94|N|Place Totems
+   R Frostbite: Causes and Symptoms|QID|67050|QO|2|M|58.48,40.52|N|Return to Old Grimtusk
+   T Frostbite: Causes and Symptoms|QID|67050|M|58.48,40.52|N|To Old Grimtusk
+   A True Survivors|QID|66730|M|58.48,40.52|N|From Old Grimtusk
+   T True Survivors|QID|66730|M|58.80,34.89|N|To Old Grimtusk
    F To Rhonin's Shield|QID|65886|QO|1|M|65.89,25.49|N|Fly to Rhonin's Sheild
    A Riders in the Snow|QID|66708|M|65.89,25.49|N|From Tuskarr Elder
    T To Rhonin's Shield|QID|65886|M|65.81,25.32|N|To Drok Scrollstabber
@@ -290,28 +351,6 @@ return [[
    T The Storm-Eater's Fury|QID|70041|M|78.21,33.33|N|To Kalecgos
    A The Blue Dragon Oathstone|QID|66015|M|78.00,32.49|N|From Khadgar
    T Riders in the Snow|QID|66708|M|59.26,39.71|N|Fly to Old Grimtusk
-   A Field Medic 101|QID|66709|M|59.26,39.71|N|From Old Grimtusk
-   C Field Medic 101|NC|QID|66709|QO|1|M|59.26,39.71|N|Remove spear.
-   C Field Medic 101|NC|QID|66709|QO|2|M|59.26,39.71|N|Collect wood.
-   C Field Medic 101|NC|QID|66709|QO|3|M|59.26,39.71|N|Start campfire.
-   C Field Medic 101|CHAT|QID|66709|QO|4|M|59.26,39.71|N|Cautherize wounds.
-   T Field Medic 101|QID|66709|M|59.26,39.71|N|To Old Grimtusk
-   A The Extraction|QID|66715|M|59.26,39.71|N|From Old Grimtusk
-   C The Extraction|NC|QID|66715|M|58.28,41.86|N|Fly to the frozen tuskarrs.
-   T The Extraction|QID|66715|M|58.37,41.99|N|To Frostbite.
-   A Snowball Effect|QID|66703|M|58.37,41.99|N|From Frostbite
-   A Gnolls Must Die|O|QID|66718|M|56.95,42.33|N|Bonus objective.|S|
-   C Gnolls Must Die|QID|66718|M|56.95,42.33|S|
-   C Snowball Effect|QID|66703|CS|M|58.35,42.63;57.66,41.59;56.95,42.33|N|Kill Shamans and loot totems
-   A Gnolls Must Die|O|QID|66718|M|56.95,42.33|N|Bonus objective.|US|
-   T Gnolls Must Die|O|QID|66718|M|59.26,39.71
-   T Snowball Effect|QID|66703|M|58.37,41.99|N|To Frostbite
-   A Frostbite: Causes and Symptoms|QID|67050|M|58.37,41.99|N|From Frostbite
-   C Frostbite: Causes and Symptoms|NC|QID|67050|QO|1|M|58.24,41.94|N|Place Totems
-   R Frostbite: Causes and Symptoms|QID|67050|QO|2|M|58.48,40.52|N|Return to Old Grimtusk
-   T Frostbite: Causes and Symptoms|QID|67050|M|58.48,40.52|N|To Old Grimtusk
-   A True Survivors|QID|66730|M|58.48,40.52|N|From Old Grimtusk
-   T True Survivors|QID|66730|M|58.80,34.89|N|To Old Grimtusk
    T Artifacts in the Wrong Hands|QID|66964|M|67.22,44.40|N|To Kattigat
 
  ;The Ailing Apprentice Side quest's

@@ -331,9 +331,9 @@ return [[
    A Kirin Tor Recovery|QID|65977|M|74.46,37.82|N|From Kalecgos|S|
    A Primal Power|QID|65958|M|74.46,37.82|N|From Khadgar
    A Kirin Tor Recovery|QID|65977|M|74.46,37.82|N|From Kalecgos|US|
-   C Primal Power|U|192479|QID|65958|M|75.56,38.29|N|Kill mobs and then use the quest item to recover Energies\nThis scales only on target count, higher hp mobs are not worth more.|S|
+   C Primal Power|U|192479|QID|65958|M|75.56,38.29|N|Kill mobs and then use the quest item to recover Energies\nThe higher hp mobs are worse hp to % value.|S|
    C Kirin Tor Recovery|NC|QID|65977|CS|M|74.58,38.58;75.27,37.27;75.56,38.29;76.13,37.92;76.55,38.92;76.04,39.50|N|Click on the Elemental Drainer's
-   C Primal Power|U|192479|QID|65958|M|75.56,38.29|N|Kill mobs and then use the quest item to recover Energies\nThis scales only on target count, higher hp mobs are not worth more.|US|
+   C Primal Power|U|192479|QID|65958|M|75.56,38.29|N|Kill mobs and then use the quest item to recover Energies\nThe higher hp mobs are worse hp to % value.|US|
    T Kirin Tor Recovery|QID|65977|M|76.94,39.43|N|To Khadgar|S|
    T Primal Power|QID|65958|M|76.94,39.43|N|To Khadgar
    T Kirin Tor Recovery|QID|65977|M|76.94,39.43|N|To Khadgar|US|
@@ -351,9 +351,9 @@ return [[
    T The Storm-Eater's Fury|QID|70041|M|78.21,33.33|N|To Kalecgos
    A The Blue Dragon Oathstone|QID|66015|M|78.00,32.49|N|From Khadgar
    T Riders in the Snow|QID|66708|M|59.26,39.71|N|Fly to Old Grimtusk
-   T Artifacts in the Wrong Hands|QID|66964|M|67.22,44.40|N|To Kattigat
 
  ;The Ailing Apprentice Side quest's
+   T Artifacts in the Wrong Hands|QID|66964|M|67.22,44.40|N|To Kattigat
    A The Ailing Apprentice|QID|67111|M|67.23,44.39|N|From Kattigat
    A Kill it with Fire|QID|70856|M|67.23,44.39|N|From To'tik|S|
    A The Fending Flames|QID|67724|M|67.23,44.39|N|From To'tik

@@ -135,37 +135,37 @@ return [[
 
   ;Chapter 3
    A Breaching the Brackenhide|QID|65838|M|20.53,35.68|N|From Kalecgos, there's a bit of RP before you can pick it up.
-   A Out of Lukh|QID|66843|M|19.26,26.91|N|From Roki
-   A The Great Shokhari|QID|66844|M|19.05,23.98|N|From Zon'Wogi
+   ;A Out of Lukh|QID|66843|M|19.26,26.91|N|From Roki
+   ;A The Great Shokhari|QID|66844|M|19.05,23.98|N|From Zon'Wogi
    ;A It's Brew Time!|QID|66839|M|18.98,23.33|N|From Modurun Siztoes
-   T Falling Water|QID|71233|M|18.74,24.47|N|To Willa Stronghinge
-   A Nothing for Breakfast|QID|66837|M|18.74,24.47|N|From Willa Stronghinge|S|
+   ;T Falling Water|QID|71233|M|18.74,24.47|N|To Willa Stronghinge
+   ;A Nothing for Breakfast|QID|66837|M|18.74,24.47|N|From Willa Stronghinge|S|
    ;A It's Cold Up Here|QID|66838|M|18.74,24.47|N|From Willa Stronghinge
-   A Nothing for Breakfast|QID|66837|M|18.74,24.47|N|From Willa Stronghinge|US|
-   K The Great Shokhari|QID|66844|QO|1|M|13.26,26.38
-   C Out of Lukh|QID|66843|CS|M|15.97,27.33;15.55,27.57|N|Kill Gloomfure Sasquatch, In the cave
-   C Nothing for Breakfast|QID|66837|M|16.55,26.39
-   T Out of Lukh|QID|66843|M|19.26,26.91|N|To Roki
+   ;A Nothing for Breakfast|QID|66837|M|18.74,24.47|N|From Willa Stronghinge|US|
+   ;K The Great Shokhari|QID|66844|QO|1|M|13.26,26.38
+   ;C Out of Lukh|QID|66843|CS|M|15.97,27.33;15.55,27.57|N|Kill Gloomfure Sasquatch, In the cave
+   ;C Nothing for Breakfast|QID|66837|M|16.55,26.39
+   ;T Out of Lukh|QID|66843|M|19.26,26.91|N|To Roki
    ;C It's Cold Up Here|QID|66838|M|21.31,26.86|S|
    ;C It's Brew Time!|NC|QID|66839|M|21.31,26.86|S|
    ;C It's Cold Up Here|QID|66838|M|21.31,26.86|US|
    ;C It's Brew Time!|NC|QID|66839|M|21.31,26.86|US|
-   T The Great Shokhari|QID|66844|M|19.05,23.98|N|To Zon'Wogi
+   ;T The Great Shokhari|QID|66844|M|19.05,23.98|N|To Zon'Wogi
    ;T It's Brew Time!|QID|66839|M|18.98,23.33|N|To Modurun Siztoes
-   T Nothing for Breakfast|QID|66837|M|18.74,24.47|N|To Willa Stronghinge
+   ;T Nothing for Breakfast|QID|66837|M|18.74,24.47|N|To Willa Stronghinge
    ;T It's Cold Up Here|QID|66838|M|18.74,24.47|N|To Willa Stronghinge
-   A Water Safety|QID|66840|M|18.54,23.67|N|From Manny Read
-   A A Shard of the Past|QID|66841|M|19.15,24.72|N|Gannar Fullpack
-   C Water Safety|NC|U|193569|QID|66840|CS|M|19.39,23.94;20.01,24.18;17.31,23.19|N|Use Quest item
-   C A Shard of the Past|NC|QID|66841|M|17.61,28.23|N|Click on the Artifact
-   T Water Safety|QID|66840|M|18.54,23.67|N|To Manny Read
-   T A Shard of the Past|QID|66841|M|18.65,23.68|N|To Thanessa
-   A Legendary Foil|QID|66845|M|18.75,24.42|N|From Guo-hee
-   C Legendary Foil|QID|66845|M|17.29,26.15|N|Kill Apparition
-   T Legendary Foil|QID|66845|M|18.75,24.42|N|To Guo-hee
-   A The Heart of the Deck|QID|66846|M|18.75,24.42|N|From Apparition
-   C The Heart of the Deck|CHAT|QID|66846|M|18.75,24.42|N|Speak to Apparition, choose any options and wait for RP.
-   T The Heart of the Deck|QID|66846|M|18.75,24.42|N|To Apparition
+   ;A Water Safety|QID|66840|M|18.54,23.67|N|From Manny Read
+   ;A A Shard of the Past|QID|66841|M|19.15,24.72|N|Gannar Fullpack
+   ;C Water Safety|NC|U|193569|QID|66840|CS|M|19.39,23.94;20.01,24.18;17.31,23.19|N|Use Quest item
+   ;C A Shard of the Past|NC|QID|66841|M|17.61,28.23|N|Click on the Artifact
+   ;T Water Safety|QID|66840|M|18.54,23.67|N|To Manny Read
+   ;T A Shard of the Past|QID|66841|M|18.65,23.68|N|To Thanessa
+   ;A Legendary Foil|QID|66845|M|18.75,24.42|N|From Guo-hee
+   ;C Legendary Foil|QID|66845|M|17.29,26.15|N|Kill Apparition
+   ;T Legendary Foil|QID|66845|M|18.75,24.42|N|To Guo-hee
+   ;A The Heart of the Deck|QID|66846|M|18.75,24.42|N|From Apparition
+   ;C The Heart of the Deck|CHAT|QID|66846|M|18.75,24.42|N|Speak to Apparition, choose any options and wait for RP.
+   ;T The Heart of the Deck|QID|66846|M|18.75,24.42|N|To Apparition
    A Stop the Spread|QID|65841|M|18.57,35.37|N|Bonus Objective|S|
    C Breaching the Brackenhide|NC|QID|65838|QO|1|M|18.37,34.74|N|Click the Root
    C Stop the Spread|QID|65841|M|17.68,38.09|N|Do this while you work on the next 5 quests in this area.|S|

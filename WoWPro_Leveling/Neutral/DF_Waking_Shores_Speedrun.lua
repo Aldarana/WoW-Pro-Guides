@@ -17,10 +17,10 @@ return [[
     A The Dark Talons|QID|72256|M|44.17,38.01|N|From Scalecommander Cindrethresh.|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|38.47,56.91|Z|Orgrimmar|QO|2|CHAT|N|Speak with Pathfinder Tacha.|FACTION|Horde|
     C The Dark Talons|QID|72256|M|54.96,89.44|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kodethi.|FACTION|Horde|
-    T Stolen Shipments|O|QID|66253|M|48.49,76.02|Z|Orgrimmar|N|To Zaa'je|FACTION|Horde|
-    T Even Thieves Get Hungry|O|QID|26235|M|56.52,62.72|Z|Orgrimmar|N|To Marogg|FACTION|Horde|
+    ;T Stolen Shipments|O|QID|66253|M|48.49,76.02|Z|Orgrimmar|N|To Zaa'je|FACTION|Horde|
+    ;T Even Thieves Get Hungry|O|QID|26235|M|56.52,62.72|Z|Orgrimmar|N|To Marogg|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|56.91,54.00|Z|Orgrimmar|QO|1|CHAT|N|Speak with Boss Magor.|FACTION|Horde|
-    T A Furious Catch|O|QID|26588|M|65.74,41.12|Z|Orgrimmar|N|To Razgar|FACTION|Horde|
+    ;T A Furious Catch|O|QID|26588|M|65.74,41.12|Z|Orgrimmar|N|To Razgar|FACTION|Horde|
     C Expeditionary Coordination|QID|65443|M|71.31,50.66|Z|Orgrimmar|QO|3|CHAT|N|Upstairs speak with Cataloger Kieule.|FACTION|Horde|
     T Expeditionary Coordination|QID|65443|M|55.84,12.58|Z|Durotar|N|To Naleidea Rivergleam.|FACTION|Horde|
     T The Dark Talons|QID|72256|M|55.84,12.58|N|To Naleidea Rivergleam.|FACTION|Horde|
@@ -221,8 +221,8 @@ return [[
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     A Dragonriding|QID|68795|M|62.33,73.02|N|From Alexstrasza The Life-Binder.|US|
     ;h Ruby Lifeshrine|ACTIVE|68795|M|61.79,73.83|Z|2022|N|Set your hearth with Lifecaller Tzadrak.
-    A A Ruby Lifecalling|QID|66825|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.
-    C A Ruby Lifecalling|NC|QID|66825|QO|1<1|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
+    ;A A Ruby Lifecalling|QID|66825|M|61.89,73.84|Z|2022|N|From Lifecaller Tzadrak.
+    ;C A Ruby Lifecalling|NC|QID|66825|QO|1<1|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     C The Mandate of the Red|QID|66115|M|60.79,74.02|QO|1|CHAT|N|Speak with Xius.
     C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall
     C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz
@@ -263,7 +263,7 @@ return [[
     C Return to the Ruby Lifeshrine|QID|68799|QO|1|M|75.00,55.54|V|N|Hop on the dragon and ride it to the top of the tower.
     $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
     ;H Ruby Lifeshrine|QID|68799|M|PLAYER|Z|2022|N|Hearth back to the Ruby Lifeshrine, skip this if you have more than 10min hearth CD, there's a better hearth soon.
-    C A Ruby Lifecalling|NC|QID|66825|QO|1<2|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
+    ;C A Ruby Lifecalling|NC|QID|66825|QO|1<2|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back if you decide to fly.[/color]
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion
@@ -272,12 +272,12 @@ return [[
     A Training Wings|QID|70061|M|62.20,70.58|N|From Amella.
     C Training Wings|V|QID|70061|M|61.08,71.45|N|Click on the Ruby Whelpling.
     C Training Wings|QID|70061|M|61.08,71.45|N|When finished Use the exit vehicle button to get out quickly
-    C A Ruby Lifecalling|NC|QID|66825|QO|1<3|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
+    ;C A Ruby Lifecalling|NC|QID|66825|QO|1<3|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     T Training Wings|QID|70061|M|62.33,73.02|N|To Majordomo Selistra.
     A Who Brought the Ruckus?|QID|66931|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
-    C A Ruby Lifecalling|NC|QID|66825|QO|1<4|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
-    T A Ruby Lifecalling|NC|QID|66825|M|61.89,73.84|Z|2022|N|To Lifecaller Tzadrak.
-    A Hornstrider Havoc|QID|66879|M|61.75,73.77|N|From Dazakros
+    ;C A Ruby Lifecalling|NC|QID|66825|QO|1<4|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
+    ;T A Ruby Lifecalling|NC|QID|66825|M|61.89,73.84|Z|2022|N|To Lifecaller Tzadrak.
+    ;A Hornstrider Havoc|QID|66879|M|61.75,73.77|N|From Dazakros
     C Who Brought the Ruckus?|CHAT|QID|66931|M|59.46,72.65|N|Meet Majordomo Selistra at the Check point.
     T Who Brought the Ruckus?|QID|66931|M|59.46,72.65|N|To Majordomo Selistra.
     A The Primary Threat|QID|66116|M|59.46,72.65|N|From Majordomo Selistra.
@@ -418,14 +418,14 @@ return [[
     C Black Wagon Flight|NC|QID|65793|QO|1|M|24.29,55.83|N|Mount Renewed Proto-drake.|O|BUFF|368896^368899^368901^360954|
     F Black Wagon Flight|QID|65793|QO|2|CC|M|25.45,56.77;43.86,66.44|N|Fly to Sabellian, Speak to him to begin moving the eggs.
     C Black Wagon Flight|QID|65793|QO|3|CC|M|45.85,66.24;47.89,67.16;48.86,65.44;50.28,65.81;52.09,67.04|N|Escort The Wagon, [color=b50202]MUST STAY CLOSE[/color].
-    T Hornstrider Havoc|QID|66879|M|53.43,58.40|Z|2022|N|To Dazakros.
-    A Deluge Dilemma|QID|66892|PRE|66879|M|53.43,58.40|Z|2022|N|From Dazakros.
-    A Beaky Reclamation|QID|66893|PRE|66879|M|53.43,58.40|Z|2022|N|From Dazakros.
-    C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders.|S|
-    C Deluge Dilemma|QID|66892|M|51.49,58.30|Z|2022|N|Slay Water Elementals.
-    C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders healed.|US|
-    T Deluge Dilemma|QID|66892|M|53.42,58.36|Z|2022|N|To Dazakros.
-    T Beaky Reclamation|QID|66893|M|53.42,58.36|Z|2022|N|To Dazakros.
+    ;T Hornstrider Havoc|QID|66879|M|53.43,58.40|Z|2022|N|To Dazakros.
+    ;A Deluge Dilemma|QID|66892|PRE|66879|M|53.43,58.40|Z|2022|N|From Dazakros.
+    ;A Beaky Reclamation|QID|66893|PRE|66879|M|53.43,58.40|Z|2022|N|From Dazakros.
+    ;C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders.|S|
+    ;C Deluge Dilemma|QID|66892|M|51.49,58.30|Z|2022|N|Slay Water Elementals.
+    ;C Beaky Reclamation|QID|66893|M|52.61,57.95|Z|2022|U|194434|NC|N|Use the provided potion to heal the Injured Hornstriders healed.|US|
+    ;T Deluge Dilemma|QID|66892|M|53.42,58.36|Z|2022|N|To Dazakros.
+    ;T Beaky Reclamation|QID|66893|M|53.42,58.36|Z|2022|N|To Dazakros.
     T Black Wagon Flight|QID|65793|M|57.93,67.35|N|To Sabellian, Use Renewed Proto-drake to fly to Sabellian.
     A The Last Eggtender|QID|66785|M|24.29,55.83|N|From Sabellian.
     T The Last Eggtender|QID|66785|M|61.59,68.72|N|To Mother Elion.

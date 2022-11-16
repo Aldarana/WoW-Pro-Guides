@@ -95,7 +95,7 @@ return [[
    A Clan Teerai|QID|66016|M|61.44,39.51|N|From Sansok Khan.
    A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.|US|
    A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|US|
-   A Orientation: Maruukai|QID|72429|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.
+   ;A Orientation: Maruukai|QID|72429|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.
    A Emberwatch|QID|70337|M|62.15,36.42|N|From Windsage Kven.
    T Clan Ohn'ir|QID|66017|M|62.97,33.68|N|To Ohn Sesshteng.
    A Omens and Incense|QID|66020|M|62.99,33.67|N|From Ohn Sesshteng.
@@ -274,9 +274,9 @@ return [[
    T A Storm of Ill Tidings|QID|66259|M|60.02,37.50|N|To Khanman Matra Sarest.
    A Chasing the Wind|QID|66327|M|60.02,37.50|N|From Khanman Matra Sarest.
    C Chasing the Wind|NC|QID|66327|QO|1|M|60.02,37.50|N|Wait for the RP.
-   C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.
-   C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.
-   T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.
+   ;C Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|QO|1|CHAT|N|Talk to Agari Dotur, Keeper of Renown.
+   ;C Orientation: Maruukai|QID|72429|M|60.39,37.73|Z|2023;Ohn'ahran Plains|QO|2|CHAT|N|Talk to Quartermaster Huseng.
+   ;T Orientation: Maruukai|QID|72429|M|60.38,37.67|Z|2023;Ohn'ahran Plains|N|To Agari Dotur.
    C Chasing the Wind|CHAT|QID|66327|QO|2|M|60.02,37.50|N|Speak to Khanman Matra Sarest.
    F Chasing the Wind|QID|66327|QO|4|M|73.14,40.57|N|Fly to next quest
    T Chasing the Wind|QID|66327|M|73.04,40.60|N|To Khanam Matra Sarest.
@@ -290,9 +290,6 @@ return [[
    A Green Dragon Down|QID|66328|M|76.70,40.94|N|From Khanman Matra Sarest.
    F Green Dragon Down|QID|66328|QO|1|M|72.34,50.33|N|Find the green dragons.
    C Green Dragon Down|CHAT|QID|66328|QO|2|M|72.34,50.33|N|Speak to Khanman Matra Sarest.
-   T Green Dragon Down|QID|66328|M|72.35,50.35|N|To Khanman Matra Sarest.\n\nKill mobs in the area while you wait for the RP.
-   A With the Wind At Our Backs|QID|66344|M|72.44,50.73|N|From Merithra.
-   C With the Wind At Our Backs|V|QID|66344|M|72.30,50.71|N|Speak to Gerithus and then leave vehicle.
    T Trouble in the Pines|QID|65837|M|81.03,58.96|Z|2023;Ohn'ahran Plains|N|To Sentinel Olekk.|
    A Counting Sheep|QID|66680|M|81.04,58.94|N|From Scout Watu.|S|
    A Tempests Abound|QID|66681|M|81.04,58.94|N|From Sentinel Olekk.
@@ -302,6 +299,7 @@ return [[
    C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot for "More Than A Rock" quest.|S|
    C Counting Sheep|NC|QID|66680|QO|3|M|82.74,64.61|U|193892|T|Lost Argali|N|Save lost Argali
    C Tempests Abound|QID|66681|M|82.74,64.61|N|Kill 8 Stormtouched Beasts, Loot "for More Than A Rock" quest.|US|
+   h Pinewood Post|QID|66681|M|81.29,59.26|N|Set Hearthstone at the innkeeper.
    T Counting Sheep|QID|66680|M|81.01,58.96|N|To Scout Watu.|S|
    T Tempests Abound|QID|66681|M|81.01,58.96|N|To Scout Watu.|S|
    T More Than A Rock|QID|66689|M|81.01,58.96|N|To Scout Watu.|S|
@@ -320,7 +318,9 @@ return [[
    A Storm Chasing|QID|66684|M|83.98,60.32|N|From Scout Watu.
    C Storm Chasing|QID|66684|M|84.88,63.32|N|Run into the cave.
    T Storm Chasing|QID|66684|M|80.86, 58.94|N|To Scout Watu.
-   h Forkriver Crossing|QID|66344|M|72.12,80.49|N|Set Hearthstone at the innkeeper.
+   T Green Dragon Down|QID|66328|M|72.35,50.35|N|To Khanman Matra Sarest.
+   A With the Wind At Our Backs|QID|66344|M|72.44,50.73|N|From Merithra.
+   C With the Wind At Our Backs|V|QID|66344|M|72.30,50.71|N|Speak to Gerithus.
    A Territorial Coastling|QID|69852|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
    K Territorial Coastling|QID|69852|QO|1|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
    A Ripsaw the Stalker|QID|69851|M|26.32,65.39|N|In a cave fighting a bear.
@@ -367,7 +367,7 @@ return [[
    C Renewal of Vows|QID|66783|QO|4|CHAT|M|22.15,50.97|N|Take Merithra Offering and give to Khanam Matra Sarest.
    T Renewal of Vows|QID|66783|M|22.15,50.97|N|To Merithra
    A Into the Azure|QID|66340|M|22.15,50.97|N|From Merithra
-   H Forkriver Crossing|QID|66340|U|6948|
+   H  Pinewood Post|QID|66340|U|6948|
    T Into the Azure|QID|66340|M|71.66,80.60|N|To Masud the Wise
    A To the Azure Span|QID|65686|M|71.66,80.60|N|From Masud the Wise
    T To the Azure Span|QID|65686|M|41.44,35.62|Z|The Azure Span#2128|N|To Giania of the Blessed Ones

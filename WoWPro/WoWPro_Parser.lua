@@ -614,7 +614,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWProCharDB.EnableGrailBreadcrumbs and WoWPro.leadin[i] and WoWPro.action[i] == "A" and WoWPro.DebugLevel > 0 then
         local new_leadin = WoWPro.GrailBreadcrumbsFor(WoWPro.QID[i])
         if new_leadin then
-            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦ but has  LEAD¦%s¦ .",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
+            WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦ but has LEAD¦%s¦ .",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin, WoWPro.leadin[i])
         end
         WoWPro.leadin[i] = new_leadin
     end
@@ -837,6 +837,8 @@ function WoWPro.ParseSteps(steps)
     local mycovenant = ""
     local myFaction = WoWPro.Faction:upper()
     local zone = WoWPro.Guides[GID].zone
+	local guidelock = false
+	local guidelockdetected = false
 
     if _G.C_Covenants and (_G.C_Covenants.GetActiveCovenantID() > 0) then
         mycovenant = _G.C_Covenants.GetActiveCovenantID()
@@ -867,7 +869,31 @@ function WoWPro.ParseSteps(steps)
         text = text:trim()
         if text ~= "" then
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
-            local gender, faction, ms, tof = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|")
+            local gender, faction, ms, tof, serverdate = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|"), text:match("|DATE|([^|]*)|?")
+			if serverdate then
+				local epochttime, timelock = (";"):split(serverdate)
+				if timelock == "1" then
+					local epoch = _G.GetServerTime()
+					local dateFlip
+					local timeMet
+					guidelockdetected = true
+					if (epochttime:sub(1, 1) == "-") then
+							epochttime = epochttime:sub(2)
+							dateFlip = true
+					 end
+					if tonumber(epochttime) >= epoch then
+						timeMet = true
+					end
+					if timeMet == dateFlip then
+						if dateFlip then
+							guidelock = epochttime
+						else
+							guidelock = "-" .. epochttime
+						end
+					end
+				end
+			end
+
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
                 class = class:gsub(" ", ""):upper()
@@ -931,6 +957,13 @@ function WoWPro.ParseSteps(steps)
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
+					if guidelock then
+						if guidelockdetected then
+							guidelockdetected = false
+						else
+							WoWPro.serverdate[i] = guidelock
+						end
+					end
                     WoWPro.RecordStuff(i)
                     i = i + 1
                 end
@@ -939,6 +972,13 @@ function WoWPro.ParseSteps(steps)
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
+					if guidelock then
+						if guidelockdetected then
+							guidelockdetected = false
+						else
+							WoWPro.serverdate[i] = guidelock
+						end
+					end
                     WoWPro.RecordStuff(i)
                     i = i + 1
                 end

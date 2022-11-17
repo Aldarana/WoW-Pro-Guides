@@ -26,7 +26,7 @@ return [[
     A Whispers on the Winds|QID|65439|M|55.84,12.58|N|From Khadgar after he appears from a portal.|PRE|65443|FACTION|Horde|
     C Whispers on the Winds|QID|65439|M|55.84,12.58|QO|1|CHAT|N|Speak with Khadgar.|FACTION|Horde|
     T Whispers on the Winds|QID|65439|M|55.84,12.58|Z|Durotar|N|To Ebyssian.|FACTION|Horde|
-    N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. They are worth about 30k XP no matter what level you hand them in at.\nWe recommend using them for the last 30k to 70.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|65444
+    N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. They are worth about 30k XP no matter what level you hand them in at.\nWe recommend using them for the last 30k to 70.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|ACTIVE|65444
     A To the Dragon Isles!|QID|65444|M|55.82,12.61|N|From Naleidea Rivergleam.|PRE|65439|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|M|56.03,13.66|QO|1|NC|N|Wait for the zeppelin to arrrive and then board it.|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|QO|2|NC|M|80.64, 27.63|Z|The Waking Shores|N|Ride the zeppline to the Dragon Isles. Stand and wait at the ports on the side opposite from where you enter the zepplin.|FACTION|Horde|
@@ -313,11 +313,11 @@ return [[
     C Exeunt, Triumphant|CHAT|QID|66124|M|46.15,78.46|N|Talk To Majordomo Selistra.
     T Exeunt, Triumphant|QID|66124|M|46.15,78.46|N|To Majordomo Selistra.
     A Wrathion Awaits|QID|66079|M|46.10,78.30|N|From Alexstrasza The Life-Binder.
-    C Pruning the Preserve|QID|70196|M|43.09,86.99|N|Kill proto-dragons as you go.|S|
+    ;C Pruning the Preserve|QID|70196|M|43.09,86.99|N|Kill proto-dragons as you go.|S|
     C Amateur Protography|NC|QID|66524|U|192465|M|44.94,78.16|QO|2|N|Whelp learning to fly
     C Amateur Protography|NC|QID|66524|U|192465|M|43.79,78.83|QO|3|N|Hungry Proto-Drake
     C Amateur Protography|NC|QID|66524|U|192465|M|43.43,82.81|QO|1|N|Proto-dragon Egg
-    C Pruning the Preserve|QID|70196|M|43.09,86.99|N|Finish killing proto-dragons.|US|
+    ;C Pruning the Preserve|QID|70196|M|43.09,86.99|N|Finish killing proto-dragons.|US|
     T Amateur Protography|QID|66524|M|39.04,83.29|N|To Cataloger Wulferd
     A Competitive Protography|QID|66525|M|39.04,83.29|N|From Cataloger Wulferd
     A Preserving the Wilds|QID|66526|M|39.04,83.29|N|From Dervishian

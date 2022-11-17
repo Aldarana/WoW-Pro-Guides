@@ -7,7 +7,6 @@ WoWPro:GuideSteps(guide, function()
 return [[
   ;Horde Opening
     R Orgrimmar|ACTIVE|65435|IZ|-84|N|If you aren't in Orgrimmar, go there to get started.|FACTION|Horde|
-    N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. If you don't have them the guide will skip them.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|65435
     A The Dragon Isles Await|QID|65435|N|Auto Accepted.|FACTION|Horde|LVL|58|
     T The Dragon Isles Await|QID|65435|M|44.17,38.01|Z|Orgrimmar|N|To Ebyssian.|FACTION|Horde|
     A Aspectral Invitation|QID|65437|Z|Orgrimmar|N|From Ebyssian.|PRE|65435|FACTION|Horde|
@@ -27,6 +26,7 @@ return [[
     A Whispers on the Winds|QID|65439|M|55.84,12.58|N|From Khadgar after he appears from a portal.|PRE|65443|FACTION|Horde|
     C Whispers on the Winds|QID|65439|M|55.84,12.58|QO|1|CHAT|N|Speak with Khadgar.|FACTION|Horde|
     T Whispers on the Winds|QID|65439|M|55.84,12.58|Z|Durotar|N|To Ebyssian.|FACTION|Horde|
+    N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. They are worth about 30k XP no matter what level you hand them in at.\nWe recommend using them for the last 30k to 70.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|65444
     A To the Dragon Isles!|QID|65444|M|55.82,12.61|N|From Naleidea Rivergleam.|PRE|65439|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|M|56.03,13.66|QO|1|NC|N|Wait for the zeppelin to arrrive and then board it.|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|QO|2|NC|M|80.64, 27.63|Z|The Waking Shores|N|Ride the zeppline to the Dragon Isles. Stand and wait at the ports on the side opposite from where you enter the zepplin.|FACTION|Horde|

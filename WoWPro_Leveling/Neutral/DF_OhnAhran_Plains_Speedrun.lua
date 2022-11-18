@@ -203,7 +203,6 @@ return [[
    T Signs of the Wind|QID|66688|M|49.35,49.52|N|To Offering Vessel.
    A Himia, the Blessed|QID|70374|M|49.35,49.52|N|From Himia, the Blessed.
    C Himia, the Blessed|QID|70374|QO|1|M|49.35,49.52|N|Speak to Himia, the Blessed.
-   C Himia, the Blessed|QID|70374|QO|2||M|49.35,49.52|N|Speak to Himia, the Blessed.
    A Skaara|QID|70783|M|44.93, 49.17|Z|2023;Ohn'ahran Plains
    K Skaara|ACTIVE|70783|QO|1|M|44.93, 49.17|Z|2023;Ohn'ahran Plains|N|In a cave
    C Land of the Apex|QID|66687|QO|1|CC|M|43.60,48.06;43.69,50.20|N|Run into the cave and kill the spiders.

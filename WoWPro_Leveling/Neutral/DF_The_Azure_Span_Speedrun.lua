@@ -202,7 +202,6 @@ return [[
    T To Iskaara|QID|65849|M|13.24,49.52|N|To Brena
    A Gather the Family|QID|66210|M|13.24,49.52|N|From Brena
    A Orientation: Iskaara|QID|72435|PRE|65849|M|13.14,49.27|Z|2024|N|From Murik.
-   A Nook News|QID|71234|PRE|65849|M|14.07,49.44|Z|2024|N|From Lukoturukk.
    C Gather the Family|NC|QID|66210|QO|1<1|M|13.86,49.47|N|Click Offerings
    C Orientation: Iskaara|QID|72435|QO|2|M|13.91,50.08|Z|2024|NC|N|Click on Rokkutuk.
    C Gather the Family|NC|QID|66210|QO|1<2|M|12.47,50.32|N|Click Offerings
@@ -224,6 +223,7 @@ return [[
    T Rowie|QID|66558|M|16.12,50.43|N|To Rowie
    A Toejam the Terrible|QID|70129|M|16.12,50.43|N|From Rowie
    C Toejam the Terrible|CHAT|QID|70129|M|16.77,49.36|N|Speak to Toejam
+   A Nook News|QID|71234|PRE|65849|M|14.07,49.44|Z|2024|N|From Lukoturukk.
    T Toejam the Terrible|QID|70129|M|13.80,49.01|N|To Auntie Kaunnie
    C The Cycle of the Sea|CHAT|QID|65850|QO|1|M|13.24,49.52|N|Speak to Breana.\n\nThis is a long RP and you can't leave the area, now is a good time for a pee break if you need.\n
    C The Cycle of the Sea|NC|QID|65850|QO|2|M|13.16,50.14|N|Push the boat
@@ -233,10 +233,10 @@ return [[
    C Scampering Scamps|CHAT|QID|66218|M|10.58,46.85|N|Speak to Neelo
    T Scampering Scamps|QID|66218|M|10.58,46.85|N|To Neelo, wait for RP before you can hand it in.
    A Can We Keep It?|QID|66223|M|10.59,46.87|N|From Neelo
-   B Can We Keep It?|QID|66223|QO|1|M|13.85,49.49|N|Buy 7 Frigidfish from the vendor
-   T Can We Keep It?|QID|66223|M|10.59,46.87|N|To Neelo
    C WANTED: Krojek the Shoreprowler|QID|66217|M|10.70,54.38|N|You'll want lust and all CDs for this. \n\nSkip if you think its to hard.|US|
+   B Can We Keep It?|QID|66223|QO|1|M|13.85,49.49|N|Buy 7 Frigidfish from the vendor
    T WANTED: Krojek the Shoreprowler|QID|66217|M|12.51,49.80|N|Skip if it was to hard
+   T Can We Keep It?|QID|66223|M|10.59,46.87|N|To Neelo
    T Nook News|QID|71234|M|7.46,44.28|Z|2024|N|To Wayun.
    A A Matter of Taste|QID|66781|PRE|71234|M|7.64,44.35|Z|2024|N|From Mordigan Ironjaw.
    C A Matter of Taste|QID|66781|M|7.24,45.11|Z|2024|QO|1|NC|N|Click to pick up the large stone at the water's edge.
@@ -302,7 +302,6 @@ return [[
    A True Survivors|QID|66730|M|58.48,40.52|N|From Old Grimtusk
    T True Survivors|QID|66730|M|58.80,34.89|N|To Old Grimtusk
    F To Rhonin's Shield|QID|65886|QO|1|M|65.89,25.49|N|Fly to Rhonin's Sheild
-   A Riders in the Snow|QID|66708|M|65.89,25.49|N|From Tuskarr Elder
    T To Rhonin's Shield|QID|65886|M|65.81,25.32|N|To Drok Scrollstabber
    A To Drakes be Gone|QID|67299|M|65.81,25.32|N|From Drok Scrollstabber|S|
    A To the Mountain|QID|65887|M|65.81,25.32|N|From Drok Scrollstabber
@@ -350,7 +349,6 @@ return [[
    C The Storm-Eater's Fury|V|QID|70041|QO|4|M|78.03,32.43|N|Use Vehicle 1 and 2 to kill the mobs, Vehicle 3 does not kill the any mobs.
    T The Storm-Eater's Fury|QID|70041|M|78.21,33.33|N|To Kalecgos
    A The Blue Dragon Oathstone|QID|66015|M|78.00,32.49|N|From Khadgar
-   T Riders in the Snow|QID|66708|M|59.26,39.71|N|Fly to Old Grimtusk
 
  ;The Ailing Apprentice Side quest's
    T Artifacts in the Wrong Hands|QID|66964|M|67.22,44.40|N|To Kattigat

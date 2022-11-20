@@ -26,7 +26,9 @@ return [[
     A Whispers on the Winds|QID|65439|M|55.84,12.58|N|From Khadgar after he appears from a portal.|PRE|65443|FACTION|Horde|
     C Whispers on the Winds|QID|65439|M|55.84,12.58|QO|1|CHAT|N|Speak with Khadgar.|FACTION|Horde|
     T Whispers on the Winds|QID|65439|M|55.84,12.58|Z|Durotar|N|To Ebyssian.|FACTION|Horde|
-    N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. They are worth about 30k XP no matter what level you hand them in at.\nWe recommend using them for the last 30k to 70.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|65444
+    N Pre-Quests|N|[color=ffffff]It's recommened that you have the following quests completed in your log before the expansion releases. They are worth about 30k XP no matter what level you hand them in at.\nWe recommend using them for the last 30k to 70.[/color]\n\nStolen Shipments\nEven Thieves Get Hungry\nA Furious Catch\n|AVAILABLE|70198
+    A The Call of the Isles|QID|70198|M|PLAYER|N|Auto Accepted.|FACTION|HORDE|
+    T The Call of the Isles|QID|70198|M|55.82,12.61|Z|Durotar|N|To Naleidea Rivergleam.|FACTION|HORDE|
     A To the Dragon Isles!|QID|65444|M|55.82,12.61|N|From Naleidea Rivergleam.|PRE|65439|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|M|56.03,13.66|QO|1|NC|N|Wait for the zeppelin to arrrive and then board it.|FACTION|Horde|
     C To the Dragon Isles!|QID|65444|QO|2|NC|M|80.64, 27.63|Z|The Waking Shores|N|Ride the zeppline to the Dragon Isles. Stand and wait at the ports on the side opposite from where you enter the zepplin.|FACTION|Horde|

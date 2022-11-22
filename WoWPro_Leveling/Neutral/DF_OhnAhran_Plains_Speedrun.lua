@@ -369,6 +369,8 @@ return [[
    H  Pinewood Post|QID|66340|U|6948|
    T Into the Azure|QID|66340|M|71.66,80.60|N|To Masud the Wise
    A To the Azure Span|QID|65686|M|71.66,80.60|N|From Masud the Wise
+   A Thieving Gnolls|QID|67173|M|36.79,32.49|Z|The Azure Span#2128
+   K Thieving Gnolls|ACTIVE|67173|QO|1|M|36.79,32.49|Z|The Azure Span#2128|N|Kill the 3 gnolls and then wait for the big gnoll to spawn.
    T To the Azure Span|QID|65686|M|41.44,35.62|Z|The Azure Span#2128|N|To Giania of the Blessed Ones
   ]]
 end)

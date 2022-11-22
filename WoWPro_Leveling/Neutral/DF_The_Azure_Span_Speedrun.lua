@@ -128,7 +128,7 @@ return [[
    A Spreading Decay|QID|66239|M|34.36,31.07|N|From Brena
    T Spreading Decay|QID|66239|M|28.68,34.82|N|To Brena
    A Another Ambush|QID|65869|M|28.68,34.82|N|From Brena
-   A Falling Water|QID|71233|M|28.47,35.12|N|From Unkimi
+   ;A Falling Water|QID|71233|M|28.47,35.12|N|From Unkimi
    C Another Ambush|QID|65869|QO|1|M|28.68,34.76|N|Speak to Akiun
    C Another Ambush|QID|65869|QO|2|CS|M|29.25,33.57;29.17,32.59;28.19,31.86;27.96,32.81|N|Click on the bodies
    T Another Ambush|QID|65869|M|28.68,34.82|N|To Brena
@@ -194,8 +194,8 @@ return [[
    T Cut Out the Rot|QID|65844|M|16.74,37.27|N|To Norukk|US|
    A Tome-ward Bound|QID|65848|M|16.74,37.27|N|From Kalecgos
    C Tome-ward Bound|CHAT|QID|65848|QO|1|M|16.74,37.27|N|Talk to Kalecgos to start the RP before going to the rare.|S|
-   A Vakril, the Strongest Tuskarr|QID|69872|M|23.57,33.25|N|Kill the Vakril rare.
-   K Vakril, the Strongest Tuskarr|ACTIVE|69872|QO|1|M|23.57,33.25|N|Attack Vakril, you only need to get him to 50% then some RP will happen and he'll leave.
+   A Vakril, the Strongest Tuskarr|QID|69872|M|17.21, 41.38|N|Kill the Vakril rare.
+   K Vakril, the Strongest Tuskarr|ACTIVE|69872|QO|1|M|17.21, 41.38|N|Attack Vakril, you only need to get him to 50% then some RP will happen and he'll leave.
    C Tome-ward Bound|CHAT|QID|65848|QO|1|M|16.74,37.27|US|
    C Tome-ward Bound|V|QID|65848|QO|2|M|16.74,37.27
    C Tome-ward Bound|QID|65848|QO|3|M|16.74,37.27|N|Use the 1 ability to charge forward and the 2 to kill the Putrifiers
@@ -225,6 +225,7 @@ return [[
    A Scampering Scamps|QID|66218|M|12.91,48.70|N|From Hanu
    T Gather the Family|QID|66210|M|13.24,49.52|N|To Brena
    A The Cycle of the Sea|QID|65850|M|13.24,49.52|N|From Kalecgos
+   T Orientation: Iskaara|QID|72435|PRE|65849|M|13.14,49.27|Z|2024|N|To Murik.
    A Rowie|QID|66558|M|13.76,47.63|N|From Auntie Kaunnie
    C Rowie|CHAT|QID|66558|M|16.12,50.43|N|Speak to Rowie
    T Rowie|QID|66558|M|16.12,50.43|N|To Rowie
@@ -316,8 +317,8 @@ return [[
    A Artifacts in the Wrong Hands|QID|66964|M|65.94,25.27|N|From Polky Cogzapper
    C To Drakes be Gone|V|QID|67299|M|66.08,25.47|N|Click on the Arcane Blaster
    T To Drakes be Gone|QID|67299|M|65.81,25.32|N|To Drok Scrollstabber
-   A Summoned Destroyer|QID|69895|M|23.57,33.25|N|Kill the Summoned Destroyer rare.
-   K Summoned Destroyer|ACTIVE|69895|QO|1|M|23.57,33.25|N|I can be pretty much anywhere on this frozen lake, it will be fighting a goblin NPC.
+   A Summoned Destroyer|QID|69895|M|70.01,33.37|N|Kill the Summoned Destroyer rare.
+   K Summoned Destroyer|ACTIVE|69895|QO|1|M|70.01,33.37|N|I can be pretty much anywhere on this frozen lake, it will be fighting a goblin NPC.
    T To the Mountain|QID|65887|M|70.01,35.24|N|To Kalecgos
    A Primal Offensive|QID|65943|M|70.01,35.24|N|From Kalecgos|S|
    A Lava Burst|QID|65944|M|70.01,35.24|N|From Khadgar|S|

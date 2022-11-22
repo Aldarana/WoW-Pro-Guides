@@ -50,6 +50,8 @@ return [[
    A Arcane Pruning|QID|65709|M|40.69,59.11|N|From Kalecgos
    C Driven Mad|QID|65702|M|41.18,62.25|N|Kill and loot mobs|S|
    C Arcane Pruning|NC|U|191953|QID|65709|QO|1|M|40.69,59.11|N|Use item "Bag of Helpful Goods"
+   A Forgotten Creation|QID|69864|M|38.21,59.08|N|In a cave up on the cliff.
+   K Forgotten Creation|ACTIVE|69864|QO|1|M|38.21,59.08|N|In a cave up on the cliff.
    C Arcane Pruning|NC|U|191952|QID|65709|QO|2|M|39.57,60.29|N|North arcane field repaired
    C Arcane Pruning|NC|U|191952|QID|65709|QO|3|M|41.18,62.25|N|East arcane field repaired
    C Driven Mad|QID|65702|M|41.18,62.25|N|Kill and loot mobs|US|

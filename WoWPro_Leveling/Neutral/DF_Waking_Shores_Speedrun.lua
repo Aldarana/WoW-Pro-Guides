@@ -266,7 +266,7 @@ return [[
     $ Skytop Observatory Tower|N|Over the tower.|M|75.3,57.0|Z|2022;The Waking Shores!Dragonflight|ACH|15985|
     ;H Ruby Lifeshrine|QID|68799|M|PLAYER|Z|2022|N|Hearth back to the Ruby Lifeshrine, skip this if you have more than 10min hearth CD, there's a better hearth soon.
     ;C A Ruby Lifecalling|NC|QID|66825|QO|1<2|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
-    C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|Speak with Mother Elion
+    C The Mandate of the Red|QID|66115|M|61.61,68.73|QO|3|CHAT|N|[color=349eeb]You Will need 2 Vigor stacks to make it back if you decide to fly.[/color]\n\nSpeak with Mother Elion
     C The Mandate of the Red|QID|66115|M|62.75,70.45|QO|4|CHAT|N|Speak with Zahkrana
     T The Mandate of the Red|QID|66115|M|62.75,70.45|N|Speak with Zahkrana
     A Training Wings|QID|70061|M|62.20,70.58|N|From Amella.
@@ -274,7 +274,7 @@ return [[
     C Training Wings|QID|70061|M|61.08,71.45|N|When finished Use the exit vehicle button to get out quickly
     ;C A Ruby Lifecalling|NC|QID|66825|QO|1<3|M|61.89,73.84|Z|2022|N|Click one of the items on the table.
     T Training Wings|QID|70061|M|62.33,73.02|N|To Majordomo Selistra.
-    T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|[color=349eeb]You Will need 2 Vigor stacks to make it back if you decide to fly.[/color]
+    T Return to the Ruby Lifeshrine|QID|68799|M|62.33,73.02|N|To Alexstrasza
     A The Mandate of the Red|QID|66115|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     A Who Brought the Ruckus?|QID|66931|M|62.33,73.02|N|From Alexstrasza The Life-Binder.
     ;C A Ruby Lifecalling|NC|QID|66825|QO|1<4|M|61.89,73.84|Z|2022|N|Click one of the items on the table.

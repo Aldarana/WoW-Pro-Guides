@@ -229,7 +229,7 @@ return [[
     C The Mandate of the Red|QID|66115|M|59.41,72.41|QO|2|CHAT|N|Speak with Akxall
     C Dragonriding|QID|68795|M|58.37,67.15|QO|1|CHAT|N|Speak with Lord Andestrasz
     A Stay a While|QID|70132|M|57.83,66.84|N|From the sitting dwarf.
-    C Stay a While|NC|QID|70132|M|57.83,66.84|N|Use the extra action button to sit down then talk to the dwarf.\nSelect <You are busy. Get up and leave.>
+    C Stay a While|NC|QID|70132|M|57.83,66.84|N|Use the extra action button to sit down then talk to the dwarf.\nSelect <You are busy. Get up and leave.>\n\nThis quest is sometimes bugged and sometimes not. You might be able to turn the quest in as soon as you stand up again./nIf so hand it in right away.\nIf not you can either just ignore this quest or try jumping into the vehicle and selecting the other option and then using the leave vehicle button each time you're in the area waiting on other RP.
     T Dragonriding|QID|68795|M|56.67,66.89|N|To Lord Andestrasz.
     A How to Glide with Your Dragon|QID|65118|M|57.84,66.82|N|From Lord Andestrasz.
     C How to Glide with Your Dragon|QID|65118|NC|M|57.66,66.89|Z|2022|QO|1|N|Learn the mount if needed and then add to hotkeys if desired.(Optional)|U|194034|BUFF|368896^368899^368901^360954|

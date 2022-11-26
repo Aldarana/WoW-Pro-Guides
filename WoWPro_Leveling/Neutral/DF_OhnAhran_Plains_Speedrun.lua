@@ -320,10 +320,10 @@ return [[
    T Green Dragon Down|QID|66328|M|72.35,50.35|N|To Khanman Matra Sarest.
    A With the Wind At Our Backs|QID|66344|M|72.44,50.73|N|From Merithra.
    C With the Wind At Our Backs|V|QID|66344|M|72.30,50.71|N|Speak to Gerithus.
-   A Territorial Coastling|QID|69852|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
-   K Territorial Coastling|QID|69852|QO|1|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
-   A Ripsaw the Stalker|QID|69851|M|26.32,65.39|N|In a cave fighting a bear.
-   K Ripsaw the Stalker|QID|69851|QO|1|M|26.32,65.39|N|In a cave fighting a bear.
+   ;A Territorial Coastling|QID|69852|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
+   ;K Territorial Coastling|QID|69852|QO|1|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
+   ;A Ripsaw the Stalker|QID|69851|M|26.32,65.39|N|In a cave fighting a bear.
+   ;K Ripsaw the Stalker|QID|69851|QO|1|M|26.32,65.39|N|In a cave fighting a bear.
    T With the Wind At Our Backs|QID|66344|M|28.26,57.69|N|To Merithra.
    A Shady Sanctuary|QID|70220|M|28.26,57.69|N|From Merithra.
    C Shady Sanctuary|QID|70220|QO|5|CHAT|M|29.75,59.98|N|Speak to Viranikus.
@@ -331,6 +331,36 @@ return [[
    C Shady Sanctuary|QID|70220|QO|3|CHAT|M|30.23,55.70|N|Speak to Isidra the Mender.
    C Shady Sanctuary|QID|70220|QO|1|CHAT|M|29.07,55.26|N|Speak to Guard-Captain Alowen.
    T Shady Sanctuary|QID|70220|M|28.26,57.69|N|To Merithra.
+; Side quest
+   A Find Theramus|QID|65899|M|25.06,56.89|N|From Celina Crunchyleaves
+   C Find Theramus|QID|65899|M|24.79,64.44|N|Talk to Theramus
+   T Find Theramus|QID|65899|M|24.45,62.99|N|To Celina Crunchyleaves
+   A Suspiciously Spiced Steak|QID|65900|M|24.45,62.99|N|From Felina Starrunner
+   A Can't Beat Fluffy|QID|65903|M|24.45,62.99|N|From Celina Crunchyleaves
+   C Suspiciously Spiced Steak|QID|65900|M|22.36,61.25|N|Collect 2 Perfectly Tender Turtle Meat, 6 Reptilian Eggshells, and 15 Sourbloom.
+   A Territorial Coastling|QID|69852|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.|S|
+   C Can't Beat Fluffy|QID|65903|M|71.66,80.60|N|Catch 12 Glade Hoppers, do when kill the Rare.
+   K Territorial Coastling|QID|69852|QO|1|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
+   T Suspiciously Spiced Steak|QID|65900|M|24.45,62.99|N|To Felina Starrunner
+   T Can't Beat Fluffy|QID|65903|M|24.45,62.99|N|From Celina Crunchyleaves
+   A Food or Floof|QID|65902|M|24.45,62.99|N|From Celina Crunchyleaves
+   C Food or Floof|QID|65902|M|24.79,64.44|N|Talk to Theramus And release glade hoppers
+   T Food or Floof|QID|65902|M|24.45,62.99|N|To Celina Crunchyleaves
+   A Proof of Negligence|QID|65937|M|24.45,62.99|N|From Celina Crunchyleaves
+   A More Than Weeds|QID|65905|M|24.45,62.99|N|From Celina Crunchyleaves
+   C Proof of Negligence|QID|65937|M|24.76,61.20|N|Find and then show evidence of the Lilac Ramble's damage to Theramus.|S|
+   C More Than Weeds|QID|65905|M|24.76,61.20|N|Clear out overgrowth and monsters in Lilac Ramble.
+   T Proof of Negligence|QID|65937|M|71.66,80.60|N|To Celina Crunchyleaves
+   T More Than Weeds|QID|65905|M|71.66,80.60|N|To Celina Crunchyleaves
+   A Enough Is Enough|QID|65904|M|24.45,62.99|N|From Celina Crunchyleaves
+   C Enough Is Enough|QID|65904|M|24.58,64.10|N|Talk to Theramus
+   T Enough Is Enough|QID|65904|M|24.57,63.96|N|To Celina Crunchyleaves
+   A In Memory of Ysera|QID|66011|M|24.57,63.96|N|From Felina Starrunner
+   C In Memory of Ysera|QID|66011|M|71.66,80.60|N|Talk to Theramus, Then kill Rare
+   A Ripsaw the Stalker|QID|69851|M|26.32,65.39|N|In a cave fighting a bear.
+   K Ripsaw the Stalker|QID|69851|QO|1|M|26.32,65.39|N|In a cave fighting a bear.
+   T In Memory of Ysera|QID|66011|M|71.66,80.60|N|To Theramus
+
    A The Primalist Front|QID|66331|M|28.26,57.69|N|From Merithra.
    C The Primalist Front|QID|66331|QO|3|CHAT|M|27.57,45.98|N|Speak to Belika.
    C The Primalist Front|QID|66331|QO|2|CHAT|M|25.74,44.24|N|Speak to Boku.

@@ -96,28 +96,28 @@ return [[
    A Clan Ohn'ir|QID|66017|M|61.44,39.51|N|From Sansok Khan.|US|
    A Clan Nokhud|QID|66018|M|61.44,39.51|N|From Sansok Khan.|US|
    ;A Orientation: Maruukai|QID|72429|PRE|65806|M|61.43,39.53|Z|2023;Ohn'ahran Plains|N|From Sansok Khan.
-   A Emberwatch|QID|70337|M|62.15,36.42|N|From Windsage Kven.
+   ;A Emberwatch|QID|70337|M|62.15,36.42|N|From Windsage Kven.
    T Clan Ohn'ir|QID|66017|M|62.97,33.68|N|To Ohn Sesshteng.
    A Omens and Incense|QID|66020|M|62.99,33.67|N|From Ohn Sesshteng.
    l Omens and Incense|QID|66020|L|191160 5|CS|M|63.40,33.85;63.77,34.42;63.58,34.72;63.43,34.90|N|Pick up 5 of the purple flowers in the area.
    C Omens and Incense|NC|QID|66020|QO|1|U|191160|N|Use the flowers from your bag.
    C Omens and Incense|NC|QID|66020|QO|2|CS|M|62.84,33.69|N|Click on the burner.
    T Omens and Incense|QID|66020|M|62.99,33.67|N|To Ohn Sesshteng.
-   T Emberwatch|QID|70337|M|65.98,25.09|N|[color=349eeb]You'll want to have 2 vigor when you land here.[/color]\nTo Telemance Aerilyn.
-   A The Nelthazan Ruins|QID|65890|M|65.98,25.09|N|From Telemance Aerilyn.
-   T The Nelthazan Ruins|QID|65890|M|64.02,18.29|N|To Skyscibe Adenedal.
-   A The Relic Inquiry|QID|65893|M|64.02,18.29|N|From Skyscibe Adenedal.|S|
-   A Tools of the Tirade|QID|65891|M|64.02,18.29|N|From Skyscibe Adenedal.
-   A The Relic Inquiry|QID|65893|M|64.02,18.29|N|From Skyscibe Adenedal.|US|
-   A The Sundered Asunder|QID|65892|M|64.02,18.29|N|Bonus Objective
-   C The Sundered Asunder|QID|65892|M|63.57,15.78|N|Bonus Objective|S|
-   C The Relic Inquiry|QID|65893|M|63.57,15.78|N|Kill and loot any of the mobs in the area.|S|
-   C Tools of the Tirade|NC|QID|65891|CS|M|63.60,17.11;63.46,16.72;64.04,14.94;63.93,14.44;63.54,15.12|N|Click the rubble piles in the area.
-   C The Sundered Asunder|QID|65892|M|63.57,15.78|N|Bonus Objective|US|
-   C The Relic Inquiry|QID|65893|M|63.57,15.78|N|Kill and loot any of the mobs in the area.|US|
-   T The Relic Inquiry|QID|65893|M|64.01,18.29|N|To Skyscibe Adenedal|S|
-   T Tools of the Tirade|QID|65891|M|64.01,18.29|N|To Skyscibe Adenedal.
-   T The Relic Inquiry|QID|65893|M|64.01,18.29|N|To Skyscibe Adenedal|US|
+   ;T Emberwatch|QID|70337|M|65.98,25.09|N|[color=349eeb]You'll want to have 2 vigor when you land here.[/color]\nTo Telemance Aerilyn.
+   ;A The Nelthazan Ruins|QID|65890|M|65.98,25.09|N|From Telemance Aerilyn.
+   ;T The Nelthazan Ruins|QID|65890|M|64.02,18.29|N|To Skyscibe Adenedal.
+   ;A The Relic Inquiry|QID|65893|M|64.02,18.29|N|From Skyscibe Adenedal.|S|
+   ;A Tools of the Tirade|QID|65891|M|64.02,18.29|N|From Skyscibe Adenedal.
+   ;A The Relic Inquiry|QID|65893|M|64.02,18.29|N|From Skyscibe Adenedal.|US|
+   ;A The Sundered Asunder|QID|65892|M|64.02,18.29|N|Bonus Objective
+   ;C The Sundered Asunder|QID|65892|M|63.57,15.78|N|Bonus Objective|S|
+   ;C The Relic Inquiry|QID|65893|M|63.57,15.78|N|Kill and loot any of the mobs in the area.|S|
+   ;C Tools of the Tirade|NC|QID|65891|CS|M|63.60,17.11;63.46,16.72;64.04,14.94;63.93,14.44;63.54,15.12|N|Click the rubble piles in the area.
+   ;C The Sundered Asunder|QID|65892|M|63.57,15.78|N|Bonus Objective|US|
+   ;C The Relic Inquiry|QID|65893|M|63.57,15.78|N|Kill and loot any of the mobs in the area.|US|
+   ;T The Relic Inquiry|QID|65893|M|64.01,18.29|N|To Skyscibe Adenedal|S|
+   ;T Tools of the Tirade|QID|65891|M|64.01,18.29|N|To Skyscibe Adenedal.
+   ;T The Relic Inquiry|QID|65893|M|64.01,18.29|N|To Skyscibe Adenedal|US|
    T Clan Nokhud|QID|66018|M|60.40,40.69|N|To Scout Tomul.
    A Unwelcome Outsider|QID|66021|M|60.40,40.69|N|From Guard Bahir.
    C Unwelcome Outsider|QID|66021|M|59.57,41.75|N|Kill 6 Nokhud.

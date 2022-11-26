@@ -230,8 +230,8 @@ return [[
    T M.E.T.A.|QID|66267|M|22.73,41.67|N|To Detry Hornswald.
    A Just To Be Sure|QID|66269|M|22.73,41.67|N|From Detry Hornswald.
    A Third Try's the Charm|QID|66268|M|22.73,41.67|N|From Detry Hornswald.
-   C Just To Be Sure|QID|66269|M|22.18,.43.56|N|Slay 12 Stormfang elementalists.
-   C Third Try's the Charm|QID|66268|M|22.18,.43.56|N|Kill Bloodclaw.
+   C Just To Be Sure|QID|66269|M|22.18,43.56|N|Slay 12 Stormfang elementalists.
+   C Third Try's the Charm|QID|66268|M|22.18,43.56|N|Kill Bloodclaw.
    T Just To Be Sure|QID|66269|M|22.73,41.67|N|To Detry Hornswald.
    T Third Try's the Charm|QID|66268|M|22.73,41.67|N|To Detry Hornswald.
    A Whack-a-Gnoll|QID|66270|M|22.73,41.67|N|From Detry Hornswald.

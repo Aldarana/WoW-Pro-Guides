@@ -137,6 +137,37 @@ return [[
    K Cascade|ACTIVE|72358|QO|1|M|23.57,33.25|N|It patrolls around this area of the river.
    T Urgent Action Required|QID|65869|M|20.53,35.68|N|To Kalecgos
 
+   ;Side quest
+   A A Minor Setback|QID|66261|M|21.01,38.93|N|From Illusory Mage.
+   T A Minor Setback|QID|66261|M|22.73,41.67|N|To Detry Hornswald.
+   A Waste Water Cleanup|QID|66262|M|22.73,41.67|N|From Detry Hornswald.
+   C Waste Water Cleanup|QID|66262|M|22.73,41.67|N|Click Rotting piles under the water.
+   T Waste Water Cleanup|QID|66262|M|22.73,41.67|N|To Detry Hornswald.
+   A Disarmed and Docile|QID|66264|M|22.73,41.67|N|From Detry Hornswald.
+   A A Precision Approach|QID|66263|M|22.73,41.67|N|From Detry Hornswald.
+   C Disarmed and Docile|QID|66264|M|23.63,40.00|N|Acquire 15 Gnawbone Armaments.|S|
+   C A Precision Approach|QID|66263|M|24.77,39.11|N|Flayfist slain.
+   T Disarmed and Docile|QID|66264|M|22.73,41.67|N|To Detry Hornswald.
+   T A Precision Approach|QID|66263|M|22.73,41.67|N|To Detry Hornswald.
+   A Filthy Mongrels|QID|66266|M|22.73,41.67|N|From Detry Hornswald.
+   A Who's Next?|QID|66265|M|22.73,41.67|N|From Detry Hornswald.
+   A M.E.T.A.|QID|66267|M|23.49,41.95|N|From Illusory Mage.
+   C Filthy Mongrels|QID|66266|M|24.02,42.36|N|Slay 3 Hyena Matriarchs and 12 Hyena Mongrels.
+   C Who's Next?|QID|66265|M|24.02,42.36|N|Cracktooth slain.
+   C M.E.T.A.|QID|66267|M|24.02,42.36|N|Free 6 abused animals.
+   T Filthy Mongrels|QID|66266|M|22.73,41.67|N|To Detry Hornswald.
+   T Who's Next?|QID|66265|M|22.73,41.67|N|To Detry Hornswald.
+   T M.E.T.A.|QID|66267|M|22.73,41.67|N|To Detry Hornswald.
+   A Just To Be Sure|QID|66269|M|22.73,41.67|N|From Detry Hornswald.
+   A Third Try's the Charm|QID|66268|M|22.73,41.67|N|From Detry Hornswald.
+   C Just To Be Sure|QID|66269|M|22.18,43.56|N|Slay 12 Stormfang elementalists.
+   C Third Try's the Charm|QID|66268|M|22.18,43.56|N|Kill Bloodclaw.
+   T Just To Be Sure|QID|66269|M|22.73,41.67|N|To Detry Hornswald.
+   T Third Try's the Charm|QID|66268|M|22.73,41.67|N|To Detry Hornswald.
+   A Whack-a-Gnoll|QID|66270|M|22.73,41.67|N|From Detry Hornswald.
+   C Whack-a-Gnoll|QID|66270|M|21.49,41.43|N|Defeat the would-be warlords.
+   T Whack-a-Gnoll|QID|66270|M|22.73,41.67|N|To Detry Hornswald.
+
   ;Chapter 3
    A Breaching the Brackenhide|QID|65838|M|20.53,35.68|N|From Kalecgos, there's a bit of RP before you can pick it up.
    ;A Out of Lukh|QID|66843|M|19.26,26.91|N|From Roki
@@ -206,37 +237,6 @@ return [[
    C Realignment|NC|QID|65847|QO|2|CS|M|15.09,39.53;15.28,39.14;15.49,39.30|N|Click the Ley Crystal
    T Realignment|QID|65847|CS|M|15.10,38.82;16.10,41.44|N|To Kalecgos
    A To Iskaara|QID|65849|M|16.10,41.44|N|From Brena
-
-   ;Side quest
-   A A Minor Setback|QID|66261|M|21.01,38.93|N|From Illusory Mage.
-   T A Minor Setback|QID|66261|M|22.73,41.67|N|To Detry Hornswald.
-   A Waste Water Cleanup|QID|66262|M|22.73,41.67|N|From Detry Hornswald.
-   C Waste Water Cleanup|QID|66262|M|22.73,41.67|N|Click Rotting piles under the water.
-   T Waste Water Cleanup|QID|66262|M|22.73,41.67|N|To Detry Hornswald.
-   A Disarmed and Docile|QID|66264|M|22.73,41.67|N|From Detry Hornswald.
-   A A Precision Approach|QID|66263|M|22.73,41.67|N|From Detry Hornswald.
-   C Disarmed and Docile|QID|66264|M|23.63,40.00|N|Acquire 15 Gnawbone Armaments.|S|
-   C A Precision Approach|QID|66263|M|24.77,39.11|N|Flayfist slain.
-   T Disarmed and Docile|QID|66264|M|22.73,41.67|N|To Detry Hornswald.
-   T A Precision Approach|QID|66263|M|22.73,41.67|N|To Detry Hornswald.
-   A Filthy Mongrels|QID|66266|M|22.73,41.67|N|From Detry Hornswald.
-   A Who's Next?|QID|66265|M|22.73,41.67|N|From Detry Hornswald.
-   A M.E.T.A.|QID|66267|M|23.49,41.95|N|From Illusory Mage.
-   C Filthy Mongrels|QID|66266|M|24.02,42.36|N|Slay 3 Hyena Matriarchs and 12 Hyena Mongrels.
-   C Who's Next?|QID|66265|M|24.02,42.36|N|Cracktooth slain.
-   C M.E.T.A.|QID|66267|M|24.02,42.36|N|Free 6 abused animals.
-   T Filthy Mongrels|QID|66266|M|22.73,41.67|N|To Detry Hornswald.
-   T Who's Next?|QID|66265|M|22.73,41.67|N|To Detry Hornswald.
-   T M.E.T.A.|QID|66267|M|22.73,41.67|N|To Detry Hornswald.
-   A Just To Be Sure|QID|66269|M|22.73,41.67|N|From Detry Hornswald.
-   A Third Try's the Charm|QID|66268|M|22.73,41.67|N|From Detry Hornswald.
-   C Just To Be Sure|QID|66269|M|22.18,43.56|N|Slay 12 Stormfang elementalists.
-   C Third Try's the Charm|QID|66268|M|22.18,43.56|N|Kill Bloodclaw.
-   T Just To Be Sure|QID|66269|M|22.73,41.67|N|To Detry Hornswald.
-   T Third Try's the Charm|QID|66268|M|22.73,41.67|N|To Detry Hornswald.
-   A Whack-a-Gnoll|QID|66270|M|22.73,41.67|N|From Detry Hornswald.
-   C Whack-a-Gnoll|QID|66270|M|21.49,41.43|N|Defeat the would-be warlords.
-   T Whack-a-Gnoll|QID|66270|M|22.73,41.67|N|To Detry Hornswald.
 
    T To Iskaara|QID|65849|M|13.24,49.52|N|To Brena
    A Gather the Family|QID|66210|M|13.24,49.52|N|From Brena

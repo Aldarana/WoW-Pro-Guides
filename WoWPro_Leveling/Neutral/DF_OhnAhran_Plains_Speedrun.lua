@@ -339,14 +339,15 @@ return [[
    T Find Theramus|QID|65899|M|24.45,62.99|N|To Celina Crunchyleaves
    A Suspiciously Spiced Steak|QID|65900|M|24.45,62.99|N|From Felina Starrunner
    A Can't Beat Fluffy|QID|65903|M|24.45,62.99|N|From Celina Crunchyleaves
-   C Suspiciously Spiced Steak|QID|65900|M|22.36,61.25|N|Collect 2 Perfectly Tender Turtle Meat, 6 Reptilian Eggshells, and 15 Sourbloom.
+   C Suspiciously Spiced Steak|QID|65900|QO|1;2;3|M|22.36,61.25|N|Collect 2 Perfectly Tender Turtle Meat, 6 Reptilian Eggshells, and 15 Sourbloom.
    A Territorial Coastling|QID|69852|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.|S|
    C Can't Beat Fluffy|NC|QID|65903|M|71.66,80.60|N|Catch 12 Glade Hoppers, do when kill the Rare.|U|191134|S|
    A Territorial Coastling|QID|69852|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
    K Territorial Coastling|QID|69852|QO|1|M|23.21,66.86|N|It's a lizard that patrols a small area along the coast.
    C Can't Beat Fluffy|NC|QID|65903|M|71.66,80.60|N|Catch and Glade Hoppers you still need.|U|191134|US|
-   T Suspiciously Spiced Steak|QID|65900|M|24.45,62.99|N|To Felina Starrunner
+   C Suspiciously Spiced Steak|QID|65900|QO|4|M|24.45,62.99|N|Talk to Felina Starrunner.
    T Can't Beat Fluffy|QID|65903|M|24.45,62.99|N|From Celina Crunchyleaves
+   T Suspiciously Spiced Steak|QID|65900|M|24.45,62.99|N|To Felina Starrunner
    A Food or Floof|QID|65902|M|24.45,62.99|N|From Celina Crunchyleaves
    C Food or Floof|QID|65902|M|24.79,64.44|N|Talk to Theramus And release glade hoppers
    T Food or Floof|QID|65902|M|24.45,62.99|N|To Celina Crunchyleaves

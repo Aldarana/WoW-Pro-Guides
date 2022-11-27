@@ -265,6 +265,9 @@ return [[
    C Toejam the Terrible|CHAT|QID|70129|M|16.77,49.36|N|Speak to Toejam
    A Nook News|QID|71234|PRE|65849|M|14.07,49.44|Z|2024|N|From Lukoturukk.
    T Toejam the Terrible|QID|70129|M|13.80,49.01|N|To Auntie Kaunnie
+   C The Cycle of the Sea|CHAT|QID|65850|QO|1|M|13.24,49.52|N|Speak to Breana.\n\nThis is a long RP and you can't leave the area, now is a good time for a pee break if you need.\n
+   C The Cycle of the Sea|NC|QID|65850|QO|2|M|13.16,50.14|N|Push the boat
+   T The Cycle of the Sea|QID|65850|M|12.94,50.39|N|To Kalecgos
    C WANTED: Krojek the Shoreprowler|QID|66217|M|10.70,54.38|N|You'll want lust and all CDs for this, you can do this when you're ready. \n\nSkip if you think its to hard.|US|
    C Scampering Scamps|CHAT|QID|66218|M|10.58,46.85|N|Speak to Neelo
    T Scampering Scamps|QID|66218|M|10.58,46.85|N|To Neelo, wait for RP before you can hand it in.
@@ -306,9 +309,6 @@ return [[
    C Afront 'Till A Salt|QID|66232|M|10.37,41.12|Z|2024|N|Keep killing and looting the gorlocs 'till you have enough Crystal Flakes.|US|
    T Back To Camp|QID|66559|M|7.65,44.28|Z|2024|N|To Examiner Rowe.
    T Afront 'Till A Salt|QID|66232|M|7.47,44.28|Z|2024|N|To Wayun.
-   C The Cycle of the Sea|CHAT|QID|65850|QO|1|M|13.24,49.52|N|Speak to Breana.\n\nThis is a long RP and you can't leave the area, now is a good time for a pee break if you need.\n
-   C The Cycle of the Sea|NC|QID|65850|QO|2|M|13.16,50.14|N|Push the boat
-   T The Cycle of the Sea|QID|65850|M|12.94,50.39|N|To Kalecgos
    A Azure Alignment|QID|65911|M|12.94,50.39|N|From Kalecgos
    H The Conjured Biscuit Inn|QID|65911|U|6948|M|37.39,62.41
    T Azure Alignment|QID|65911|M|39.47,63.02|N|To kalecgos
